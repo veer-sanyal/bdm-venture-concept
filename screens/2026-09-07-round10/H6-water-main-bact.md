@@ -1,0 +1,40 @@
+# H6. New-main bacteriological pass prediction for utility contractors (20-250). Blind screen return, 2026-09-08.
+
+Budget reached (25 searches, 19 fetches plus 12 curl retrievals).
+
+**Adjacency ruling.** Only relative in the dead table: *Underground utility damage-claim defense (excavators)*: same customer class, different asset, document set, mistake and checker. Its kill does not transfer (that one died because the outcome settled with the insurer; here the lab report lands on the contractor). Its rung-4 finding that HCSS is the installed platform transfers as context only.
+
+## THE CASE FOR
+
+- **D1, a published price for the mistake itself.** Portland Water District (Maine), Section II §7.10 (rev. 2017-03-30): "The District Laboratory, at no expense to the Contractor, will analyze two sets of samples. However, should the initial disinfection fail to produce satisfactory samples, a charge of $100 will be made to the Contractor for each set of additional samples required." Medina County OH fee schedule (01/01/2026): "FLUSHING and CHLORINATION $300.00 per occurrence"; "E. coli $26.00 per sample."
+- **Strongest rung-2 pass, the duty lands on the customer.** Cape Fear PUA spec 33 14 20 (01/01/2026): "The utility contractor shall be responsible for all costs associated with the sampling and analysis of all samples required for acceptance." American Water 33 01 10.15 (July 2025) §3.05.C: "If tests show the presence of coliform or unacceptable HPCs, perform additional flushing and disinfection of the pipeline until acceptable tests are obtained, all at no cost to AW." Florida 62-555.340(3): no main "placed into, or returned to, operation until a bacteriological evaluation has been satisfactorily completed."
+- **Best D2 number.** MVWA certified lab: "Total Coliform / E. coli - Qualitative (Presence/Absence) $30", quantitative $40, HPC $15. Specialist firms transact the whole job: Matt Chlor (CA, TX, NC) sells "Water Sample Collection & Bacteriological Laboratory Testing & Reports" with chlorination and dechlorination; All Cal Disinfection sells "the latest state of the art 3 hour test, or the standard 24 hour". Neither publishes a price.
+- **Rung 1.5 clean.** Zero patent results for the claim-shaped query.
+
+## SCORED WEAKNESSES
+
+- **Rung 0.** "50-300 sample sets, 5-40 failures per contractor per year" nowhere verified. AWWA C651-14 §5.1.1.4: "new mains do not typically contain coliform bacteria but often contain HPC bacteria." Magnitude NOT VERIFIED, criterion 3 scores 1.
+- **Rung 1.** Countable hard cost per failure is $100 (PWD resample set) plus $30-40 per lab sample; crew day and tie-in slip uncounted. Criteria 6, 3.
+- **Rung 2, four scores.** (a) The "checker hired and paid by the contractor" premise holds in CFPUA and Florida but fails in Kansas City ("The City will perform bacteriological testing, reporting and interpretation of testing results"), WSSC ("Commission employees will collect bacteriological samples and Commission laboratories will perform bacteriological testing"), Aurora IL and American Water ("The Contractor will not be charged for the additional testing performed by AW"). The asset's lab half is generated and held by the utility in a large share of jurisdictions. Criterion 1. (b) Free self-invocable remedy: AW, PWD and SUDAS all script reflush, resample, rechlorinate "until satisfactory results are obtained." Criterion 4. (c) The instrument publishes the cause list: C651 §5.1.1, "the primary means of ensuring the sanitary integrity of a main are the sanitary handling of materials, the practices during construction, and continual inspection of work." Criterion 4. (d) State rules name no duty-holder; the duty reaches the contractor only through the spec. Pooling: nothing forecloses.
+- **Rung 2.5.** D1 and D2 present; D3 at the customer not established; **D3 FILLED AT THE COUNTERPARTY**: San Antonio Water System Chlorination Technician, "$20.95 - $34.49 hourly", "performing proper flushing and sample testing." The unpaid-market tell fires: $100 per failure exceeds no labour line because there is none at the customer. D4: Kitchener 2022 Summary Water Report: "Four (4) total coliform AWQIs were at temporary sampling locations within reconstruction projects... Six (6) Total Coliform AWQIs were related to flushing within new development areas," and "often leads to 'false positives', where the results received are more reflective of what is on the sampling tap, rather than what is in the water." Criterion 3 scores 1-2.
+- **Rung 3.** GIVES: EJ Prescott, a pipe distributor, performs chlorination with "Certified chlorination results, if necessary, for the owner, contractor and engineer"; McWane publishes the fix-first playbook free. PUBLISHES: C651 §5.1.1, EPA issue paper (2002), Alberta's resample protocol. CAPTURES: utilities that sample with their own staff remove the sampling-tap contamination upstream. ABSORBS: AW and PWD absorb the first two lab sets and AW absorbs retests; residue is crew time and schedule only. RATCHET: the conservative answer (flush more, rechlorinate, wait) is specified and free; the saleable answer is "sample now," and a wrong one costs exactly today's failure. Criterion 5. FEE-SHIFT: clean. COMPELLED: KC "City will provide copies of all bacteriological testing reports to Contractor." UNDERCUT: Matt Chlor and All Cal sell the entire step including sampling and reports; their retest policy NOT VERIFIED.
+- **Rung 4.** No product page makes the claim: Fulcrum generic; HCSS HeavyJob for Utility Contractors (2025-03-25) says nothing on testing. No exited predecessor. Empty category explained by (iii) no budget line and (ii) specialist service firms.
+- **Rung 5.** 5a passes where the contractor samples and by copy elsewhere. 5b weak: pass/fail per location with no cause, and tap contamination confounds. 5c fails: "will fail, fix X first" acted on is never graded. Criterion 5.
+- **Rung 6.** Firm count in the 20-250 band NOT VERIFIED (Census API empty four times). Hard cost per customer per year at most low thousands. Criterion 6.
+
+## KILL: NO KILL. K1: customer controls the money. K2: the instrument binds the contractor (CFPUA, AW, PWD quoted). K3: no vendor page makes the claim.
+
+## D3 STATE: UNRUN at the target band (no contractor posting fetched). FILLED AT THE COUNTERPARTY, verified (SAWS posting; WSSC, KC, Aurora staff the sampling).
+
+## MUTATION (M0): Not forced. One candidate mutation gated on one unread fact: move the customer to the specialist disinfection firm (Matt Chlor, All Cal, EJ Prescott's service arm), which sees hundreds of segments a year and, if it warrants the result, eats the redo. Whether they redo free is NOT VERIFIED.
+
+## PRACTITIONER QUESTIONS
+1. When did a bac-t last fail on your job, how many days did tie-in slip, and what did the crew do that week?
+2. Who collects and pays for the sample on your typical job, you or the utility, and in what share of jobs?
+3. How many sample sets a year, how many failures, and how many were the tap rather than the pipe?
+4. Do you ever hire Matt Chlor or a distributor to run chlorination, and do they redo a failed run free?
+5. Would you delay sampling a day on a screen's say-so if it cost you a day of rented trench box?
+
+## VERIFIED: PWD $100 per additional set (pwd.org PDF); Medina County fees (medinaco.org); MVWA prices (mvwa.us); CFPUA spec (cfpua.org); AW §3.05-3.06 (amwater.com, July 2025); KC §3.06 (kcwater.us); WSSC 02511; Aurora IL spec; C651-14 §5.1.1; Virginia 12VAC5-590-1210; Florida 62-555.340; SUDAS 5030; Kitchener 2022 report; McWane blog; EJ Prescott, Matt Chlor, All Cal pages; HCSS release 2025-03-25; patent search results; EPA issue paper 2002-08-15.
+
+## NOT VERIFIED: Eng-Tips 27 failures / 6,750 LF (403); SAWS pay (summary); Florida DOH $30/sample; Texas no-extra-payment clause; any contractor posting; HCSS in foreman postings; Census NAICS 237110 counts; Matt Chlor / All Cal pricing and retest policy; the candidate's frequency figures; water cost of re-flush.
