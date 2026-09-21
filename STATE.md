@@ -33,7 +33,7 @@ Other ideas from the broad batch are not promoted. No consumer AI moat was verif
 
 ## Next research round
 
-Use the clarified brief and short generation prompt in METHOD. Generate within all three allowed categories without imposing an industry allocation. Check archive overlap afterward. Shortlist a few hypotheses, verify decisive claims and prepare small tests. Maintain a concise current board rather than repeatedly importing the archive.
+Use the clarified brief and short generation prompt in METHOD. Generate within all three allowed categories without imposing an industry allocation. Check archive overlap afterward. Then check the merged batch against the current investor ask lists (catalog and reasoning in [research/2026-09-21-rfs-channel.md](research/2026-09-21-rfs-channel.md)): a match is one fundability signal and triggers the two-hour crowding scan; never generate from the lists. Proposed as a METHOD addition, not yet adopted. Shortlist a few hypotheses, verify decisive claims and prepare small tests. Maintain a concise current board rather than repeatedly importing the archive.
 
 ## 2026-09-20 desk run on the chargeback concept (recorded 2026-09-21, ran on the archived method)
 
@@ -61,6 +61,7 @@ Generator note for the next round: three fresh contexts converged on tariff clas
 ## Evidence and history
 
 - [Method reset and findings](research/2026-09-18-method-reset.md)
+- [Investor ask lists as a sourcing channel, 2026-09-21](research/2026-09-21-rfs-channel.md): use as filter and vocabulary, not generator; current in-scope asks from YC, a16z, Bessemer, Pear; the two-hour "already being solved" scan; differentiation moves for a team with no capital. No new candidate came out of it.
 - [Archived method, state and README](archive/2026-09-18/README-ARCHIVE.md); [ladder-era STATE.md as of 2026-09-21, with the 9/20 desk run and round 17](archive/2026-09-20/README-ARCHIVE.md)
 - CASEBOOK, CANDIDATES-*.md, screens/ and predictions/ remain evidence/history. Their old rankings, stop rules, kills and imperative prompts are not current instructions.
 
