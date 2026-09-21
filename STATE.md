@@ -320,6 +320,125 @@ gets the same fight/concede calls. **The back-test on redacted closed cases must
 baseline, scored against the actual disposition.** That gap is criterion 5 verbatim. Argument and
 inputs/outputs: `CONCEPT.md` 3a-3d.
 
+## ⚠⚠ THE FOUR-LANE DESK RUN ON K4, 2026-09-20. THE RELATIONSHIP OBJECTION IS NOW THE BEST-SUPPORTED EXPLANATION ON THE TABLE.
+
+**Origin: Veer asked whether this category is empty because suppliers value the OEM relationship more than
+they lose to chargebacks.** Four blind lanes dispatched the same night, prediction committed first
+(`predictions/2026-09-20-k4-relationship-desk.md`, commit a011b77, scored after).
+**No lane could kill on K4 and none did. Three of four returned evidence consistent with the objection.**
+
+| Lane | Question | Result |
+|---|---|---|
+| **A. Manuals** | Does disputing carry a published consequence? | **NO. 0 of 20 manuals.** Quality event: 18 of 20 |
+| **B. The seat** | Is anyone PAID to dispute debits against their employer? | **NO. 0 of 79 postings** |
+| **C. Practitioners** | What do suppliers actually do? | **Escalate commercially. 0 formal rebuttal packages in 24 years** |
+| **D. Vendors** | Does anyone sell this? | **One firm, German, at 100x the target deal size** |
+
+### The objection is not in the contract. It is in the performance review. [Lane B]
+
+**FILLED AT THE CUSTOMER = 0 across 79 postings read end to end.** Across 69 full description bodies the
+strings *dispute*, *deduction*, *debit memo*, *debit note*, *chargeback* and *charge back* return **zero
+hits**. The budget line exists and points the other way: Magna SQE *"Effectively coordinate and monitor
+cost recovery for supplier related topics"*, Adient SQE tracks SMRR and SCB, BorgWarner MRP Controller
+*"Create and manage chargebacks to customers/suppliers"*. **D3 STATE: FILLED AT THE COUNTERPARTY**, which
+METHOD Part 2b defines as *"Looks like demand, is evidence against it."*
+
+**The single sharpest artifact of the run.** BorgWarner Customer Quality Engineer, Arden NC, posted
+2026-07-23, band stated in the body at **$80,800-$111,100**, measured verbatim on *"Parts Per Million,
+Number of Incidences, Corrective Action Timing and Effectiveness, and **Building Customer
+Relationships**."* **The user of this product is compensated on the relationship, and the money is a
+different department's line.** Nobody has to threaten them.
+
+⚠ **LIMIT, and it is the only thing keeping this open: 6 of 79 postings are genuine 20-300 employee shops**,
+because Workday is what serves a fetcher. **FILLED AT THE CUSTOMER is UNPROVEN at the target size, not
+disproven.** EMPTY is not UNRUN, in both directions.
+
+### The concept's stated mistake is contradicted by the only first-hand evidence that exists. [Lane C]
+
+15 threads, 141 posts, Elsmar Cove, 2002-2023, found by title-indexing **4,343 threads** across eight
+sub-forums. Six first-hand fight descriptions in twenty-four years. **The conversation is thin, not
+voluminous.**
+
+Process of those six: **formal written rebuttal package EXECUTED = 0** · informal engineer-to-engineer = 1
+· **commercial / executive / legal escalation = 3** · passive refusal = 2 · unclear = 1. In thread 58976
+a supplier QA person asks for a rebuttal letter and four practitioners route her away from the document:
+*"You need to get the higher ups in your company involved (President, Sales Director). Your letter is not
+going to stop them, is not going to change anything."*
+
+**⚠⚠ BOTH first-hand accounts of paying a debit believed unjustified give COMMERCIAL POWER as the reason.
+NEITHER gives time, evidence cost, or missing the window.** Jim Wynne, 2013-03-18: *"it was determined,
+and demonstrable, that we couldn't have created the problem... the company wound up eating more than
+$100,000 worth of defective, unfixable product because, for whatever reasons, the customer decided that
+that was what was going to happen. The decision to acquiesce to the customer's demands couldn't have been
+made at a level any lower than the top."* And: *"the small-fish-big-pond situation where someone will
+decide to absorb the losses just to appease the customer."*
+
+**`CONCEPT.md` says the mistake is that the quality engineer "either misses the window or answers with a
+narrative instead of the three boring documents." ZERO practitioners give either reason. This is the
+concept's premise being contradicted, not a scored weakness.**
+
+⚠ **Partial reversals appear ZERO times in the corpus, so call question 1 is unanswerable from a desk.**
+⚠ **Nothing after 2013 describes a debit dispute**; cannot distinguish "moved off public forums" from
+"died". ⚠ **Reddit is fully blocked to the fetcher and is the largest gap.** N=6 is an existence proof,
+never a distribution.
+
+### What the manuals do and do not do [Lane A]
+
+**0 of 20 attach any consequence to the ACT of disputing**; 18 of 20 attach consequences to the underlying
+quality event. The only sentence joining a dispute to a scorecard runs the other way: Cooper Standard Rev
+08, *"Any changes to a DMN/CONCERN will be reflected in the next monthly scorecard refresh / posting"* (a
+won dispute REMOVES the mark). **The real published price of disputing is WORK**: Cooper Standard requires
+the supplier to *"first check / select the dispute field in the DMN and complete the entire corrective
+action in the DMN/CONCERN system"* before arguing the charge.
+
+Windows verified in primary documents (rule 4 satisfied): Yanfeng 5 working days, NORMA 10 working,
+FICOSA 10 calendar, Cooper Standard 15 working, Adient 30 calendar, RECARO 30 working, PACCAR 3 business
+on the RGA, Progress Rail 60. Deemed acceptance on silence in 7. **Manuals split the fights by
+department**: admin-fee disputes to Purchasing, nonconformance to plant Quality (NORMA and Automotive
+Axles carry identical sentences, so this is template text circulating the industry).
+
+⚠ **ZERO of 20 describe a line-by-line credit.** Only 3 describe the outcome at all. Stellantis is
+explicit that it is negotiated: *"The disputed portion of the invoice will be suspended and the Parties
+will work in good faith to resolve the dispute."* Piston's *"amend the QPN, rescind the QPN or let the QPN
+stand"* is the only line-level language found anywhere. **This moves call question 1 toward the answer
+that kills the asset.** Ford, GM and Stellantis NCT/SCAP are all login-gated and were NOT reached.
+
+### The competitor exists, and it operates at 100x the target deal size [Lane D]
+
+**Automotive Quality Consulting GmbH** (Germany) sells claim defence to Tier-1 and Tier-2 suppliers
+against OEMs: *"supports Tier-1 and Tier-2 suppliers in systematically assessing claims, building sound
+technical and commercial arguments, and successfully negotiating with OEMs, through to final resolution."*
+Success-fee basis, percentage undisclosed, stated only in paid advertorials. **Published cases: a EUR 10M
+claim settled at EUR 0.25M, a EUR 2.1M claim reduced to EUR 0.3M. The concept is aimed at the $6,200
+debit.** Suppliers demonstrably fight at the top of the distribution, which is fully compatible with the
+objection holding at the bottom of it.
+
+**The software category exists and points the wrong way**: Syncron, Tavant and JD Edwards sell SUPPLIER
+RECOVERY to the OEM, to push claims down onto suppliers. Syncron: *"Maximize Supplier Recovery: Better
+data in, bigger recovery out."* **18 QMS vendors checked on their own pages (Ideagen, ETQ, Intelex,
+MasterControl, Plex, QAD, Arena, High QA and more): zero claim the disputing-the-money job.** Retail/CPG
+deduction management is priced (iNymbus $0.40-$0.70 per claim) and does not reach automotive.
+
+### What this does to C-53
+
+Before tonight this candidate's emptiness was recorded as reason (i), the Ford PPGTC 20.01 pooling bar,
+unsupported. **It now has two SUPPORTED candidate reasons: (iii) nobody has a budget line, from Lane B;
+and a fourth reason not on C-53's list, SALIENCE, from Lane C.** C-53 should be amended at the next method
+review to carry the fourth reason explicitly.
+
+### ⚠ THE THREE QUESTIONS THE DESK IS NOW EXHAUSTED ON. All three need a human.
+
+1. **The dollar line.** Not "do suppliers fight" but **"above what amount do they fight"**. Call question 3
+   verbatim. Lane D says the line exists; nothing says where it sits. **Single most valuable unknown.**
+2. **Line-by-line or one negotiated number.** Call question 1, a stated kill. Manuals do not say, and the
+   practitioner corpus contains no partial reversal at all.
+3. **Does the 20-300 person shop behave like the Tier-1?** Lane B could only read large employers. The
+   target customer is unmeasured.
+
+**⚠ THE BAR IS UNCHANGED AND STILL AT ZERO: three supplier calls, three redacted closed cases, one domain
+advisor, one paid pilot yes.** The desk work of 2026-09-20 did not substitute for any of it and sharpened
+all of it.
+
 ## CANDIDATES, with GATE STATUS
 
 **⚠ "Survivor" is now a label conferred only by THE FINAL GATE (`METHOD.md` Part 4), added 2026-09-07.**
@@ -2519,6 +2638,17 @@ dispatched, and every ideation agent gets this table alongside the DEAD list.**
   "$500K", "$1.2M recovered")**, all template samples, not real people · **Core Molding's $179k-$2.34M
   "chargebacks"** must never be quoted as quality chargebacks; the note mixes returns, pricing, premium
   freight and late-delivery disruption, and it is a period-end balance.
+- **⚠⚠ THE dev.to DECOYS. Added 2026-09-20 by the lane-D vendor sweep, and this is a new contamination
+  shape: not a fabricated number, a fabricated MARKET.** Two anonymous dev.to posts rank persistently for
+  the on-target queries and search-engine summaries quote them back as though they described operating
+  services: `dev.to/barbey_hendricks_59d1fe4c/the-debit-memo-nobody-wants-to-fight-e6m` and
+  `dev.to/loise_blevins_9677fd78557/the-debit-memo-on-the-service-managers-desk-4151`. **Fetched and read
+  in full: the first is a speculative venture-strategy essay proposing a hypothetical firm ("AgentHansa")
+  that should build "supplier warranty chargeback rebuttals for automotive and industrial manufacturers."
+  It names no operating vendor and quotes no price.** It is this concept written up as a blog post by an
+  anonymous account. **In particular the phrase "a modest case fee plus upside on recoveries" is the
+  essay's own speculation and is NOT anybody's pricing**, though a search summary returned it as if it
+  were. Never cite either post, and never let one into a competitor count.
 - **⚠ "Colorado AI Act, $20,000 per violation" is STALE, added 2026-09-11.** SB 24-205 was REPEALED AND
   REPLACED by SB 26-189 (signed 2026-05-14). Norton Rose Fulbright, fetched: the replacement "does not
   specify dollar amounts for penalties" and "will go into effect on January 1, 2027." The $20,000 figure
