@@ -58,6 +58,21 @@ Premise: TypeSafe AI's Jev (launched 2026-09-18), a non-generative model returni
 
 Generator note for the next round: three fresh contexts converged on tariff classification and one reproduced the archived H7 exactly, because the brief given to generators listed killed candidates but not "does not survive as scoped" ones. The active method says not to load dead lists at all; overlap is checked after generation instead, which would have caught this in the merge step.
 
+## Fast-policy round (2026-09-21, early morning), the first round run on the active method
+
+Urn: decisions made continuously from live state that run on hand-written rules today, where a calibrated decision every hundred milliseconds could replace the rule and the outcome is observed within minutes. Two fresh generators (one strong, one balanced), twelve ideas, merged and shortlisted in `research/2026-09-21-fast-policy/shortlist.md`; three verified with a bounded search budget; one independent review over the three plus round 17's C1 as comparison (`research/2026-09-21-fast-policy/review.md`).
+
+| Idea | Verdict | Reason | Next useful step |
+|---|---|---|---|
+| Real-time HTS entry line check for customs brokerages (C1, from round 17) | **TEST NEXT, first conversation** | The only idea where the workflow actually needs a sub-second answer; the buyer is a licensed individual with personal statutory exposure; the one open question is binary and short | One entry writer: of the lines you file in a month, how many come back challenged, and how do you find out. A "hardly any" answer undermines the outcome-log premise for the whole lane |
+| Load tender accept/reject and driver assignment for carriers with 1 to 20 trucks | **TEST NEXT** | Tenders verifiably expire in minutes (load-board expiry webhooks, EDI 990 windows); no small-carrier product scores accept/reject, only drafts replies; the substitute is a dispatch service at 4 to 10 percent of gross forever | Shadow one small carrier's real tenders for a week; compare the dispatcher's reasoning with what a calibrated call returns. The reviewer flagged the memo's per-load dollar swing as the memo's own arithmetic, not a published number |
+| Task-assignment policy for small warehouse and yard operators | **PARK** | The gap (default alphanumeric task order) is plausible but the memo's keystone vendor quote could not be found on the cited page, and one search found a vendor selling dynamic task assignment to 3PLs; no operator or vendor number for policy beating rules exists | Only if an operator hands over one logged day of assignments and outcomes for a replay comparison |
+| Peak-demand load policy for single commercial buildings | **DROP THIS FORMULATION** | A fetched Johnson Controls Metasys bulletin shows the incumbent already runs demand limiting once a minute with a forecast and prioritized shedding; the surviving re-scope is a commissioning service, outside scope | None |
+| Kitchen pacing, clinic no-shows, field-service admission, support-desk anticipation, parking enforcement, self-storage pricing | PARK (unresearched) | Reasons in the shortlist file; most hinge on whether the system holding the live state is reachable | Revisit if access appears |
+| MSP ticket triage | Drop this formulation | Archived pricing finding stands; helpdesk platforms already predict SLA breach | None |
+
+Method notes from this round: the verifiers' memos each carried at least one claim presented as verified that the reviewer could not reproduce (a quote absent from the cited page, a memo's own arithmetic labelled published, a resolution number against the wrong URL); the single-review step caught all three, which is what it is for. Decision status: desk research only; no customer contact has happened; nothing here is validated.
+
 ## Evidence and history
 
 - [Method reset and findings](research/2026-09-18-method-reset.md)
