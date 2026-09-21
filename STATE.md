@@ -61,7 +61,7 @@ Generator note for the next round: three fresh contexts converged on tariff clas
 ## Evidence and history
 
 - [Method reset and findings](research/2026-09-18-method-reset.md)
-- [Investor ask lists as a sourcing channel, 2026-09-21](research/2026-09-21-rfs-channel.md): use as filter and vocabulary, not generator; current in-scope asks from YC, a16z, Bessemer, Pear; the two-hour "already being solved" scan; differentiation moves for a team with no capital. No new candidate came out of it.
+- [Investor ask lists as a sourcing channel, 2026-09-21](research/2026-09-21-rfs-channel.md): use as filter and vocabulary, not generator; current in-scope asks from YC, a16z, Bessemer, Pear; the two-hour "already being solved" scan; differentiation moves for a team with no capital. Second pass: twenty more firms hold no list, Primary VC's March 2026 RFS added, and a customer-side sweep (HN, Capterra) found narrow named workflows; accounting-shaped AI-native services now carry three independent sources, with expat tax filing for Americans holding US investments the one buyer quote with a price. Reddit unreached. No candidate promoted; nothing here is customer validation.
 - [Archived method, state and README](archive/2026-09-18/README-ARCHIVE.md); [ladder-era STATE.md as of 2026-09-21, with the 9/20 desk run and round 17](archive/2026-09-20/README-ARCHIVE.md)
 - CASEBOOK, CANDIDATES-*.md, screens/ and predictions/ remain evidence/history. Their old rankings, stop rules, kills and imperative prompts are not current instructions.
 
