@@ -454,6 +454,8 @@ exist when they were screened. Their honest status is recorded on each.**
 | 4. Construction notice | rung 4 still open | NOT RUN |
 | ~~5. Supplier quality chargeback defense~~ | **DEAD at rung 5c, 2026-09-07. Mutation checked by a fresh agent and REFUSED: no principled mutation exists** | Passed all four, which is now the evidence for C-53 rather than for the candidate |
 
+**Round 17 (2026-09-21) gated five more, all ALIVE, none a survivor over candidate 5 by decision: `CANDIDATES-JEV.md`.**
+
 **⚠ REOPENED 2026-09-07 (evening) under the KILL/SCORE split, METHOD Part 3 [C-72].** Two candidates
 died on findings that are now SCORES, not kills, and come back to the board for re-scoring, not
 re-screening: **5. Supplier chargeback** (cause of death was the Ford PPGTC §20.01 pooling FORECLOSURE at
@@ -720,6 +722,26 @@ weak-party shape this room has twice rewarded (PipeLine, Litmetrics both sold to
 customers). METHOD half-flags this already; round 16 is the cleanest instance, because the filters were run
 deliberately and the drift happened anyway. **Four rounds of wounded survivors all weak on criterion 3 is
 what that looks like from outside.**
+
+## ROUND 17 (2026-09-20 to 09-21, after the search stop on Veer's instruction). THE JEV LANE: 12 GENERATED, 10 SCREENED, 0 KILLS, 5 GATED ALIVE, 1 DUPLICATE OF H7. Full digest: `CANDIDATES-JEV.md`
+
+One technology premise (TypeSafe AI's Jev, a non-generative model returning calibrated probabilities in under half a second at near-zero cost), three ideation urns, blind screens, three mutation tests (two NONE, one forced SPLIT re-screened as B3a), five final gates (all ALIVE, three on a capability gap). **This round does not change the 2026-09-11 decision; candidate 5 remains the competition entry. These are company-track candidates.**
+
+| Rank | Id | Candidate | Lowest / sum | Gate |
+|---|---|---|---|---|
+| 1 | A2 | Documentary-credit discrepancy predictor (small exporters under letters of credit) | 3 / 21 | ALIVE, capability gap |
+| 2= | B1 | Consumer-report match-confidence grading (small background screeners) | 2 / 20 | ALIVE, capability and distribution |
+| 2= | B4 | Grant cost-allowability documentation grading (small grant recipients, auditors) | 2 / 20 | ALIVE, capability gap |
+| 2= | C1 | Real-time HTS entry line check (customs brokerages under 300 staff) | 2 / 20 | ALIVE, capability gap, no free bundle |
+| 2= | C2 | Prescription-entry LASA check (independent pharmacies) | 2 / 20 | ALIVE |
+| 2= | B3 -> B3a | Claims-file compliance grading, mutated to auto/GL TPAs only | 2 / 20; B3a see `CANDIDATES-JEV.md` | not gated |
+| 7 | A4 | H-1B RFE-risk score (employers) | 2 / 19 | not gated; lead is a new customer (outside counsel) |
+| . | A3 | Import classification audit-risk (importers) | 2 / 19 | **DUPLICATE of H7 above; its amnesty finding folds into H7** |
+| 9 | A1 | Export-control enforcement-risk (mid exporters) | 2 / 18 | not gated |
+| 10 | C3 | Pesticide label rate check (ag retail) | 1 / 16 | not gated |
+| . | C4 | Refrigerant closeout (HVAC) | UNSCREENED | |
+
+**Method finding (goes to METHOD on Sunday, not now):** the ideation DEAD list must be every candidate on the board regardless of verdict label; a "does not survive as scoped" candidate was omitted and regenerated. **Honest read, Veer overrules:** the rule says A2; the strongest case built this round is C1, and its one open question (does CBP challenge enough lines to learn from) is a ten-minute question to any entry writer. Next physical action is in `CANDIDATES-JEV.md`.
 
 ## ⚠ THE RANKED BOARD. Re-scored 2026-09-07 (late) under the split, Part 3 ranking rule.
 

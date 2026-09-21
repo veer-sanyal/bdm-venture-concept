@@ -1,0 +1,43 @@
+# Round 17: the Jev lane (2026-09-20 to 09-21)
+
+**What this file is.** The digestible layer for one round of the method run on a single technology premise. Full returns: `screens/2026-09-20-round17-jev/` (three ideation files, ten screens, one blind re-screen, three mutation tests, five gates, three briefs). Predictions and their scoring: `predictions/2026-09-20-round17-jev.md`. This round ran after the 2026-09-14 search stop on Veer's instruction, which Part 8 allows. **It does not change the 2026-09-11 decision that candidate 5 is the competition entry.** These are company-track candidates unless Veer says otherwise.
+
+## The premise
+
+TypeSafe AI's Jev, launched 2026-09-18, is a non-generative model. You send it program state (text or JSON) plus typed questions and it returns calibrated probabilities only: a yes/no probability, one of up to 255 labelled options, or a score on a rubric of 2 to 10 levels you define. Every question is answered in one pass in 70 to 500 milliseconds, at $0.042 per million input tokens with output free, zero-shot, no training data. Text and JSON only. Its calibration on any specific domain is unproven and every candidate below carries that as a hypothesis the company must test first.
+
+What it changes: a machine decision on records that used to need a trained classifier (labels, weeks, brittle) or an LLM call (seconds, dollars) now costs about nothing and comes with a probability you can threshold. What it does not change: the model is a commodity at the same price for everyone, so the only defensible asset is the outcome log that accumulates by operating. Three ideation lanes drew from three urns: pre-action outcome prediction where the action and its outcome live in different systems; 100 percent review of work that is sampled today; latency in the loop.
+
+## The board, ranked by the Part 3 rule (lowest criterion first, then sum)
+
+No kill fired on any of the ten screened. Five went to the final gate and all five came back ALIVE; none is DEAD on K3.
+
+| Rank | Id | Candidate (customer) | Lowest / sum | Gate | Mutation | Heaviest weakness, in one line |
+|---|---|---|---|---|---|---|
+| 1 | A2 | Documentary-credit discrepancy predictor (exporters under 500 staff presenting under letters of credit) | 3 / 21 | ALIVE, capability gap | NONE (tested) | Criterion 3: the published discrepancy fee is $50 to $130 per presentation and only one demand tier clears; D3 unrun with a negative lean. Rung 5c is the cleanest on the board: every presentation is graded accept or reject, both branches |
+| 2= | B1 | Consumer-report match-confidence grading (background screeners under 300 staff) | 2 / 20 | ALIVE, capability and distribution | NONE | Criteria 4 and 5: a large screener holds a granted patent on threshold-gated match confidence and markets ~90 percent automated matching, but deploys only to end employers, not to small screeners; pooling terms not found either way; label arrives only on a consumer dispute |
+| 2= | B4 | Grant cost-allowability documentation grading (nonprofits and community health centers under 300 staff, their auditors) | 2 / 20 | ALIVE, capability gap | NONE (narrow to one buyer at stage 6) | Criteria 5, 6, 7: sparse labels (one audit a year), market only partly countable, two-headed customer. Strength: the Federal Audit Clearinghouse publishes outcomes free, the cleanest cold start on the board |
+| 2= | C1 | Real-time HTS entry line check (customs brokerages under 300 staff) | 2 / 20 | ALIVE, capability gap, no free bundle | NONE | Criteria 4, 5, 7: a UPS patent on confidence-based classification sits adjacent; most entries liquidate unchallenged, so the base rate for a label is a practitioner question. Strength: 19 USC 1641(b)(4) binds the broker directly, "Customs Entry Writer" is a filled seat, and CBP's own list counts 2,516 permitted firms |
+| 2= | C2 | Prescription-entry look-alike/sound-alike check (independent pharmacies) | 2 / 20 | ALIVE | NONE | Criteria 3 and 4: state fines cap near $5,000 per inspection; a funded competitor integrates with the same seven pharmacy systems; a Walmart patent covers historical LASA prediction internally |
+| 2= | B3 | Claims-file compliance severity grading (TPAs) | 2 / 20 | not gated | SPLIT, forced by 10 CCR 2695.1 excluding workers' comp | Re-screened as B3a (auto/GL TPAs only): see the row below |
+| . | B3a | The mutated B3, blind re-screen at rung 1 | PENDING | | | |
+| 7 | A4 | H-1B petition RFE-risk score (employers filing 10 to 200 a year) | 2 / 19 | not gated | NEW CANDIDATE LEAD, not a mutation: the buyer is outside counsel | Criteria 3, 4, 5: a vendor already sells law firms a private model trained on their own RFE responses; the in-house customer does not draft the petition |
+| . | A3 | Import classification audit-risk score (importers of record) | 2 / 19 | not gated | NONE | **DUPLICATE of H7 (STATE.md, 2026-09-11), a restart the generator should not have produced.** CBP HQ H350722 holds that a tool advising an importer on classification is customs business reserved to a licensed broker. The screen's findings (prior-disclosure amnesty cuts exposure to interest only) fold into H7's sheet |
+| 9 | A1 | Export-control enforcement-risk score (exporters 50 to 500 staff with no compliance officer) | 2 / 18 | not gated | NONE | Criteria 5, 6, 7: the only saleable output is the less-conservative call no compliance officer will act on at these stakes (RATCHET), and the label is censored on the branch that matters |
+| 10 | C3 | Point-of-load pesticide label rate check (ag retailers, applicators) | 1 / 16 | not gated | NONE (tested) | Criteria 3 and 6 at 1: state penalties run $0 to $10,000 with written warnings on a first offense; D3 EMPTY; the computed rate check is already live in the segment |
+| . | C4 | Refrigerant closeout compliance check (HVAC contractors) | UNSCREENED | | | The ideation agent flagged inspection frequency as the limiter; not screened this round for budget, not dead |
+
+## What the round found about the method
+
+1. **The DEAD list handed to ideation was incomplete.** It carried the K-killed candidates and the live five, but not H7 "rate advance", which STATE.md records as "does not survive as scoped" rather than DEAD. Three of three lanes regenerated its neighbourhood and one reproduced it exactly. Rule for the next round: the ideation DEAD list is every candidate on the board, whatever its verdict label.
+2. **Aiming at rung 1 worked again.** Ten of ten ideation candidates arrived with a verified per-incident dollar, which round 16 first showed and this round confirms with a different generator.
+3. **The technology premise did not lift criterion 3.** Every candidate's ceiling is still magnitude, frequency of the label, or a funded seat, none of which a faster or cheaper model touches. It did lift criterion 4 on three candidates (A2, B4, C1), where the gate found a genuine capability gap: nobody ingests the customer's own outcome stream to calibrate a probability.
+4. **Prediction score:** verdict right on 8 of 10 (A2 predicted K1, was NO KILL; C1 predicted K2 risk, cleared on 1641(b)(4)); mechanism right or partly right on 6 of 10; the predicted ranking was wrong (B1 first predicted, A2 first by the rule). Detail in the predictions file.
+
+## The honest read, for Veer to overrule
+
+By the rule, A2 is the survivor: it is the only candidate without a 2 anywhere, and its gate found a capability gap. Its problem is that the dollar per event is a bank fee of $50 to $130 and the segment's size in the US is not counted; the reason it has no 2 is a thin criterion 3 scored generously at 3.
+
+The candidate this round actually built the strongest case for is **C1, the broker-side entry line check**. It is the purest use of the premise (a decision under a second, inside a keying workflow, on text that already exists), the seat is funded, the penalty is in statute, the customer is the licensed person the January 2026 CBP ruling requires, and the gate found no vendor and no free bundle that calibrates against a broker's own post-entry outcomes. Its open question is the one the desk cannot answer: whether CBP challenges enough lines for a calibrated probability to be learnable, which is the base-rate failure the method has seen before. That is a ten-minute question to any entry writer.
+
+**Next physical action, under two minutes to start:** find one licensed customs broker in Indiana or Chicago on LinkedIn and write down the name. The question for the call is in one sentence: "Of the lines you file in a month, how many come back on a CF-28 or get flagged by an import specialist, and how do you find out?"
