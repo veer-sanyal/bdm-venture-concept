@@ -1,69 +1,27 @@
-# Burton D. Morgan Venture Concept Competition 2026
+# Venture concept research — Veer + Cole
 
-Working repo for the team (Veer + Cole). Chosen concept: **Supplier Quality Chargeback Defense**
-(`CONCEPT.md`). Everything here is the method that produced it, the evidence behind it, every
-candidate that was tried and why it died, and the raw research returns.
+Find and test **AI B2B SaaS**, **AI-native services**, and **consumer AI with a defensible moat**. AI must be central to the value or delivery model.
 
-## The competition
+## Start here
 
-| Date | What |
-|---|---|
-| Thu Sep 24, 7-8pm | Workshop 1 of six (Thursdays: Sep 24, Oct 8, Oct 22, Nov 5, Nov 19, Dec 3) |
-| **Sun Sep 27, 11:59pm** | **Preliminary concept submission.** Explicitly unassessed: a name and a paragraph suffice |
-| Between | 1-2 required virtual office hours, four short assignments via Brightspace at milestones |
-| **Fri Dec 11, 10am-2pm** | **Final event at the HIVE, in person, mandatory** |
+1. [METHOD.md](METHOD.md): the active lightweight generation and verification protocol, with copyable prompts and model routing.
+2. [STATE.md](STATE.md): founder scope, current decisions, evidence gaps and the next research step.
+3. Retrieve relevant candidate evidence only as needed.
 
-- Purdue Daniels / HIVE, 38th annual. Lead: Prof. Kostas Grigoriou, kgrigori@purdue.edu.
-- Open to all Purdue students, solo or team. Ineligible if the concept has taken more than $10,000
-  in funding, generated more than $5,000 in revenue, or rests on Purdue-owned IP.
-- $100,000 pool across two tracks (assigned after submissions close), equal per track: $10,000 /
-  $7,000 / $5,000 for the top three, plus seven $3,000 "You need to build this!" awards. About 25
-  teams receive awards. Winners get a paid San Francisco trip; the top ten get Venture X2 admission.
-- Concept submission form: https://airtable.com/appbOLgMKkZ9qAMxR/pagddradTeIElFEUK/form
-- Workshop and info-session signup: https://airtable.com/appbOLgMKkZ9qAMxR/pagVc2UdZlTJ3Orgw/form
+For an agent session: "Read METHOD.md and STATE.md. Then [generate an in-scope batch / verify this concept / plan a customer test]." Generating subagents receive a short founder brief and prompt, not the full archive.
 
-## What matters now
+## Current concept and research
 
-The calls. The bar before Dec 11 is 3 supplier calls, 3 redacted closed cases, 1 advisor and 1 paid
-pilot yes; `CALL-GUIDE.md` has the questions. Desk research is done.
+[Supplier Quality Chargeback Defense](CONCEPT.md) remains the previously selected concept and comparison point. Exploration has reopened; no replacement is selected. [CALL-GUIDE.md](CALL-GUIDE.md) contains the prior validation materials.
 
-## Read in this order
+The [September method reset](research/2026-09-18-method-reset.md) explains the changes and the scope correction to the initial broad idea run.
 
-1. `METHOD.md`. The process: the order to think in, the kill ladder, the demand ladder,
-   how to dispatch a blind screen, how the search ends. Read it before generating or judging
-   any idea, including a brand-new one.
-2. `STATE.md`. What is alive, what is dead and why, what the judging room rewards, and the
-   do-not-cite list. The ranked board is the section to start from.
-3. `CASEBOOK.md`. The evidence behind every rule in METHOD. Each rule carries a `[C-n]`
-   anchor; the matching entry here holds the origin story and the quotes. Open on demand.
-4. `CALL-GUIDE.md`. Who to call for each live candidate and the numbered questions. The
-   calls are worth more to the December score than any further desk research.
+## Historical material
 
-Detail files (`INSPECTION-PASS.md`, `CANDIDATES-AI-NATIVE.md`, `LTL-DISPUTE.md`, etc.) hold
-the evidence for individual candidates. `screens/` holds verbatim blind-screen returns.
-`predictions/` holds the main session's pre-dispatch predictions and their scoring; screening
-agents must never be pointed at it.
+The [previous method, state and README](archive/2026-09-18/README-ARCHIVE.md) are preserved exactly. CASEBOOK.md, CANDIDATES-*.md, predictions/, screens/ and specialist concept files remain research references. Historical instructions do not override the active method or current user direction.
 
-## Using it with Claude
+This project originated with the Burton D. Morgan Venture Concept Competition at Purdue. Prior schedules, rubric notes and eligibility claims remain in the archived README and concept documents; verify current official requirements before using them for a submission.
 
-Claude Code: open this folder and start with "Read METHOD.md in full, then STATE.md. Then
-[generate five candidates in lane X / screen candidate Y blind / re-score the board]."
+## Working practice
 
-Claude.ai: create a Project, upload the top-level files and `screens/` as knowledge, and
-start every conversation with the same instruction.
-
-Three rules that matter more than the rest, all in METHOD Part 0 and Part 7:
-
-- The agent that generates an idea never screens it. Screening prompts carry the asset, the
-  mistake, the customer and the ladder, and nothing about where you think it will die.
-- Write your prediction (where it dies, at what rung, how confident) BEFORE dispatching the
-  screen, and keep it in `predictions/`, never in `STATE.md`. Run
-  `sh tools/venture-blind-check.sh STATE.md` before any screen.
-- Quote the instrument, not the summary: the statute, the contract clause, the price list,
-  the vendor's own page. A claim without a quoted source is not evidence.
-
-## Working in this repo
-
-This repo is the working copy from 2026-09-17 on. Edit here, commit with a real message, and say
-in the commit which file's facts changed. `STATE.md` is the one place for live decisions; every
-other file points at it.
+Keep METHOD concise and STATE current. Cite primary sources for decisive claims, distinguish unknowns from contradictions, and spend research effort on questions that can change the next action. Record hypotheses as hypotheses. Preserve historical evidence without turning each failed idea into another universal rule.

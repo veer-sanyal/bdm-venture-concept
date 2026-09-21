@@ -1,5 +1,7 @@
 # Round 17: the Jev lane (2026-09-20 to 09-21)
 
+**Read this first.** This round ran on the ladder that `archive/2026-09-18/METHOD.md` describes, before the local copy had the 2026-09-18 method reset. Under the active `METHOD.md`, its rungs, gates and worst-criterion ranking are evidence, not verdicts; the live statuses (test next / park / drop) are in `STATE.md`. The 2026-09-11 candidate-5 decision referenced below is itself superseded: exploration is reopened and no replacement is chosen.
+
 **What this file is.** The digestible layer for one round of the method run on a single technology premise. Full returns: `screens/2026-09-20-round17-jev/` (three ideation files, ten screens, one blind re-screen, three mutation tests, five gates, three briefs). Predictions and their scoring: `predictions/2026-09-20-round17-jev.md`. This round ran after the 2026-09-14 search stop on Veer's instruction, which Part 8 allows. **It does not change the 2026-09-11 decision that candidate 5 is the competition entry.** These are company-track candidates unless Veer says otherwise.
 
 ## The premise
