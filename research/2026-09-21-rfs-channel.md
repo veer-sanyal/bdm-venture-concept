@@ -54,7 +54,9 @@ Item 2 is the founder scope's own second category. The lists confirm the scope r
 
 - Supplier quality chargeback defense (the comparison concept) is a contingency, outcome-priced service. It maps to a16z's "AI reinforces business models" (Eve is the named example, in legal) and YC's AI-native service ask. Category confirmed fundable; category also crowded (56 of 199 in W26). The desk verdict from 2026-09-20 stands: parked until a supplier conversation happens.
 - The customs-broker entry line check (round 17, C1, test next) sits near "AI-Native Compliance Infrastructure", but that Fall 2026 ask is explicitly financial compliance, so C1 is adjacent, not inside the crowd. Confirms the narrower-than-the-ask position.
-- Nothing on the board is outside every list, and nothing on the lists is a formulation the board has not already circled. The lists add no new candidate this round.
+- Technician diagnostic knowledge capture (first exploratory run, desk-checked, not validated) now has a second-source signal: Pear's August 2026 ask for "an agent that interviews your company" to capture tacit how-work-gets-done knowledge, with YC Spring 2026's "AI Guidance for Physical Work" adjacent. The existing formulation is one level narrower than the ask (field technicians, not the whole company), which is the position this note recommends. Next: the two-hour scan on Pear's ask, then the technician access STATE already calls for.
+- Self-Maintaining APIs (YC Fall 2026) is the one ask whose customer, developers, is reachable by two students without an industry network. Run the scan before anything else; likely crowded.
+- Nothing on the lists is a formulation the board has not already circled. The lists add no new candidate this round; they add one supporting signal to an existing unresearched hypothesis.
 
 ## The two-hour "is someone already solving this" scan
 

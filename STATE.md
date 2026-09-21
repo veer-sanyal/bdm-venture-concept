@@ -23,7 +23,7 @@ The initial short-prompt run generated 12 broad hypotheses and desk-checked thre
 | Idea | Current status | Next useful step |
 |---|---|---|
 | Supplier Quality Chargeback Defense | Existing selected concept; validation status unconfirmed | Establish which customer evidence exists and test its proposed advantage against current alternatives. |
-| Technician diagnostic knowledge capture | In-scope AI B2B SaaS hypothesis; desk-checked, not validated | With real technician access, examine whether an interview adds useful diagnostic knowledge beyond existing records and whether it transfers to another case. |
+| Technician diagnostic knowledge capture | In-scope AI B2B SaaS hypothesis; desk-checked, not validated. 2026-09-21: Pear's August 2026 RFS asks for an agent that interviews a company for tacit knowledge, a second-source demand signal ([note](research/2026-09-21-rfs-channel.md)) | Two-hour crowding scan on Pear's ask first. Then, with real technician access, examine whether an interview adds useful diagnostic knowledge beyond existing records and whether it transfers to another case. |
 | Buyer-readable manufacturing proof packets | Adjacent to prior PPAP research; AI role and advantage need clarification | Retrieve relevant history if shortlisted; do not call it new or verified. |
 | Connected-building compatibility record | Unresearched; in scope only if AI is material | Clarify the AI-dependent job and obtain an actual installer case before investing in research. |
 | Conditional mobile-service stops | **Out of scope as formulated** | Remove from the active shortlist; do not add incidental AI to preserve it. |
