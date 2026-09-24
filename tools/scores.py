@@ -11,6 +11,7 @@ from collections import defaultdict
 from pathlib import Path
 
 PARAMS = ["need", "value", "market", "risk"]
+FIRST_TEN_ROUNDS = {"validation", "loop1"}  # controls from these rounds keep their judge counts (METHOD, Controls)
 
 def load(path):
     with open(path, newline="") as f:
@@ -80,7 +81,7 @@ def noise(pooled_rows):
 def next_step(r, b, s):
     """METHOD steps 4-6: judge again, reshape once, or nothing."""
     if r["kind"] == "control":  # controls banked after the first ten get three judges
-        return "+judge" if r["n"] < 3 and r["date"] > "2026-09-24" else ""
+        return "+judge" if r["n"] < 3 and r["round"] not in FIRST_TEN_ROUNDS else ""
     if r["n"] < 5 and s is not None and abs(r["total"] - b) < 2 * s / r["n"] ** 0.5:
         return "+judge"
     if b - 1.0 <= r["total"] < b and "(reshaped)" not in r["paragraph"]:
