@@ -32,7 +32,9 @@ That same day the new judge was validated on those eight companies plus one of o
 ## Prompts (what agents actually get)
 
 **Generator**
-> [Founder brief.] [Seed, if any.] Find the best startup you can for them. Use the web as much as you want. Come back with your best idea, any runners-up worth keeping, why each could work, and what's weakest about it.
+> [Founder brief.] [Seed, if any.] Find the best startup you can for them. Use the web as much as you want, and don't read local project files. Come back with your best idea, any runners-up worth keeping, why each could work, and what's weakest about it.
+
+(The local-files clause was added 2026-09-24. In the first run, one generator followed the repo's own instructions and read STATE.md and the old concept before generating.)
 
 **Shaper**
 > [Founder brief.] Independent generators produced these ideas: [merged file]. Build the strongest one to three companies you can from them. Keep, combine, reshape or replace. Research whatever you need.
