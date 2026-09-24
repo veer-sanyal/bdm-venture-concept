@@ -1,8 +1,9 @@
 """Summarize scores.csv: per-round standings and parameter averages.
 
 Several judges may score the same paragraph (one row each); a paragraph's
-score is the mean of its judges. A candidate advances when its mean total is
-at or above the median control total in the same round (ties count).
+score is the mean of its judges. The bar is the mean total of every YC control
+in the bank (all rounds); a candidate advances when its mean is at or above it.
+Rows with kind "excluded" are kept for the record but never counted.
 Run: python3 tools/scores.py
 """
 import csv, statistics, sys
@@ -22,8 +23,8 @@ def load(path):
     return rows
 
 def bar(rows):
-    """Median control total for a round's rows."""
-    return statistics.median(r["total"] for r in rows if r["kind"] == "control")
+    """Mean total across every control paragraph in the bank."""
+    return statistics.mean(r["total"] for r in rows if r["kind"] == "control")
 
 def averages(rows):
     out = {}
@@ -49,14 +50,14 @@ def pool(rows):
     return out
 
 def report(rows):
-    rows = pool(rows)
+    rows = [r for r in pool(rows) if r["kind"] != "excluded"]
+    b = bar(rows)
     rounds = defaultdict(list)
     for r in rows:
         rounds[r["round"]].append(r)
     lines = []
     for name, rs in rounds.items():
-        b = bar(rs)
-        lines.append(f"\n## {name} ({rs[0]['date']}), bar = median control total {b:g}")
+        lines.append(f"\n## {name} ({rs[0]['date']}), bar = control bank mean {b:.2f}")
         for r in sorted(rs, key=lambda r: -r["total"]):
             tag = "control" if r["kind"] == "control" else ("ADVANCES" if r["total"] >= b else "stops")
             lines.append(f"  {r['total']:>5.2f}  {r['need']:.1f} {r['value']:.1f} {r['market']:.1f} {r['risk']:.1f}  "
@@ -81,14 +82,14 @@ def _check():
         for p in PARAMS:
             r[p] = int(r[p])
         r["total"] = sum(r[p] for p in PARAMS)
-    assert bar(pool(rows)) == 11
+    assert abs(bar(pool(rows)) - 34 / 3) < 1e-9
     out = report(rows)
     line = {l.split()[-1]: l for l in out.splitlines() if l.startswith("  ")}
-    assert "ADVANCES" in line["x"] and "stops" in line["y"], out  # x ties the median, y is below
-    x2 = dict(rows[3], need=3)  # a second judge scores x one point lower
+    assert "stops" in line["x"] and "stops" in line["y"], out  # bar is 11.33; both below
+    x2 = dict(rows[3], market=4)  # a second judge scores x two points higher
     x2["total"] = sum(x2[p] for p in PARAMS)
     line = {l.split()[-1]: l for l in report(rows + [x2]).splitlines() if l.startswith("  ")}
-    assert "n=2" in line["x"] and "stops" in line["x"], line["x"]  # mean 10.5 < 11
+    assert "n=2" in line["x"] and "ADVANCES" in line["x"], line["x"]  # mean 12 >= 11.33
 
 if __name__ == "__main__":
     _check()

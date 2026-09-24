@@ -3,7 +3,7 @@ date,round,paragraph,kind,need,value,market,risk,verdict
 2026-09-24,validation,Grep AI (research agent platform),control,4,2,4,2,PASS
 2026-09-24,validation,TrueMile (trucking dispatch agents),control,3,2,2,2,PASS
 2026-09-24,validation,Shire Intelligence (restaurant floor cameras),control,4,3,3,2,BACK
-2026-09-24,validation,Tire Swing (housing income certification),control,4,3,3,2,PASS
+2026-09-24,validation,Tire Swing (housing income certification),excluded,4,3,3,2,PASS
 2026-09-24,validation,Capveon (pre-bid infrastructure),control,4,2,2,2,PASS
 2026-09-24,validation,Bryel (custom model training),control,4,2,3,2,PASS
 2026-09-24,validation,GrayPass (keyboard identity check),control,3,2,2,2,PASS
