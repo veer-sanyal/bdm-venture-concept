@@ -35,3 +35,5 @@ date,round,paragraph,kind,need,value,market,risk,verdict
 2026-09-24,loop2,Vela (AI interview scheduling coordinator),control,3,2,2,2,PASS
 2026-09-24,loop2,ByteAsk (C/C++ coding agent),control,4,2,4,2,PASS
 2026-09-24,loop2,ByteAsk (C/C++ coding agent),control,3,2,4,2,PASS
+2026-09-24,loop2,ByteAsk (C/C++ coding agent),control,4,2,3,2,PASS
+2026-09-24,loop2,Vela (AI interview scheduling coordinator),control,4,2,2,2,PASS
