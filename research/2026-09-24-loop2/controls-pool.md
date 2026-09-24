@@ -1,0 +1,504 @@
+# Loop 2 control pool, 2026-09-24
+
+Source: yc-oss mirror of the YC directory (https://yc-oss.github.io/api/batches/<batch>.json), batches Winter, Spring, Summer, Fall 2026. AI-related = a YC tag in ['ai', 'ai assistant', 'ai-enhanced learning', 'aiops', 'artificial intelligence', 'computer vision', 'conversational ai', 'deep learning', 'generative ai', 'machine learning', 'nlp'] or a one-liner matching `\b(AI|agents?|agentic|LLMs?|machine learning|computer vision|foundation models?|language models?)\b`. Companies already in scores.csv are excluded.
+
+Pool size: 491. Draw: `random.Random(20260924).sample(pool, 3)` over the list below in this order.
+
+**Drawn:**
+- ByteAsk (Fall 2026): The AI coding agent for C and C++
+- Kita (Winter 2026): Underwrite borrowers around the world in minutes
+- Vela (Winter 2026): AI Recruiting Coordinator for Executive Search
+
+## Pool
+
+- Fall 2026 | Agent 37 | Persistent sandboxes for agents like hermes, openclaw, claude code
+- Fall 2026 | Agent Relay | The infrastructure to run coding agents for your team
+- Fall 2026 | Ageospatial | Helping insurance companies value risk on properties remotely.
+- Fall 2026 | Applied Kinetics | AI for the industries that power America.
+- Fall 2026 | Asakana | AI order entry for food distributors: emails and texts to ERP
+- Fall 2026 | Asim | Enable robots to operate safely in the real world.
+- Fall 2026 | Boat | The best cloud VMs for billions of agents
+- Fall 2026 | ByteAsk | The AI coding agent for C and C++
+- Fall 2026 | Collar | AI for Investor Relations
+- Fall 2026 | Covera | AI-native OS for insurance brokers
+- Fall 2026 | Cyclon | a phone where AI is the interface
+- Fall 2026 | Decent | Continuous optimization for employer health plans.
+- Fall 2026 | DeepMark | A live watermark inside AI voice that survives phone calls
+- Fall 2026 | Definite | Build everyday back-office agents on one live model of your books
+- Fall 2026 | Degla Inc | The fully autonomous intelligence layer in the sky.
+- Fall 2026 | Dreamscale Labs | Running robot brains in the cloud
+- Fall 2026 | Faraday | Industrial aOS between humans, agents, and robots
+- Fall 2026 | Forward | Unifying Global Private Credit
+- Fall 2026 | Frontrunner | Cursor for GTM
+- Fall 2026 | Hemlock | Force-sensing wristband for training robotic AI
+- Fall 2026 | Hesper AI | AI Claims Investigator for Insurance
+- Fall 2026 | Hopper | Fast inference for voice
+- Fall 2026 | Ignition Benefits | The AI-Native Benefits Brokerage
+- Fall 2026 | Invertix | Energy Superintelligence, AI that operates critical infrastructure
+- Fall 2026 | Kailash Labs | A factory for small and specialized video reasoning models
+- Fall 2026 | Lambda Robotics | Robotics for AI Infrastructure
+- Fall 2026 | Lantern AI | Turn Your Taste Into Hires
+- Fall 2026 | Lark | Lark - Specialized agents for wholesale distributors
+- Fall 2026 | Lightfield | AI that works for in-house legal teams
+- Fall 2026 | Lyon | Foundation models on enterprise transaction data.
+- Fall 2026 | Mantle | The pit crew for deployed machines and robots.
+- Fall 2026 | Maritime | The managed cloud for AI agents.
+- Fall 2026 | Mirrors | Fix your AI agent's errors at runtime, so they never happen twice
+- Fall 2026 | Nodus Compute | Intelligent Cloud for AI workloads
+- Fall 2026 | Nxtcure Labs | The full-stack AI CRO for drug discovery.
+- Fall 2026 | ORO AI | Continuously improving evals for agentic commerce
+- Fall 2026 | OnePatch | Automate on-call at agent-scale.
+- Fall 2026 | Orca Aerospace | AI spacecraft operators that lives onboard the vehicle
+- Fall 2026 | Perit.AI | Expert-led data and RL platform for AI labs
+- Fall 2026 | Qokedas | Data for AI Science
+- Fall 2026 | Quippy | Helps build social skills through daily practice
+- Fall 2026 | Redoubt Insurance | Commercial insurance for small businesses
+- Fall 2026 | River | The AI desktop.
+- Fall 2026 | Roma | The AI task app that gets to work for you.
+- Fall 2026 | Sentient OS | On-device AI that knows your entire life and does your work overnight.
+- Fall 2026 | Shepherd Robotics | Robots for high skilled labor powering AI infrastructure
+- Fall 2026 | Sigma | Lakehouse-as-a-Service (LaaS) for pre and post-acquisition
+- Fall 2026 | Simantic | Firmware simulation for AI agents
+- Fall 2026 | Sintropix | Autonomous accounting platform for global companies
+- Fall 2026 | SuperRadiant | Embodied Scientific Intelligence
+- Fall 2026 | Talos | Predictive maintenance for power infrastructure.
+- Fall 2026 | The Agentic Data Co. | Training Data For Speech Models.
+- Fall 2026 | The Company Company | The last agent your company will ever need.
+- Fall 2026 | Tilion | Super fast, unblockable browser infra for agents
+- Fall 2026 | Veeza AI | AI travel agent for people with weak passports, starting with visas.
+- Fall 2026 | Veltha | AI native TPA starting with workers comp
+- Fall 2026 | Viraj Aero | Next generation engines for aircraft and data centers
+- Fall 2026 | Volaren Inc. | Volaren collapses the hedge fund model and making it accessible to…
+- Fall 2026 | Vorelios | A foundation model for engineering physics
+- Fall 2026 | Workers IO | Simulation Environments for Verifying Mission Critical Software
+- Fall 2026 | antimattr | voice-first hardware interface for human-agent interaction
+- Fall 2026 | herdr | building the open agent runtime
+- Fall 2026 | isoquant | Self-optimizing inference cloud for faster, cheaper AI
+- Spring 2026 | AgentPhone | Phone Numbers for AI Agents
+- Spring 2026 | Allowance | The spend control layer for AI agents
+- Spring 2026 | Amboras | AI Native Shopify
+- Spring 2026 | Antinuous | Autonomous research agents for R&D and education
+- Spring 2026 | AquaShield | AI water leak detection for buildings
+- Spring 2026 | Arctic Health | AI-native credentialing and contracting for healthcare
+- Spring 2026 | Arden | AI-native internal audit firm
+- Spring 2026 | Arga Labs | Real-world sandboxes to test and train AI agents
+- Spring 2026 | Armature | We get your product picked by coding agents.
+- Spring 2026 | Asendia AI | AI recruiters for staffing agencies
+- Spring 2026 | Astraea | AI Operating System for Clinical Development
+- Spring 2026 | Atrisa | AI Agents for Analog Circuit Design
+- Spring 2026 | BentoLabs AI | Monitoring and learning layer for long-running agents
+- Spring 2026 | BioStack Platforms | Real world training envs for healthcare AI models
+- Spring 2026 | Bloom | The brand layer for agents.
+- Spring 2026 | Callab AI | AI voice agents for on-prem telephony stack.
+- Spring 2026 | CentralComs | AI agent platform for home services companies.
+- Spring 2026 | CharacterQuilt | Computer use agents to deploy enterprise marketing campaigns
+- Spring 2026 | Chronicle Labs | Staging Environments for Enterprise AI Agents
+- Spring 2026 | Cignara | AI Customer Support for Fortune 500-scale enterprises
+- Spring 2026 | Clara | AI primary care doctor
+- Spring 2026 | Clawvisor | The Authorization Layer for AI Agents
+- Spring 2026 | Dayjob | AI Scheduling for Short Haul Trucks
+- Spring 2026 | Deep Interactions | Collaborative AI app builder for teams
+- Spring 2026 | Discovered Materials | AI scientists to discover materials for the semiconductor industry.
+- Spring 2026 | Drafted | Design your home instantly with AI
+- Spring 2026 | E1O | Camera-free AI glasses. Your AI, out in the world.
+- Spring 2026 | Elyra | AI Reservation System for Restaurants
+- Spring 2026 | Enjamb Labs | The AI Workforce for Biopharma
+- Spring 2026 | Expanse | Unlock wasted GPU capacity.
+- Spring 2026 | FinalDose | Programmable DNA drug destroying all cancers, unlocking 80% of targets
+- Spring 2026 | Foaster | The AI-native McKinsey
+- Spring 2026 | Framewise Health | AI-native patient engagement
+- Spring 2026 | GBrain | A personal or team assistant that works while you sleep
+- Spring 2026 | General Instinct | Inference Infrastructure for Physical AI
+- Spring 2026 | Gigacatalyst | AI-first embedded analytics and reports for customer success
+- Spring 2026 | Gojiberry AI | AI Go-To-Market agents for B2B teams
+- Spring 2026 | Harbor | AI-native CRO for clinical trial operations
+- Spring 2026 | Hedge | AI-Native insurance company
+- Spring 2026 | Hessian | Forward-deployed AI Agents
+- Spring 2026 | HeyClicky | The simplest interface in the world to talk AI models + spawn agents
+- Spring 2026 | Hub | Real-world training data for frontier AI labs and robotics.
+- Spring 2026 | Humwork | Human experts as API for AI Agents
+- Spring 2026 | Huscarl | AI-native actuary enabling self-insurance for corporations
+- Spring 2026 | Hyper | Company brain that powers your AI employees
+- Spring 2026 | Imperfect | Adaptive training coach for runners, cyclists, and triathletes
+- Spring 2026 | Infera | Control lab instruments with natural language.
+- Spring 2026 | InsForge (InstaCloud) | The agent-native serverless cloud
+- Spring 2026 | Interfaze | AI model built for high accuracy deterministic tasks
+- Spring 2026 | Inth | Monitor and fix product privacy issues before they block growth
+- Spring 2026 | Juno | AI Health Assistant for Chronic Illness
+- Spring 2026 | KelAI | The AI Quant: Autonomous Alpha Engine for Funds and Traders.
+- Spring 2026 | Keyframe Labs | Bring AI to life with the world's best interactive avatars
+- Spring 2026 | Kimpton | Live Evaluation Arenas for Financial Work
+- Spring 2026 | Kinect | The AI revenue platform for D2C brands
+- Spring 2026 | Klaimee | Liability insurance for AI Agents. You deploy agents, we cover you.
+- Spring 2026 | Klarify | AI Agent for Therapists
+- Spring 2026 | Korso | The last assistant you'll need
+- Spring 2026 | KugelAudio | Kugel is an on-prem Voice AI model supporting 30+ languages
+- Spring 2026 | Kuli | AI coworker for marketing teams at the largest consumer brands
+- Spring 2026 | Lab0 | AI FDEs to make your B2B SaaS Go Live in Days, not Months
+- Spring 2026 | Lamina Labs | Near-real-time video infrastructure for LLMs
+- Spring 2026 | Lattice Health | Monitoring and governance for deployed medical imaging AI
+- Spring 2026 | Light Anchor | AI-run consumer brands
+- Spring 2026 | Linzumi | Team chat to command all your company's coding agents
+- Spring 2026 | Masterpiece | Working capital for data companies training frontier AI
+- Spring 2026 | Mount | The AI Agent Insurance Carrier
+- Spring 2026 | Multiplier | Agent harnesses for asset managers
+- Spring 2026 | Napkin Math | AI nutrition coach in your pocket
+- Spring 2026 | Netter | AI native Palantir for mid market.
+- Spring 2026 | Ontora | AI agents that interviews every employee to hand context to AI tools.
+- Spring 2026 | OpenProse | An open-source operating system for reliable long-running agents
+- Spring 2026 | Pairio | AI mobile app that helps factory technicians fix broken machines
+- Spring 2026 | Panacea | AI-Native FDA Regulatory Services
+- Spring 2026 | Pavoot | AI Event Manager for in-person events
+- Spring 2026 | Pentagon | The control plane for agent-native work.
+- Spring 2026 | PerfectBit, Inc. | Robotics
+- Spring 2026 | Plena Health | Plena is the AI operating system for specialty medical practices
+- Spring 2026 | Pops | Create & play AI games with friends
+- Spring 2026 | Prism | AI-native recruiting agency
+- Spring 2026 | ReasonBlocks | Specialized models that make your AI agents cheaper and more reliable.
+- Spring 2026 | RentAHuman | Marketplace for AI agents to hire humans.
+- Spring 2026 | Replicas | Run any coding agent harness in the cloud
+- Spring 2026 | Revnu | The growth infrastructure for the autonomous business
+- Spring 2026 | Rudus | AI Takeoffs for Concrete
+- Spring 2026 | Runtime | AI agents for financial operations
+- Spring 2026 | Saudara AI | AI Native Sourcing Broker For Overseas Manufacturing
+- Spring 2026 | Savant | Company brain every AI-native enterprise runs on
+- Spring 2026 | Sazabi | The AI-native observability platform for fast-moving engineering teams
+- Spring 2026 | Scope | We help software companies get discovered and used by AI agents
+- Spring 2026 | Silmaril | Security for agents that self-improves
+- Spring 2026 | Smartbase | AI-native ERP for manufacturers
+- Spring 2026 | Soria | AI Financial Research Terminal built for Healthcare (and beyond)
+- Spring 2026 | StableBrowse | Building the Data Infrastructure layer for Physical AI.
+- Spring 2026 | Stage | Code review platform for humans and agents
+- Spring 2026 | Standard Signal | Hedge fund where AI researches and executes every trade end-to-end
+- Spring 2026 | Superlog | Make software self-healing
+- Spring 2026 | Superset | Building self-improving software
+- Spring 2026 | TakeCareOS | AI-native operating system for long term care providers
+- Spring 2026 | Tenet Industries | AI-automated PCB assembly factories
+- Spring 2026 | TesterArmy | Test your app with AI, catch bugs before users do
+- Spring 2026 | Thomas | The first AI founder: a virtual human who runs his own companies.
+- Spring 2026 | Tolmo | Tolmo is the AI security platform that secures every layer of cloud…
+- Spring 2026 | Twolabs | Humanoid robot platform for builders.
+- Spring 2026 | Uno Wallet | The AI mobile wallet that replaces Apple Pay
+- Spring 2026 | Userlens | Let agents talk to your customers
+- Spring 2026 | Voquill | The agentic OS for medical labs
+- Spring 2026 | Walter | AI Employee for Manufacturing Operations
+- Spring 2026 | Wato | The control point for AI agents at work.
+- Spring 2026 | Wealor | AI-native platform for wealth managers
+- Spring 2026 | YouArt | Patreon for AI Originals
+- Spring 2026 | Zenbu | The extensible IDE for coding agents
+- Spring 2026 | Zibra Labs | Distributed runtime for AI workloads at scale
+- Spring 2026 | Zolvo | AI Back-Office Automation for Commercial Lenders
+- Spring 2026 | flowscope | AI implementation firm that maps and automates business processes
+- Spring 2026 | jo | The personal AI agent that keeps up with your work and life.
+- Spring 2026 | primitive | communication for agents
+- Spring 2026 | tday.com | AI that turns your product into on-brand marketing content
+- Summer 2026 | 6thSense | Nervous System for Physical AI
+- Summer 2026 | 83 Sciences | AI-native materials discovery powered by unpublished experimental data
+- Summer 2026 | Agentcard | cards for AI agents
+- Summer 2026 | Agnost AI | We find where AI agents fail, then train better models to run them.
+- Summer 2026 | Akon Labs | Databricks for Enterprise Codebases
+- Summer 2026 | Alkera AI | Reliable and safe data engineering and data science agents
+- Summer 2026 | Allia Health | First AI-Native Medical Group for Mental Health
+- Summer 2026 | Alloovium | The company brain for construction companies
+- Summer 2026 | Almanac | Organizing company knowledge
+- Summer 2026 | Amorphic Labs | OpenRouter for Agent Tools
+- Summer 2026 | Arbital | The social trading app for stocks, memes, and perps
+- Summer 2026 | Archal | API sandboxes, built for AI agents
+- Summer 2026 | Assemble | Autonomous IT Delivery
+- Summer 2026 | Async | AI agents that run small businesses
+- Summer 2026 | Atlas Discovery | AI-native pharma company
+- Summer 2026 | Atlia | The AI-native property management company for short-term rentals
+- Summer 2026 | Audun | AI-native debt collection company
+- Summer 2026 | Avoca Systems | The AI operating system for radiology networks
+- Summer 2026 | Axelrod | Hotels that run themselves
+- Summer 2026 | Baud | AI chips for ultra-fast training and inference
+- Summer 2026 | Belvedir | The custom AI model factory.
+- Summer 2026 | Bernard | AI employees that run home appliance repair companies
+- Summer 2026 | Billow AI Labs | AI-native Accounting Firm that's killing Deloitte
+- Summer 2026 | Bizmark | OpenClaw for manufacturers
+- Summer 2026 | Bloomy | AI-native learning for every school
+- Summer 2026 | COACH | The AI Coach for in person sales reps.
+- Summer 2026 | Callbook AI | AI collections agency for late stage portfolios
+- Summer 2026 | CarSignal | The AI Operating System for Auto Shops.
+- Summer 2026 | Care GP | AI agents to run primary healthcare operations
+- Summer 2026 | Cerenovus | AI that finds value creation opportunities across enterprise…
+- Summer 2026 | Click | Research services for ChatGPT and Claude
+- Summer 2026 | CoArena | The biggest crowdsourced benchmark for Computer-Use
+- Summer 2026 | Codag | The AI gateway for cheaper, faster, permissioned agents.
+- Summer 2026 | Computable | Derivatives Exchange for Compute
+- Summer 2026 | Conifer | Least cost routing system to reduce 70%+ token spend
+- Summer 2026 | Context.dev | We give AI agents realtime web context via API
+- Summer 2026 | Control Seat | AI that runs factories.
+- Summer 2026 | Cova | Financial infrastructure for family caregiving
+- Summer 2026 | Daqstra | AI-native test infrastructure layer for hardware companies
+- Summer 2026 | Datoric | The secure training data R&D engine for physical AI
+- Summer 2026 | Dawn Industries | Automatic Diagnosis & Fix for Industrial Automation Cells
+- Summer 2026 | Decawork | Training company-specific models that approve AI actions.
+- Summer 2026 | DeepReach Inc. | Network for Physical AI Data Business
+- Summer 2026 | Denta | Dental Insurance
+- Summer 2026 | Derya | AI Brokers for Industrial Trade
+- Summer 2026 | Dialogus | The AI-native contact center
+- Summer 2026 | Dipole Labs | AI-controlled optical switching for AI clusters
+- Summer 2026 | Dock | Multiplayer workspace for agents and humans
+- Summer 2026 | Donkey | The AI-native trading company: factory prices, delivered, one number
+- Summer 2026 | Dream | Using VLMs to Catch Damage
+- Summer 2026 | EdotEnv | Quant Neolab building self-improving agents from quant data
+- Summer 2026 | Edviro | AI That Operates Energy Infrastructure
+- Summer 2026 | Egoist Machines | Your personal context, securely portable across every AI app.
+- Summer 2026 | Ekho Labs | World Model for Freight
+- Summer 2026 | Elite | Healthcare AI
+- Summer 2026 | Enact | Real-world RL environments for robotics models
+- Summer 2026 | Erinys | We help lawyers start and scale AI-native law firms.
+- Summer 2026 | Evergrove | Instant healthcare for all, starting with work comp
+- Summer 2026 | Executor | The open source tool gateway
+- Summer 2026 | Exosat | Building a neutral, sovereign alternative to Starlink
+- Summer 2026 | Experiential Labs | Open source AI gateway that turns your traffic into better models
+- Summer 2026 | Fabraix | The world's frontier hacker of AI agents.
+- Summer 2026 | Familiar | Movies in Every Language. Better than Humans.
+- Summer 2026 | Financial Datasets | Connect your agents to the stock market
+- Summer 2026 | Florin | Florin is an AI-native insurance company that runs autonomously
+- Summer 2026 | FlowManual | AI for Construction's Back Office
+- Summer 2026 | Frontier Computing | Frontier grows scalable biological brains as an ML training substrate
+- Summer 2026 | GUILD | AI-Native Defense Contractor
+- Summer 2026 | Gamgee | Curing cancer. Starting with dogs.
+- Summer 2026 | GitCafe | The Git forge for the next hundred billion commits
+- Summer 2026 | Glen | Institutional Learning Layer for Every Agent in Your Company
+- Summer 2026 | Grocalo | AI brain for creators that runs their social content
+- Summer 2026 | Hebbian Robotics | APIs for robotics data teams to verify data quality for model training
+- Summer 2026 | Hoplite | Effortlessly deploy cloud software factories.
+- Summer 2026 | Hubble | AI-native retrieval engine for medical records
+- Summer 2026 | HyperProbe | AI engineer that debugs and fixes production incidents in realtime
+- Summer 2026 | IMPACT Drones | Air Defense as a Service for Civilian Infrastructure.
+- Summer 2026 | Illume Labs | 24/7 Personal Health & Longevity Companion
+- Summer 2026 | Induction Labs | Building intellectually curious AI
+- Summer 2026 | Inkbox | The identity and communication layer for AI agents
+- Summer 2026 | Instaplay | AI-native gaming platform turning every game into an RL environment
+- Summer 2026 | Insurf | The AI-Native Decision Layer for Health Insurance
+- Summer 2026 | Isengard Industries Inc | Mass-produced AI strike systems and Counter-UAS
+- Summer 2026 | Jcode | High performance coding agents
+- Summer 2026 | Kebra | AI For The Skilled Workforce
+- Summer 2026 | LATO | Predict how market participants behave
+- Summer 2026 | Lamb Labs | Lightning fast chips with hardcoded AI models
+- Summer 2026 | Last Accounting Company | AI-native accounting firm.
+- Summer 2026 | LemonLime | Fully automated GTM for small business
+- Summer 2026 | Libra Robotics | Robotic crews for large-scale infrastructure construction
+- Summer 2026 | Litmus | Evals for humans
+- Summer 2026 | Locke | Locke powers agentic government work.
+- Summer 2026 | Luca IQ | API-first tax engine for CPA firms and developers
+- Summer 2026 | Lumeria | Oura Ring for Skin
+- Summer 2026 | Magma | Monetize your agent's traces.
+- Summer 2026 | Maingen | Simulating Agents Running Industrial Companies
+- Summer 2026 | Marble | The autonomous back-of-house for restaurants.
+- Summer 2026 | Marengo | AI-Native Engineering Firm designing Data Centers
+- Summer 2026 | Marker | Platform + FDEs that rebuild enterprises agent-first
+- Summer 2026 | Markov | Expert computer-use data for frontier AI labs
+- Summer 2026 | Mentlio | Engineering Intelligence and Token Optimization for the AI-Coding Era
+- Summer 2026 | Mireye | Search Engine for the Physical World
+- Summer 2026 | Mochi | Watch and create anime
+- Summer 2026 | Moonshot | agents for the rest of us
+- Summer 2026 | Mosaic | Defining the frontier of multiplayer AI.
+- Summer 2026 | Most Robotic | Research lab building the most robotic household in the world
+- Summer 2026 | Moving Atoms | Virtual Reality for Training Robots
+- Summer 2026 | NebuSec | Autonomous AI defense system for cyber attack
+- Summer 2026 | Neuromorphic | Building robots to automate wetlabs
+- Summer 2026 | Neuron Industries | Industrial Controllers built for AI
+- Summer 2026 | Nex | AI for high volume GTM Engineering
+- Summer 2026 | OS3 | Affordable, intelligent humanoid robots built to deploy at scale
+- Summer 2026 | Olam Labs | Building multi-agent simulations for model evals and training.
+- Summer 2026 | Omanta | A research lab for one
+- Summer 2026 | OneCLI | The open source AI teammates for your company.
+- Summer 2026 | OneTriangle | The cheapest, fastest inference cloud
+- Summer 2026 | Ooak Data | We turn company data into training data
+- Summer 2026 | OpenRelay | Distributed, hardware-agnostic AI inference
+- Summer 2026 | OpenTag | Model Agnostic AI coworker in Slack
+- Summer 2026 | OpenVector | AI that turns any camera to an autonomous worker with real-time vision
+- Summer 2026 | Orchestra | Self-optimizing neocloud that cuts LLM costs by 100x
+- Summer 2026 | Osseus | The frontier data platform for aligned health and biological AI
+- Summer 2026 | PRINCEPS | AI-native insurance company for the compute economy
+- Summer 2026 | Pacific | Mass-producing and financing micro data center incredibly quickly.
+- Summer 2026 | Palette | The Media Engine of the AI Era
+- Summer 2026 | Palisade | AI-native sales agents that run marketplaces
+- Summer 2026 | Palisade | AI that finds and fixes OS-level vulnerabilities across device fleets
+- Summer 2026 | Pango | Agentic OS for e-commerce operations
+- Summer 2026 | Parasma | Replacing GPUs with human brain cells
+- Summer 2026 | Peer | AI-native freight brokerage
+- Summer 2026 | Pennant | The World Model for Corporate Governance
+- Summer 2026 | Perceptron ML | We make law firms AI-native.
+- Summer 2026 | Pluto | LinkedIn for agents
+- Summer 2026 | Poth Labs | The customer brain that connects data to explain customer behavior
+- Summer 2026 | Prodigy Research | Training the world's best AI model for quantitative finance.
+- Summer 2026 | Proprio Robotics | Robots to maintain and assemble data centers
+- Summer 2026 | ProvenMetal | AI-native electronics manufacturing for the American industrial base
+- Summer 2026 | Qlo | Legora for commercial insurance carriers
+- Summer 2026 | Radley | The AI-native radiology practice
+- Summer 2026 | Rapidfolio | AI-native back-office for banks and fintechs
+- Summer 2026 | Rasyn | Making chemicals 100,000x faster
+- Summer 2026 | Rational | First Zero-human Accounting Firm
+- Summer 2026 | RealPact | AI-native OS for Real Estate Brokerages
+- Summer 2026 | Rex | AI-native BPO for enterprise order-to-cash
+- Summer 2026 | Riften | Earned intelligence for every company
+- Summer 2026 | Rindler | The IDE for Tokenmaxxers
+- Summer 2026 | Risklytics | AI-Native Insurance for Frontier Tech
+- Summer 2026 | Robocurve | Evals for robots
+- Summer 2026 | Shiraz AI | Robots that learn on the job
+- Summer 2026 | Sidekick | AI agent that manages manufacturing operations over text
+- Summer 2026 | Skymerse | Autopilot for Flight Operations
+- Summer 2026 | SpaceFlow Technologies, Inc. | AI-native procurement services for the physical economy
+- Summer 2026 | Spectre Intelligence | We are a multi-strategy trading firm that trains AI traders.
+- Summer 2026 | Speko | OpenRouter for Voice AI: one API, every call on the best speech model
+- Summer 2026 | Standard Machines | Teaching AI to Design Chips
+- Summer 2026 | Stoa | The market behind AI hardware.
+- Summer 2026 | Studio | Accurately simulate market response at scale
+- Summer 2026 | SubVysion | Autonomous rovers to make the ‘Google Maps’ of underground utilities
+- Summer 2026 | Sunflower | We are building an AI-native telemedicine clinic for addiction. 🌻
+- Summer 2026 | Synapse Semiconductor | New semiconductors that merge compute and vision
+- Summer 2026 | Tenor | Infrastructure for building and scaling AI-native service businesses.
+- Summer 2026 | Tensr | Robotic factories that build robots
+- Summer 2026 | Torus | Legora for physical engineering firms
+- Summer 2026 | Touchmark | Market for future inference capacity
+- Summer 2026 | Touchy | AI iOS assistant that instantly uses voice and video to take action
+- Summer 2026 | TovenAI | AI agents for compliance at institutional trading firms
+- Summer 2026 | Traceforce | CrowdStrike for AI Agents
+- Summer 2026 | Tracer | Combining open-source AI models for better answers at lower cost
+- Summer 2026 | Trident | Autonomous offensive security agents. The best defense is offense
+- Summer 2026 | Trope | AI FDE that deploys custom AI agents into ERPs
+- Summer 2026 | Tsenta | AI career agent that finds matching jobs & applies on your behalf
+- Summer 2026 | Vendo | Let your users build their own features on top of your product
+- Summer 2026 | Verdant | AI Agents to Make Local Gov Efficient
+- Summer 2026 | Verdict Machine | AI cybersecurity for financial institutions' digital assets
+- Summer 2026 | Vestris | AI native platform for real estate closings
+- Summer 2026 | Waddle Labs | LLMs that control robots
+- Summer 2026 | Waybill | Agentic procurement & inventory for deep tech teams.
+- Summer 2026 | Whitespace | AI Operating System for Wholesale Distribution
+- Summer 2026 | WonderTx | Extrapolative AI to unlock First-in-Class drugs
+- Summer 2026 | Wondering | Duolingo for learning anything
+- Summer 2026 | Zaplar | Agentic Hotel Operating System
+- Summer 2026 | Zomma | The AI BPO for financial servies, run by computer-use agents
+- Summer 2026 | hardware intelligence | AI tools for the chips your AI runs on
+- Summer 2026 | hiloop | Autoresearch as a service: we solve your hardest measurable problems
+- Summer 2026 | rekursiv.ai | Scale AI scientists whose own breakthroughs accelerate the next.
+- Summer 2026 | screenpipe | Turn your company's computer work into AI agents.
+- Winter 2026 | /dev/fast | /dev/fast is the AI-native code forge
+- Winter 2026 | 10x Science | The AI-native platform for next-generation protein characterization.
+- Winter 2026 | 21st | UI building blocks for the agentic internet
+- Winter 2026 | ARC Prize Foundation | AI benchmarks that measure general intelligence and inspire new ideas
+- Winter 2026 | Aemon | The Forward-Deployed AI Research Engineer
+- Winter 2026 | Agentic Fabriq | The control plane for AI agents.
+- Winter 2026 | Anchorhead | Evals for frontier research agents
+- Winter 2026 | Approxima | Your software should build itself.
+- Winter 2026 | Ashr | Enterprise post-training, monitoring, and continual learning platform
+- Winter 2026 | AutoSitu | The AI operating system for the built world
+- Winter 2026 | Avoice | AI-native workspace for AEC
+- Winter 2026 | Axis | An AI Copilot for Trading Desks
+- Winter 2026 | Balance | Full-Stack AI Accounting
+- Winter 2026 | BaseFrame | Detect what AI can automate for your team
+- Winter 2026 | Beacon Health | AI Employees for Primary Care
+- Winter 2026 | BeeSafe AI | Frontier AI Defenses for Social Engineering Attacks
+- Winter 2026 | Bidflow | AI Takeoffs for Electrical
+- Winter 2026 | Brumby (Formerly GrazeMate) | Robot Cowboys that Herd Cattle with AI Drones
+- Winter 2026 | Bubble Lab | Turn gatherings into lasting relationships.
+- Winter 2026 | Burt | AI teammates for logistics
+- Winter 2026 | Button Computer | The tiny computer built for voice AI.
+- Winter 2026 | Canary | Adversarial AI that breaks your AI
+- Winter 2026 | Captain | Self-tuning file search for AI agents
+- Winter 2026 | Caretta | Realtime AI for Sales Calls
+- Winter 2026 | Carrot Labs | AI Cost Management: Track and attribute AI spend across every provider
+- Winter 2026 | CellType | The agentic drug company. We simulate human biology.
+- Winter 2026 | Chasi | AI Revenue Engine for the Equipment Industry
+- Winter 2026 | ClaimGlide | AI automated prior-auths for private medical practices
+- Winter 2026 | CodeWisp | Anyone can create real games with AI
+- Winter 2026 | Cofia | AI automations that implement themselves
+- Winter 2026 | Compresr | LLM context compression for better accuracy
+- Winter 2026 | Confluence Labs | AI models that learn from experience
+- Winter 2026 | Congruent | AI native radars for self-driving cars
+- Winter 2026 | Constellation Space | AI operating system for mega-scale satellite networks.
+- Winter 2026 | Corelayer | AI production engineer for regulated industries
+- Winter 2026 | Corvera | The AI sales engine for CPG brands
+- Winter 2026 | Docura Health | AI-Native Med-Legal Firm
+- Winter 2026 | EigenPal | AI Document Workflows for Enterprises
+- Winter 2026 | End Close | AI powered reconciliation for high-volume payments companies
+- Winter 2026 | Envariant | Interpretability and reasoning infra for foundation models.
+- Winter 2026 | Fed10 | AI Agents for Government Affairs
+- Winter 2026 | Fenrock AI | AI agents for banks
+- Winter 2026 | Fixture | An AI-first CRM built for Startups
+- Winter 2026 | Foreman | Keeping contractors on the job site, not behind a desk.
+- Winter 2026 | FullSeam | AI agents for corporate accounting teams
+- Winter 2026 | General Legal | Elite AI law firm for high growth companies
+- Winter 2026 | Grade | API for performance-based payroll
+- Winter 2026 | Haladir | Operational Superintelligence for Global Logistics
+- Winter 2026 | Human Archive | Physical AI data lab
+- Winter 2026 | IncidentFox | AI SRE agent that triages, coordinates, and fixes production incidents
+- Winter 2026 | Instinct | Trade with superhuman instinct
+- Winter 2026 | InventoryQuant | We automate the inventory process in insurance
+- Winter 2026 | Kita | Underwrite borrowers around the world in minutes
+- Winter 2026 | Lance | AI Agents That Run Hotel Operations.
+- Winter 2026 | LegalOS | The AI-Native Immigration Law Firm
+- Winter 2026 | Lexius | AI for Corporate Security Cameras
+- Winter 2026 | Lucent | AI that automatically improves products from user behavior
+- Winter 2026 | Martini | AI Video Production for Professionals
+- Winter 2026 | Maywood | The first finance-compliant proactive AI that runs 24/7
+- Winter 2026 | Mendral | AI DevOps Engineer
+- Winter 2026 | Menza | The AI data analyst for consumer brands
+- Winter 2026 | Moritz | Global AI-native law firm handling legal work with same-day turnaround
+- Winter 2026 | MouseCat | AI to fight financial crime
+- Winter 2026 | Ndea | Building AGI that can innovate.
+- Winter 2026 | Origin | AI and Data for Cancer Therapeutics
+- Winter 2026 | Ossus | Intelligence for cultural institutions
+- Winter 2026 | Overdrive Health | AI-Native Medical Billing Services
+- Winter 2026 | Overshoot | AI Infra for real-time vision applications
+- Winter 2026 | Oximy | Take command of the AI your company already runs on.
+- Winter 2026 | Oxus | AI-powered automation for internal audit workflows
+- Winter 2026 | Panta | AI Native Commercial Insurance Brokerage
+- Winter 2026 | Patientdesk.ai | AI front & back office agent for dental practices
+- Winter 2026 | Pax Historia | The first AI-powered worldbuilding and gameplay platform
+- Winter 2026 | Payna | AI Licensing Agent for Regulated Industries
+- Winter 2026 | Perfectly | The AI-native Recruiting OS
+- Winter 2026 | Piris Labs | The Networking Layer of AI
+- Winter 2026 | Pollen | AI agents that automate customer success
+- Winter 2026 | Polymath | Simulation environments to train & evaluate long-horizon AI agents
+- Winter 2026 | Prana | An AI primary care doctor in your pocket
+- Winter 2026 | Proximitty | AI operating system for commercial loans
+- Winter 2026 | Q2Q | We help private equity teams find acquisition targets faster
+- Winter 2026 | Quotient Labs | Use Claude Code at 47% less cost in one line of installation.
+- Winter 2026 | RamAIn | Automate any UI task with natural language
+- Winter 2026 | Reframe | AI-native, hardware procurement marketplace
+- Winter 2026 | Remy AI | Automating dexterous tasks in warehouses with AI-powered robots
+- Winter 2026 | Ressl AI | Train, eval and build autonomous agents
+- Winter 2026 | Revion | Intelligence for Automotive Operations
+- Winter 2026 | Ritivel | AI-native platform for Life-Sciences Documentation
+- Winter 2026 | Robby | AI agents that grow revenue for home services businesses
+- Winter 2026 | Rubric AI | Reasoning and verification infra for AI
+- Winter 2026 | RunAnywhere | Fastest inference anywhere: open models on-prem, hosted or on-device
+- Winter 2026 | Salus | Guardrails to validate your agent's actions before they execute
+- Winter 2026 | Samora AI | Multilingual voice agents that outperform humans
+- Winter 2026 | Seeing Systems | Modular AI-Commanded Drones for Defence
+- Winter 2026 | Servo7 | Container unloading robots for warehouses
+- Winter 2026 | Shofo | The World's Largest Video Library
+- Winter 2026 | Sitefire | Marketing suite for the agentic web
+- Winter 2026 | Skillsync | Notion for AI chats
+- Winter 2026 | Sponge | Financial infrastructure for the agent economy
+- Winter 2026 | Squid | AI agents for power grid planning  🦑
+- Winter 2026 | Stilta | Agentic AI for intellectual property
+- Winter 2026 | Strand AI | Multimodal foundation models to predict uncollected patient biology
+- Winter 2026 | Talking Computers | Real-time interaction models for voice agents
+- Winter 2026 | Tepali | AI EMR for medspas & wellness clinics
+- Winter 2026 | Terminal Use | AI-native transformation for operations-heavy companies
+- Winter 2026 | Terranox AI | The first AI-powered uranium discovery company
+- Winter 2026 | The Token Company | Compression middleware that improves LLM outputs
+- Winter 2026 | Traverse | Research lab solving non-verifiable work
+- Winter 2026 | Turnstone | Work with agents that already know you
+- Winter 2026 | Unisson | AI agents that automate B2B software implementation
+- Winter 2026 | VOYGR | Real-world place intelligence for AI apps and agents
+- Winter 2026 | Valgo | Insurance risk layer for physical AI
+- Winter 2026 | Vector Legal | A premier AI-native law firm & legal operating system for Startups.
+- Winter 2026 | Vela | AI Recruiting Coordinator for Executive Search
+- Winter 2026 | Velum Labs | The OS for data quality across any stack
+- Winter 2026 | Ventura | AI Workforce for Distributors and Manufacturers
+- Winter 2026 | Verdex | AI Verification for Insurance
+- Winter 2026 | Veriad | AI operating system for advertising
+- Winter 2026 | Visibl Semiconductors | Custom silicon for power electronics
+- Winter 2026 | Voxel Energy | Energy independent data centers with solar and repurposed batteries.
+- Winter 2026 | Wayco | AI operator for medlegal cases
+- Winter 2026 | Wideframe | AI coworker for video editors to ship more video faster
+- Winter 2026 | Zatanna | Turning all software into agent-first APIs
+- Winter 2026 | o11 | The AI Data Warehouse For Financial Firms

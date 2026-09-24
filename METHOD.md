@@ -62,9 +62,11 @@ The leaner loop was adopted 2026-09-24 (Veer). It changed three things. Each ide
 > 2. Rate that version 1 to 5 on customer need, value over what customers use today, market size, and risk (5 means low risk). Give one line of evidence for each.
 > 3. Say what would kill it and name the single fastest test that would tell us.
 >
-> Competition alone is not a reason to pass. Say whether an incumbent already owns this customer's data or buying channel. If you find a company whose pitch matches this one almost exactly, treat it as this team, not a competitor. Judge the idea, not the team. End with exactly "VERDICT: BACK" or "VERDICT: PASS".
+> Competition alone is not a reason to pass. Say whether an incumbent already owns this customer's data or buying channel. If you find a company whose pitch matches this one almost exactly, treat it as this team, not a competitor. Judge the idea, not the team. Use the web, not local project files. End with exactly "VERDICT: BACK" or "VERDICT: PASS".
 
 (The matching-company sentence was added 2026-09-24. Without it, the judge found a YC control's own company and scored it as the leading competitor.)
+
+(The local-files sentence was added 2026-09-24 for loop 2. Judges run inside the repo, and `scores.csv` names every control, so one file read would unblind a judge. It changes nothing about how the idea is scored.)
 
 **Team fit** (advancing candidates only)
 > Two Purdue undergrads want to build this: [paragraph plus judge's strongest version]. What would they need to win it (skills, access, credentials, first customers), and how could they get it within a semester?
@@ -75,6 +77,7 @@ Four paragraphs were each scored by four independent judges using the identical 
 
 ## Rules for the orchestrator
 - Add nothing to these prompts beyond the brief, the seed and the material being judged. A new constraint goes into this file first, with the reason for it.
+- Save every judged paragraph, word for word, to `research/<date>-<round>/paragraphs.md` before judging. Loop 1 and validation paragraphs were not saved, so their exact text can't be re-judged.
 - Save every agent's final report to `research/<date>-<round>/agents/<role>-<paragraph>-<n>.md` the day it runs. Scores go in `scores.csv`; the reasoning behind them lives in these files. The session's temporary task files are deleted when the session ends.
 - Desk research is never customer validation. State that on every write-up.
 - Live decisions go in STATE.md.
