@@ -58,5 +58,6 @@ Four paragraphs were each scored by four independent judges using the identical 
 
 ## Rules for the orchestrator
 - Add nothing to these prompts beyond the brief, the seed and the material being judged. A new constraint goes into this file first, with the reason for it.
+- Save every agent's final report to `research/<date>-<round>/agents/<role>-<paragraph>-<n>.md` the day it runs. Scores go in `scores.csv`; the reasoning behind them lives in these files. The session's temporary task files are deleted when the session ends.
 - Desk research is never customer validation. State that on every write-up.
 - Live decisions go in STATE.md.
