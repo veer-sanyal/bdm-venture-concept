@@ -26,6 +26,27 @@ def bar(rows):
     """Mean total across every control paragraph in the bank."""
     return statistics.mean(r["total"] for r in rows if r["kind"] == "control")
 
+def bar_se(rows):
+    """Standard error of the bar: spread of control means over sqrt(k)."""
+    totals = [r["total"] for r in rows if r["kind"] == "control"]
+    return statistics.stdev(totals) / len(totals) ** 0.5 if len(totals) > 1 else 0.0
+
+def drift(rows, rnd):
+    """A round's new controls against the rest of the bank: (diff, 2 x combined SE), or None."""
+    ctl = [r for r in rows if r["kind"] == "control"]
+    new = [r["total"] for r in ctl if r["round"] == rnd]
+    rest = [r["total"] for r in ctl if r["round"] != rnd]
+    if not new or len(rest) < 2:
+        return None
+    sd = statistics.stdev([r["total"] for r in ctl])
+    return statistics.mean(new) - statistics.mean(rest), 2 * sd * (1 / len(new) + 1 / len(rest)) ** 0.5
+
+def close_call(r, b, s, se):
+    """Candidate nearer the bar than its own noise plus the bar's (METHOD, Controls)."""
+    if r["kind"] == "control" or s is None:
+        return False
+    return abs(r["total"] - b) < 2 * (s ** 2 / r["n"] + se ** 2) ** 0.5
+
 def averages(rows):
     out = {}
     for kind in ("control", "candidate"):
@@ -58,8 +79,8 @@ def noise(pooled_rows):
 
 def next_step(r, b, s):
     """METHOD steps 4-6: judge again, reshape once, or nothing."""
-    if r["kind"] == "control":
-        return "+judge" if r["n"] < 3 else ""
+    if r["kind"] == "control":  # controls banked after the first ten get three judges
+        return "+judge" if r["n"] < 3 and r["date"] > "2026-09-24" else ""
     if r["n"] < 5 and s is not None and abs(r["total"] - b) < 2 * s / r["n"] ** 0.5:
         return "+judge"
     if b - 1.0 <= r["total"] < b and "(reshaped)" not in r["paragraph"]:
@@ -70,18 +91,26 @@ def report(rows):
     rows = [r for r in pool(rows) if r["kind"] != "excluded"]
     b = bar(rows)
     s = noise(rows)
+    se = bar_se(rows)
+    k = sum(r["kind"] == "control" for r in rows)
     rounds = defaultdict(list)
     for r in rows:
         rounds[r["round"]].append(r)
     lines = []
     for name, rs in rounds.items():
-        lines.append(f"\n## {name} ({rs[0]['date']}), bar = control bank mean {b:.2f}")
+        lines.append(f"\n## {name} ({rs[0]['date']}), bar = control bank mean {b:.2f} +/- {se:.2f} SE ({k} controls)")
+        d = drift(rows, name)
+        if d:
+            lines.append(f"  this round's controls vs the rest of the bank: {d[0]:+.2f} "
+                         f"(2 SE = {d[1]:.2f}){'  POSSIBLE DRIFT, see METHOD Controls' if abs(d[0]) > d[1] else ''}")
         for r in sorted(rs, key=lambda r: -r["total"]):
             tag = "control" if r["kind"] == "control" else ("ADVANCES" if r["total"] >= b else "stops")
             lines.append(f"  {r['total']:>5.2f}  {r['need']:.1f} {r['value']:.1f} {r['market']:.1f} {r['risk']:.1f}  "
-                         f"n={r['n']} sd={r['sd']:.2f}  {tag:<8}  {next_step(r, b, s):<7}  {r['paragraph']}")
-    lines.append("\n  next: +judge = add a judge (METHOD step 4; banked controls need 3); "
-                 "reshape = near miss, one reshape pass (step 6)")
+                         f"n={r['n']} sd={r['sd']:.2f}  {tag:<8}  {next_step(r, b, s):<7}  "
+                         f"{'close' if close_call(r, b, s, se) else '':<5}  {r['paragraph']}")
+    lines.append("\n  +judge = add a judge (METHOD step 4; new controls get 3); "
+                 "reshape = near miss, one reshape pass (step 6); "
+                 "close = nearer the bar than judge noise plus bar SE (decision stands)")
     if s is not None:
         reps = sum(r["n"] > 1 for r in rows)
         lines.append(f"\n## Judge noise: pooled sd of one judge's total = {s:.2f} "
