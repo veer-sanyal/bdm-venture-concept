@@ -15,6 +15,13 @@ Three generators ran in parallel with the founder brief and no seed. Generators 
 
 The control median is 11 (the mean is 11.33). Under the tie rule adopted the same evening, arc flash and disputes advance and Medicaid stops. All six verdicts were PASS. The scores are in `scores.csv`.
 
+**Final, after the judge-noise rule** (three judges per paragraph, five within 0.5 of the bar):
+- Controls: Sona8 12.25 (n=4), Papaya 11.0 (n=3), Simulithic 10.5 (n=4). The bar stays 11.
+- **Disputes 11.2 (n=5) advances.**
+- **Arc flash 10.6 (n=5) stops.** The later judges found 70Ez ($199-499/mo) and AmpSketch ($69/mo) already reading nameplates and trip settings from photos and exporting to all three modeling tools.
+- Medicaid 10 (n=1) stops.
+- The disputes team-fit found Sonnet (Provana), which handles 1M+ disputes a month for 200+ clients. Its sharpest opening is a litigation-ready file for purchased debt under *Hinkle v. Midland*.
+
 Judges' strongest versions and fastest tests:
 - **Arc flash.**
   - Strongest version: sell to independent NETA testing firms at a per-site annual price. Photos taken on each 70B maintenance visit update the last model and flag changed breakers and settings.
