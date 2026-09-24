@@ -19,15 +19,18 @@ That same day the new judge was validated on those eight companies plus one of o
 
 ## The loop
 
+The leaner loop was adopted 2026-09-24 (Veer). It changed three things. Each idea now gets its own shaper, because loop 1's single shaper stalled while managing its own research subagents. Controls now come from a stored bank instead of three fresh draws each loop, because every judge sees only one paragraph, so blindness does not depend on controls sitting in the same round. Judges are now added one at a time until the score is clearly on one side of the bar, because a fixed count spends judges where the answer was already clear. The estimate was about 2 to 2.5M tokens per loop, down from 4.1M; it has not been measured yet. Scoring anchors for the rubric were considered and declined (Veer, 2026-09-24): accurate anchors are hard to write, and more judges already reduce the noise.
+
 1. **Generate.** Run three generators in parallel, each in a fresh context with the same prompt. They don't see the archive, past verdicts or each other.
 2. **Merge.** The orchestrator folds duplicates together. Then it checks the archive for repeats. An old kill is evidence, not a ban.
-3. **Shape.** The shaper builds the strongest companies it can from what the generators returned.
-4. **Judge blind, with controls.** The orchestrator writes each candidate as a paragraph of about 130 words: problem, customer, product, how it makes money. No names, no team. It then adds three recent YC companies written the same way, drawn at random from the latest batch. Three fresh judges score each paragraph, each without knowing which ones are ours. A paragraph's score is the mean of its judges. Any paragraph whose mean lands within 0.5 of the bar gets two more judges before the decision (why: see Judge noise below).
-5. **Record and read against the controls.** Add one row per judged paragraph to `scores.csv` (the four rubric scores and the verdict; the total is computed), then run `python3 tools/scores.py`. A candidate advances if its mean total is at or above the mean of every YC control ever banked (all rounds, each averaged over its judges). Ties count (Veer, 2026-09-24). A control scored under a known flaw gets kind `excluded` and stays out of the bar; Tire Swing's validation score is excluded because its judge counted Tire Swing itself as a competitor. The script prints each round's standings and the per-parameter averages for controls and candidates across all rounds.
+3. **Shape, one shaper per idea.** Every idea that a generator put forward as its best or as a runner-up gets its own shaper, run in parallel. An idea that a generator itself dropped is not shaped. A shaper returns one company or says plainly that no strong company is there.
+4. **Judge blind, one judge at a time.** The orchestrator writes each shaped company as a paragraph of about 130 words: problem, customer, product, how it makes money. No names, no team. Each judge is a fresh agent that sees one paragraph and does not know whether it is ours or a funded company. A paragraph starts with one judge. Add another while the paragraph's mean is closer to the bar than 2s/√n, where n is the judges so far and s is the pooled single-judge sd printed by `tools/scores.py` (0.67 on 9/24, so the band is 1.34, 0.95, 0.77, 0.67, 0.60 for n = 1 to 5). Stop at five. Paragraphs are judged in parallel with each other. `tools/scores.py` marks the paragraphs that need another judge.
+5. **Record and read against the stored control bank.** Add one row per judge to `scores.csv` (the four rubric scores and the verdict; the total is computed), then run `python3 tools/scores.py`. A candidate advances if its mean total is at or above the bar. The bar is the mean of every YC control in the bank, each averaged over its judges. Ties count (Veer, 2026-09-24). The bank is the controls already scored; a loop draws no new ones. Every banked control carries at least three judges, so the bar isn't resting on one judge's opinion. A control scored under a known flaw gets kind `excluded` and stays out of the bar; Tire Swing's validation score is excluded because its judge counted Tire Swing itself as a competitor. The script prints each round's standings and the per-parameter averages for controls and candidates across all rounds.
    - Do not decide on the BACK/PASS line; the judge passes nearly everything.
    - Read what each judge named as the killer and the fastest test. Those are the outputs worth acting on.
-6. **Team fit, separately.** For each candidate that advances, one agent answers the team-fit prompt below.
-7. **Customers decide.** Desk research ranks the candidates. Customer calls settle which one wins. Every advancing candidate leaves with the one test the judge named.
+6. **One reshape pass for near misses.** A candidate that finishes below the bar by 1.0 or less (one rubric step on one parameter) gets one reshape. A fresh shaper gets the paragraph and every judge's strongest version, killer and fastest test. What it returns is judged as a new paragraph by fresh judges under step 4. It never gets a second reshape. The original keeps its scores; the reshape is recorded as a new paragraph with "(reshaped)" in its name.
+7. **Team fit, separately.** For each candidate that advances, one agent answers the team-fit prompt below.
+8. **Customers decide.** Desk research ranks the candidates. Customer calls settle which one wins. Every advancing candidate leaves with the one test the judge named.
 
 ## Prompts (what agents actually get)
 
@@ -36,8 +39,13 @@ That same day the new judge was validated on those eight companies plus one of o
 
 (The local-files clause was added 2026-09-24. In the first run, one generator followed the repo's own instructions and read STATE.md and the old concept before generating.)
 
-**Shaper**
-> [Founder brief.] Independent generators produced these ideas: [merged file]. Build the strongest one to three companies you can from them. Keep, combine, reshape or replace. Research whatever you need.
+**Shaper** (one per idea)
+> [Founder brief.] An independent generator proposed this idea: [the idea's entry from the merged file]. Build the strongest company you can from it. Keep it, reshape it, or say plainly that no strong company is here. Research whatever you need, and don't read local project files.
+
+(The local-files clause matches the generator's, for the same reason. Loop 1's single shaper got the whole merged file and was asked for one to three companies.)
+
+**Reshaper** (near misses only, once)
+> [Founder brief.] Independent investors scored this company just below the bar: [paragraph]. Their notes: [each judge's strongest version, what would kill it, and fastest test]. Build the strongest company you can from it. Research whatever you need, and don't read local project files.
 
 **Judge** (one fresh agent per paragraph, blind)
 > You're an experienced early-stage investor. Here is a startup concept: [paragraph]. Research it properly: check its key claims against primary sources and find who else serves this customer. Then:
@@ -54,7 +62,7 @@ That same day the new judge was validated on those eight companies plus one of o
 
 ## Judge noise (measured 2026-09-24)
 
-Four paragraphs were each scored by four independent judges using the identical prompt. One judge's total varies with a standard deviation of about 0.75 points (range up to 2 points on one paragraph). Need and market barely move across judges. Value and risk move because each judge finds different competitors (for example, only one of four arc flash judges found 70Ez and AmpSketch). With one judge, averaging flipped a decision: arc flash went from 11 (advances) to a mean of 10.5 (stops). Three judges bring the standard deviation of the mean to about 0.43, enough to separate a one-point gap in most cases. Near the bar that isn't enough, which is why a close paragraph gets five. `tools/scores.py` recomputes the noise figure every run. If it rises above 1.0, raise the default count.
+Four paragraphs were each scored by four independent judges using the identical prompt. One judge's total varies with a standard deviation of about 0.75 points (range up to 2 points on one paragraph). Need and market barely move across judges. Value and risk move because each judge finds different competitors (for example, only one of four arc flash judges found 70Ez and AmpSketch). With one judge, averaging flipped a decision: arc flash went from 11 (advances) to a mean of 10.5 (stops). Three judges bring the standard deviation of the mean to about 0.43, enough to separate a one-point gap in most cases. Near the bar that isn't enough, which is why the sequential rule in step 4 keeps adding judges up to five. `tools/scores.py` recomputes the noise figure every run, and the band in step 4 follows it.
 
 ## Rules for the orchestrator
 - Add nothing to these prompts beyond the brief, the seed and the material being judged. A new constraint goes into this file first, with the reason for it.

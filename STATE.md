@@ -11,11 +11,12 @@ Updated September 24, 2026. This file owns current decisions; [METHOD.md](METHOD
   - Arc flash from photos: 10.6, stops. 70Ez and AmpSketch already sell it.
   - LTC Medicaid applications: 10.0, stops.
   - AI review certification (Assay): 9.0, stops.
-- **Decisions waiting on Veer:**
-  1. Adopt the proposed leaner loop: one shaper per idea, a stored control bank, judges added one at a time, and one reshape pass for near misses. Estimated cost falls from about 4.1M to 2 to 2.5M tokens per loop.
-  2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
-  3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
-  4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough.
+- **Decisions (Veer, 2026-09-24 evening):**
+  1. **Leaner loop adopted** and written into METHOD: one shaper per idea, a stored control bank, judges added one at a time until the mean is outside 2s/√n of the bar (max 5), and one reshape pass for candidates within 1.0 below the bar. `tools/scores.py` now marks what each paragraph needs next. Banked controls get topped up to 3 judges each (7 of the 10 have one).
+  2. **Scoring anchors declined.** Accurate anchors are hard to write, and more judges already reduce the noise. Risk still sits near 2 for everything, so ranking rests on need, value and market.
+  3. **Agent-Reach skipped for now.** If it is revisited, pin a commit: its installer pulls the unpinned `main.zip` and has an agent follow a remote install.md.
+  4. **Prelim concept: not chosen yet.** Veer wants loop 2 on the new engine first, looking for better ideas. Fallback if nothing beats it by Sunday: credit-dispute response, the only candidate above the bar (margin 0.42, about one standard error).
+- **Loop 1 items the new rules flag:** arc flash (10.6) qualifies for one reshape pass; LTC Medicaid (10.0, one judge) needs more judges.
 - **Known issue:** the shaper stalled after spawning its research subagents and had to be resumed by message.
 
 ## Founder scope

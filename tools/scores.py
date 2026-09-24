@@ -49,9 +49,27 @@ def pool(rows):
         out.append(m)
     return out
 
+def noise(pooled_rows):
+    """Pooled sd of one judge's total, from paragraphs with repeat judges."""
+    reps = [r for r in pooled_rows if r["n"] > 1]
+    if not reps:
+        return None
+    return (sum(r["sd"] ** 2 for r in reps) / len(reps)) ** 0.5
+
+def next_step(r, b, s):
+    """METHOD steps 4-6: judge again, reshape once, or nothing."""
+    if r["kind"] == "control":
+        return "+judge" if r["n"] < 3 else ""
+    if r["n"] < 5 and s is not None and abs(r["total"] - b) < 2 * s / r["n"] ** 0.5:
+        return "+judge"
+    if b - 1.0 <= r["total"] < b and "(reshaped)" not in r["paragraph"]:
+        return "reshape"
+    return ""
+
 def report(rows):
     rows = [r for r in pool(rows) if r["kind"] != "excluded"]
     b = bar(rows)
+    s = noise(rows)
     rounds = defaultdict(list)
     for r in rows:
         rounds[r["round"]].append(r)
@@ -61,13 +79,14 @@ def report(rows):
         for r in sorted(rs, key=lambda r: -r["total"]):
             tag = "control" if r["kind"] == "control" else ("ADVANCES" if r["total"] >= b else "stops")
             lines.append(f"  {r['total']:>5.2f}  {r['need']:.1f} {r['value']:.1f} {r['market']:.1f} {r['risk']:.1f}  "
-                         f"n={r['n']} sd={r['sd']:.2f}  {tag:<8}  {r['paragraph']}")
-    reps = [r for r in rows if r["n"] > 1]
-    if reps:
-        pooled = (sum(r["sd"] ** 2 for r in reps) / len(reps)) ** 0.5
-        lines.append(f"\n## Judge noise: pooled sd of one judge's total = {pooled:.2f} "
-                     f"(from {len(reps)} paragraphs with repeat judges); "
-                     f"sd of a 3-judge mean = {pooled / 3 ** 0.5:.2f}")
+                         f"n={r['n']} sd={r['sd']:.2f}  {tag:<8}  {next_step(r, b, s):<7}  {r['paragraph']}")
+    lines.append("\n  next: +judge = add a judge (METHOD step 4; banked controls need 3); "
+                 "reshape = near miss, one reshape pass (step 6)")
+    if s is not None:
+        reps = sum(r["n"] > 1 for r in rows)
+        lines.append(f"\n## Judge noise: pooled sd of one judge's total = {s:.2f} "
+                     f"(from {reps} paragraphs with repeat judges); "
+                     f"sd of a 3-judge mean = {s / 3 ** 0.5:.2f}")
     lines.append("\n## Averages across all rounds (need value market risk | total)")
     for kind, a in averages(rows).items():
         lines.append(f"  {kind:<9} " + " ".join(f"{a[p]:.2f}" for p in PARAMS) + f" | {a['total']:.2f}")
