@@ -4,7 +4,7 @@ Find and test **AI B2B SaaS**, **AI-native services**, and **consumer AI with a 
 
 ## Start here
 
-1. [METHOD.md](METHOD.md): the active lightweight generation and verification protocol, with copyable prompts and model routing.
+1. [METHOD.md](METHOD.md): the active method (adopted 2026-09-24). It covers generating, shaping, and a blind judge calibrated against real YC companies, with the exact prompts.
 2. [STATE.md](STATE.md): founder scope, current decisions, evidence gaps and the next research step.
 3. Retrieve relevant candidate evidence only as needed.
 
