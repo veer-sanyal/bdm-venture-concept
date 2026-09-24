@@ -13,7 +13,7 @@ Three generators ran in parallel with the founder brief and no seed. Generators 
 | **Credit dispute response for collectors and subprime lenders** | 4 | 3 | 2 | 2 | **11** |
 | **LTC Medicaid applications for nursing home chains** | 4 | 2 | 2 | 2 | **10** |
 
-The control mean is 11.33. No candidate strictly clears it. Arc flash and disputes tie two of the three YC controls, so the gap is within one point of rubric resolution. All six verdicts were PASS.
+The control median is 11 (the mean is 11.33). Under the tie rule adopted the same evening, arc flash and disputes advance and Medicaid stops. All six verdicts were PASS. The scores are in `scores.csv`.
 
 Judges' strongest versions and fastest tests:
 - **Arc flash.**

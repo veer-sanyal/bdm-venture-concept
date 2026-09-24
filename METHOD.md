@@ -23,7 +23,7 @@ That same day the new judge was validated on those eight companies plus one of o
 2. **Merge.** The orchestrator folds duplicates together. Then it checks the archive for repeats. An old kill is evidence, not a ban.
 3. **Shape.** The shaper builds the strongest companies it can from what the generators returned.
 4. **Judge blind, with controls.** The orchestrator writes each candidate as a paragraph of about 130 words: problem, customer, product, how it makes money. No names, no team. It then adds three recent YC companies written the same way, drawn at random from the latest batch. A fresh judge scores each paragraph without knowing which ones are ours.
-5. **Read against the controls.** A candidate advances if its rubric total matches or beats the mean of the YC controls in the same round.
+5. **Record and read against the controls.** Add one row per judged paragraph to `scores.csv` (the four rubric scores and the verdict; the total is computed), then run `python3 tools/scores.py`. A candidate advances if its total is at or above the median control total in the same round. Ties count (Veer, 2026-09-24). The script prints each round's standings and the per-parameter averages for controls and candidates across all rounds.
    - Do not decide on the BACK/PASS line; the judge passes nearly everything.
    - Read what each judge named as the killer and the fastest test. Those are the outputs worth acting on.
 6. **Team fit, separately.** For each candidate that advances, one agent answers the team-fit prompt below.
