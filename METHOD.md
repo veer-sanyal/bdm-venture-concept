@@ -22,7 +22,7 @@ That same day the new judge was validated on those eight companies plus one of o
 1. **Generate.** Run three generators in parallel, each in a fresh context with the same prompt. They don't see the archive, past verdicts or each other.
 2. **Merge.** The orchestrator folds duplicates together. Then it checks the archive for repeats. An old kill is evidence, not a ban.
 3. **Shape.** The shaper builds the strongest companies it can from what the generators returned.
-4. **Judge blind, with controls.** The orchestrator writes each candidate as a paragraph of about 130 words: problem, customer, product, how it makes money. No names, no team. It then adds three recent YC companies written the same way, drawn at random from the latest batch. A fresh judge scores each paragraph without knowing which ones are ours.
+4. **Judge blind, with controls.** The orchestrator writes each candidate as a paragraph of about 130 words: problem, customer, product, how it makes money. No names, no team. It then adds three recent YC companies written the same way, drawn at random from the latest batch. Three fresh judges score each paragraph, each without knowing which ones are ours. A paragraph's score is the mean of its judges. Any paragraph whose mean lands within 0.5 of the bar gets two more judges before the decision (why: see Judge noise below).
 5. **Record and read against the controls.** Add one row per judged paragraph to `scores.csv` (the four rubric scores and the verdict; the total is computed), then run `python3 tools/scores.py`. A candidate advances if its total is at or above the median control total in the same round. Ties count (Veer, 2026-09-24). The script prints each round's standings and the per-parameter averages for controls and candidates across all rounds.
    - Do not decide on the BACK/PASS line; the judge passes nearly everything.
    - Read what each judge named as the killer and the fastest test. Those are the outputs worth acting on.
@@ -51,6 +51,10 @@ That same day the new judge was validated on those eight companies plus one of o
 
 **Team fit** (advancing candidates only)
 > Two Purdue undergrads want to build this: [paragraph plus judge's strongest version]. What would they need to win it (skills, access, credentials, first customers), and how could they get it within a semester?
+
+## Judge noise (measured 2026-09-24)
+
+Four paragraphs were each scored by four independent judges using the identical prompt. One judge's total varies with a standard deviation of about 0.75 points (range up to 2 points on one paragraph). Need and market barely move across judges. Value and risk move because each judge finds different competitors (for example, only one of four arc flash judges found 70Ez and AmpSketch). With one judge, averaging flipped a decision: arc flash went from 11 (advances) to a mean of 10.5 (stops). Three judges bring the standard deviation of the mean to about 0.43, enough to separate a one-point gap in most cases. Near the bar that isn't enough, which is why a close paragraph gets five. `tools/scores.py` recomputes the noise figure every run. If it rises above 1.0, raise the default count.
 
 ## Rules for the orchestrator
 - Add nothing to these prompts beyond the brief, the seed and the material being judged. A new constraint goes into this file first, with the reason for it.
