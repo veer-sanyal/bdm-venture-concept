@@ -2,6 +2,8 @@
 
 Desk research only. This is not customer validation.
 
+> **Caveat added after the round (see [contamination-audit.md](contamination-audit.md)).** 8 of 17 judges read METHOD.md before judging, including 4 of commissioning's 5. Judges who read it scored about a point higher. With clean judges only, commissioning is about 11.0 against a bar of about 10.9-11.2, so it sits **at** the bar, not clearly above it. Its advance is provisional until it is re-judged under the fixed prompts.
+
 Seed given to the generators: "AI B2B SaaS or AI-native services" (Veer, 9/25). Three generators ran in parallel with the founder brief and the seed. The shaper returned two companies. Each was judged blind by three judges, with five for any paragraph within 0.5 of the bar. The three YC controls were drawn at random from Fall 2026 B2B companies not already banked; the draw method is in `agents/controls-draw.md`. Paragraphs as judged: `controls.md`, `candidates.md`. All 23 agent reports are in `agents/`.
 
 ## Scores (mean of judges; bar = mean of all 13 banked controls = 10.93)
@@ -65,6 +67,6 @@ Adding the three new controls moved the bar from 10.78 to 10.93. Commissioning's
 
 ## Process notes
 
-- The shaper cited the 10.93 bar and METHOD.md, so it read local files. METHOD forbids local files only for generators, but a shaper that knows the bar can tune toward it. Proposed METHOD addition, not adopted: give the shaper the same no-local-files clause.
+- The shaper, most judges and the team-fit agent read local files. METHOD now forbids it for every role (adopted 2026-09-25, at Veer's request for the shaper and extended to judges and team fit after the audit).
 - Control judges handled the matching-company rule unevenly. One Vorelios judge treated BeyondMath as the team instead of Vorelios, one Perit judge couldn't find Perit at all, and one Vorelios judge treated PhysicsX as the team. Their scores were within the other judges' range.
 - The shaper finished without needing to be resumed (about 13 minutes).

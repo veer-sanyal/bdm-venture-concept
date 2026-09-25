@@ -6,14 +6,14 @@ Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD
 
 - **Loop 2 ran on the active method with the seed "AI B2B SaaS or AI-native services."** Full write-up: [research/2026-09-25-loop2/RESULT.md](research/2026-09-25-loop2/RESULT.md). All 23 agent reports are saved. Desk research only, not customer validation.
 - **New controls:** Forward 11.67, Perit.AI 11.67, Vorelios 11.0. **The bar is now 10.93** (13 controls).
-- **AI-native commissioning for liquid-cooled AI data halls: 11.6 (n=5), advances.** This is the highest-scoring candidate so far.
+- **AI-native commissioning for liquid-cooled AI data halls: 11.6 (n=5), advances provisionally.** A later audit found 4 of its 5 judges had read METHOD.md, and those judges score about a point higher. Clean judges put it near 11.0, at the bar ([audit](research/2026-09-25-loop2/contamination-audit.md)). Re-judge it with the fixed prompts before relying on it.
   - Strongest version: an independent commissioning agent hired by the owner (not the general contractor) for neoclouds, second-tier developers and converted bitcoin miners. It sells live step-by-step grading of the integrated test, with a signed report within 24 hours. Price is per MW plus a bonus for on-schedule handover.
   - Killers: paperwork and grading may not be what delays handover; tenants may not accept a new firm's signature.
   - Test: day-by-day logs of 5 to 8 recent liquid-cooled integrated tests. Kill it if paperwork and grading account for under about a week.
   - Team fit: it needs a PE and certified commissioning agent as co-founder. Recruit through 7x24 Exchange by the end of October, or fall back to selling the grader as software to existing commissioning firms.
 - **Truck dealer warranty claims: 10.0 (n=3), stops.** At 1% of $5.41B the US truck market is about $54M a year. Dealer management systems own the claim rail, and Daimler's warranty system already gives dealers free AI coding help. Loop 1's dealer-warranty idea (RV and marine) had already been dropped.
-- **Standings (all rounds):** commissioning 11.6 and credit disputes 11.2 advance. Arc flash 10.6, truck warranty 10.0, LTC Medicaid 10.0 and Assay 9.0 stop.
-- **Proposed METHOD change (not adopted):** add the generators' no-local-files clause to the shaper prompt. This round's shaper read METHOD.md and cited the bar.
+- **Standings (all rounds):** commissioning 11.6 (provisional, see above) and credit disputes 11.2 advance. Arc flash 10.6, truck warranty 10.0, LTC Medicaid 10.0 and Assay 9.0 stop.
+- **METHOD change adopted 2026-09-25 (Veer):** the shaper, judges and team fit may not read local project files. The shaper gets the merged ideas pasted in, and AGENTS.md exempts METHOD agents from its reading list. The loop 2 audit found the shaper, 8 of 17 judges and the team-fit agent had read METHOD, STATE or both. Loop 1 could not be audited, because its transcripts are gone.
 - Decision 4 below (the concept to name for the 9/27 prelim) now has two advancing candidates to choose from.
 
 ## As of 2026-09-24

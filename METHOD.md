@@ -37,7 +37,9 @@ That same day the new judge was validated on those eight companies plus one of o
 (The local-files clause was added 2026-09-24. In the first run, one generator followed the repo's own instructions and read STATE.md and the old concept before generating.)
 
 **Shaper**
-> [Founder brief.] Independent generators produced these ideas: [merged file]. Build the strongest one to three companies you can from them. Keep, combine, reshape or replace. Research whatever you need.
+> [Founder brief.] Independent generators produced these ideas: [merged file, pasted in full]. Build the strongest one to three companies you can from them. Keep, combine, reshape or replace. Research whatever you need on the web, and don't read local project files.
+
+(The local-files clause was added 2026-09-25. In loop 2 the shaper was handed a file path and then read METHOD.md, STATE.md, the control paragraphs, `scores.csv` and loop 1's results, so it knew the bar and what the judges had punished before. The merged file is now pasted into the prompt, so the shaper has no reason to open the repo.)
 
 **Judge** (one fresh agent per paragraph, blind)
 > You're an experienced early-stage investor. Here is a startup concept: [paragraph]. Research it properly: check its key claims against primary sources and find who else serves this customer. Then:
@@ -45,12 +47,16 @@ That same day the new judge was validated on those eight companies plus one of o
 > 2. Rate that version 1 to 5 on customer need, value over what customers use today, market size, and risk (5 means low risk). Give one line of evidence for each.
 > 3. Say what would kill it and name the single fastest test that would tell us.
 >
-> Competition alone is not a reason to pass. Say whether an incumbent already owns this customer's data or buying channel. If you find a company whose pitch matches this one almost exactly, treat it as this team, not a competitor. Judge the idea, not the team. End with exactly "VERDICT: BACK" or "VERDICT: PASS".
+> Competition alone is not a reason to pass. Say whether an incumbent already owns this customer's data or buying channel. If you find a company whose pitch matches this one almost exactly, treat it as this team, not a competitor. Judge the idea, not the team. Use the web, and don't read local project files. End with exactly "VERDICT: BACK" or "VERDICT: PASS".
 
 (The matching-company sentence was added 2026-09-24. Without it, the judge found a YC control's own company and scored it as the leading competitor.)
 
+(The local-files sentence was added 2026-09-25. In loop 2, 8 of 17 judges read METHOD.md, which tells them YC controls are mixed with our ideas, and one also read STATE.md. On every paragraph judged by both kinds, the judges who read METHOD scored about a point higher, and 4 of commissioning's 5 judges read it against 3 of 9 control judges. Audit: `research/2026-09-25-loop2/contamination-audit.md`.)
+
 **Team fit** (advancing candidates only)
-> Two Purdue undergrads want to build this: [paragraph plus judge's strongest version]. What would they need to win it (skills, access, credentials, first customers), and how could they get it within a semester?
+> Two Purdue undergrads want to build this: [paragraph plus judge's strongest version]. What would they need to win it (skills, access, credentials, first customers), and how could they get it within a semester? Use the web, and don't read local project files.
+
+(The local-files sentence was added 2026-09-25; the loop 2 team-fit agent read METHOD.md, STATE.md and README.md.)
 
 ## Judge noise (measured 2026-09-24)
 
@@ -59,5 +65,6 @@ Four paragraphs were each scored by four independent judges using the identical 
 ## Rules for the orchestrator
 - Add nothing to these prompts beyond the brief, the seed and the material being judged. A new constraint goes into this file first, with the reason for it.
 - Save every agent's final report to `research/<date>-<round>/agents/<role>-<paragraph>-<n>.md` the day it runs. Scores go in `scores.csv`; the reasoning behind them lives in these files. The session's temporary task files are deleted when the session ends.
+- Subagents share the session scratchpad. Keep anything that names the controls or maps agents to paragraphs (the YC batch file, agent ID maps) out of it until judging ends. In loop 2 one judge listed that folder.
 - Desk research is never customer validation. State that on every write-up.
 - Live decisions go in STATE.md.
