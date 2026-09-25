@@ -19,14 +19,14 @@ That same day the new judge was validated on those eight companies plus one of o
 
 ## Seed (edit freely; every generator gets it after the brief)
 
-Current seed, adopted 2026-09-25 after loop 2:
+Current seed, adopted 2026-09-25 after loop 3 (Veer):
 
-> Aim at work that tens of thousands of businesses already pay people to do by hand, their own staff or an outside firm, so that the spend AI would replace adds up to billions of dollars a year. Enter through the slice of that work where a mistake or a delay costs the buyer the most money, and often, and where no software company already holds the customer's data or buying channel.
+> Aim at work that tens of thousands of businesses pay for today out of their own budget, their own staff or an outside firm, so that the spend AI would replace adds up to billions of dollars a year. Enter through the slice where a mistake or a delay costs the buyer the most money, and often. Before settling on it, name what that buyer already uses, including startups and service firms that charge the buyer nothing, and choose a slice where AI can do something those can't, not just do the same job cheaper.
 
 Seed history (one line per round: seed, what it moved):
 - Loop 1 (2026-09-24): no seed. Candidates tied the controls on need, value and risk and trailed on market (2.05 vs 2.70).
-- Loop 2 (2026-09-25): "…billions of dollars a year. Enter through the narrowest slice of that work where no software company already holds the customer's data or buying channel." Market rose to 2.67. Need fell to 3.0, because the unowned slice was small plants whose typical fine was about $1,400, so the buyer had no urgency. The current seed keeps the labor-spend half and asks for a costly, frequent failure instead of the narrowest slice.
-- Loop 3 (2026-09-25): current seed. Two of three generators converged on long-term-care Medicaid applications. The caseworker version scored 11.67 (need 4, market 3) and advanced, the first seeded candidate to hold both need and market. The same seed also surfaced supplier warranty chargebacks (9.67, market 2). Keep this seed.
+- Loop 2 (2026-09-25): "…billions of dollars a year. Enter through the narrowest slice of that work where no software company already holds the customer's data or buying channel." Market rose to 2.67. Need fell to 3.0, because the unowned slice was small plants whose typical fine was about $1,400, so the buyer had no urgency. The loop 3 seed kept the labor-spend half and asked for a costly, frequent failure instead of the narrowest slice.
+- Loop 3 (2026-09-25): "…billions of dollars a year. Enter through the slice of that work where a mistake or a delay costs the buyer the most money, and often, and where no software company already holds the customer's data or buying channel." Two of three generators converged on long-term-care Medicaid applications. The caseworker version scored 11.67 (need 4, market 3) and advanced, the first seeded candidate to hold both need and market. The same seed also surfaced supplier warranty chargebacks (9.67, market 2). Value was now the weak score: every judge who marked it down named a cheap or free alternative the buyer already had (family-paid eligibility firms, MedicaidSoft, Reap). The seed also pulled all three generators toward claims, recovery and paperwork lanes, and two of five picks were archive repeats. The current seed adds "out of their own budget", requires naming what the buyer already uses (service firms and startups included), and asks for something AI can do that those can't. It drops the software-company clause, which the new sentence covers more strictly.
 
 ## The loop
 

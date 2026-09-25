@@ -43,7 +43,8 @@ Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD
   4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough. Two candidates are above the bar: the LTC Medicaid caseworker (11.67, Indiana-local buyers, and a test that fits the semester) and credit disputes (11.2).
 - **METHOD updated 9/25 from loop 2 (Veer's request):**
   - The shaper and judge prompts now carry the "don't read local project files" clause.
-  - A seed section holds the current seed and a one-line history per round. The new seed keeps the labor-spend half and asks for the slice where a mistake or delay costs the buyer the most, and often.
+  - A seed section holds the current seed and a one-line history per round.
+  - After loop 3 (Veer) the seed changed again. It keeps the labor spend and the costly, frequent failure. It adds "out of their own budget" and requires naming what the buyer already uses, service firms and startups included. It asks for a slice where AI can do something those can't, because value was loop 3's weak score and generators kept landing on claims and recovery lanes. Loop 4 is the first run of this seed.
   - The stages run in order (generators, then the shaper, then the judges). After loop 3, judges run in batches of at most 6.
   - Every number in a candidate paragraph is checked against its source before judging, and paragraphs are saved as judged.
   - Controls are drawn from unbanked B2B companies with a recorded random seed.
