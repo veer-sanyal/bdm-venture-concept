@@ -1,0 +1,9 @@
+# Candidate paragraphs, loop 2 (as given to judges)
+
+Written by the orchestrator from the shaper's two companies. No names, no team.
+
+**Data center commissioning**
+> US data center construction reached a $50.7 billion annual rate in April 2026, up 27% in a year, and a finished hall leases for roughly $200,000 per megawatt per month once handed over. Before handover, every power and cooling system must pass commissioning, ending in an integrated test under full load, and experienced commissioning agents are scarce. This company runs commissioning as an AI-native service for data center developers and their general contractors, starting with liquid-cooled AI halls. Its software writes test scripts from the drawings, submittals and control sequences, reads building-management and power-monitoring data during each test and grades every step against the acceptance criteria, and drafts issue logs and reports. A senior commissioning agent witnesses and signs off, so each agent covers several times the megawatts. It charges a fixed fee per megawatt commissioned.
+
+**Truck dealer warranty claims**
+> Franchised medium- and heavy-duty truck dealers in the US billed $5.4 billion of warranty work in 2025, about $13,800 per warranty repair order. To get paid, a dealer files with the truck maker and often separately with the engine, transmission and axle makers, each with its own portal, labor-time codes and evidence rules. Claims are cut or charged back for thin documentation even when the repair was right, and manufacturers are adopting AI to review them. This company sells to truck dealer groups, then farm and construction equipment dealers. Its agent reads the repair order, technician notes, fault-code snapshots and photos, writes each claim to that maker's rules, flags missing evidence before submission, queues it for the dealer's clerk to submit, tracks payment and drafts appeals. Dealers pay about 1% of warranty dollars collected.
