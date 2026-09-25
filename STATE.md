@@ -1,8 +1,25 @@
 # STATE: current venture exploration
 
-Updated September 24, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
+Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
 
-## As of 2026-09-24 (read first)
+## As of 2026-09-25 (read first)
+
+- **Loop 2 (Jev seed) is done, and nothing advanced.** Full write-up: [research/2026-09-24-loop2/RESULT.md](research/2026-09-24-loop2/RESULT.md).
+  - Nine ideas were shaped, and six reached judges; the best was SB 1119 child-safety testing at 9.5.
+  - Both loop 1 reshapes stopped: the Medicaid lookback desk at 10.2 (5 judges) and the arc flash drift monitor at 10.0 (3 judges).
+  - The bar is 10.78 ± 0.30 over 13 controls (Kita 11.33, ByteAsk 11.33, Vela 9.67 added), with no drift.
+  - **Credit-dispute response (11.2) is still the only candidate above the bar**, and it is a close call.
+- **Veer's notes, 2026-09-24:**
+  - Open-source Jev replicas exist, so TypeSafe's contract is a supplier choice, not a design constraint.
+  - Multiple checks per decision improve crisis-grading reliability.
+  - Rubrics and decision trees tuned on labelled data and A/B tests could be the moat.
+  - Recorded caveats: ensembles reduce random error but not shared bias, so a moat needs labels competitors can't get, such as SB 1119's mandatory incident channel. A/B tests on real minors' crisis responses are off-limits.
+- **Prelim, due Sun 9/27 11:59pm: still Veer's call.** The desk evidence points to credit-dispute response; nothing from loop 2 beat it.
+- **Open proposals, not adopted:**
+  - An idea that stops after its reshape returns only with evidence its judges didn't have. A generator rediscovering it doesn't count.
+  - Founder notes could be passed to a reshaper. This became moot in loop 2, because no idea finished as a near miss.
+
+## As of 2026-09-24
 
 - **The method was replaced on 9/24.** Short prompts, blind judges scoring on the BDM rubric, a bar set by the mean of every banked YC control, and 3 to 5 judges per paragraph. Scores go in `scores.csv`; run `python3 tools/scores.py` to see them. Every agent report is archived under `research/2026-09-24-*`.
 - **Standings (desk research only, not customer validation):**
