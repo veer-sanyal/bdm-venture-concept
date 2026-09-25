@@ -1,10 +1,22 @@
 # STATE: current venture exploration
 
-Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
+Updated September 25, 2026 (after loop 4). This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
 
 ## As of 2026-09-25 (read first)
 
 - **The method was replaced on 9/24.** Short prompts, blind judges scoring on the BDM rubric, a bar set by the mean of every banked YC control, and 3 to 5 judges per paragraph. Scores go in `scores.csv`; run `python3 tools/scores.py` to see them. Every agent report is archived under `research/2026-09-2*`.
+- **Loop 4 (9/25), loop 3's seed revised plus varied generators: nothing advances.** Full write-up: [research/2026-09-25-loop4/RESULT.md](research/2026-09-25-loop4/RESULT.md).
+  - **Wage-and-hour checks before payroll for California nursing homes and home health: 10.80 over 5 judges (need 4, value 2.8, market 2), 0.12 under the bar.**
+    - The need is real: a record 10,098 PAGA notices in 2025, with healthcare filing the most.
+    - Market is California healthcare only, about $8M to $40M a year.
+    - The 15% penalty cap applies only to the small PAGA share of settlements, and 5 of 652 recent settlements priced it in.
+    - Competitors: ePeople.ai sells nearly this to California nursing homes, Scaled Comp audits every shift, and UKG and SmartLinx already add break premiums.
+    - Test if ever revisited: run the engine through defense firms on 3 to 10 clients' punch, payroll and PointClickCare data, and ask for paid pilots.
+  - **Metal content proof for Section 232 tariffs: 9.33, stops.** The $227B is mostly metal-heavy goods, and the near-line band is thin and unmeasured. Owners' CAD files give metal weight in minutes. Brokers (Mallory) and Assent/Z2Data already sell the pieces.
+  - **Generators:** 1 (plain) and 3 (capability start) converged on the metal idea. Only 2 (buyer complaints) found something new. Three of six merged ideas repeated the archive.
+  - **Seed lesson:** "a slice where AI can do something those can't" held value but dropped market to 2 on both candidates, as in loop 2.
+  - **New controls:** herdr 11.33, Hopper 11.33, ORO AI 9.33.
+  - **Incident:** a control judge tried to attach herdr's GitHub repository to the session with push access. It was refused and nothing changed.
 - **Loop 3 (9/25), new seed: the LTC Medicaid AI caseworker advances at 11.67** (need 4, value 2.7, market 3, risk 2, n=3; bar 10.96). Full write-up: [research/2026-09-25-loop3/RESULT.md](research/2026-09-25-loop3/RESULT.md).
   - **What it is (the judges' strongest version):** an AI-run eligibility service, paid per approved case, for regional nursing-home chains. It takes their oldest pending and denied cases first, then files new cases before the retroactive window closes and handles renewals.
   - **Watch out for:**
@@ -29,22 +41,27 @@ Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD
   - The seed lifted market but cost need; the next seed fixed that.
   - Write-up: [research/2026-09-25-loop2/RESULT.md](research/2026-09-25-loop2/RESULT.md).
 - **Standings (desk research only, not customer validation):**
-  - Bar: 10.96, the mean of 16 YC controls.
+  - Bar: 10.92, the mean of 19 YC controls (after loop 4).
   - **LTC Medicaid AI caseworker: 11.67, advances (loop 3).** It is the highest candidate so far. Loop 1's single-judge nursing-home version scored 10.0.
   - **Credit-dispute response for collectors: 11.2, advances (loop 1).** Team fit found Sonnet (Provana), which handles over 1M disputes a month. The opening is a litigation-ready file for purchased debt (*Hinkle v. Midland*). Test: 10 dispute-ops calls asking cost per dispute, share of documents held electronically, and a $2 per-dispute pilot on 1,000 closed disputes.
   - Arc flash from photos: 10.6, stops. 70Ez and AmpSketch already sell it.
   - Environmental department for small permitted plants: 10.33, stops (loop 2).
+  - Wage-and-hour checks before payroll (California healthcare): 10.80, stops (loop 4, n=5).
   - Supplier warranty chargeback defense: 9.67, stops (loop 3).
+  - Metal content proof for Section 232 tariffs: 9.33, stops (loop 4).
   - AI review certification (Assay): 9.0, stops.
 - **Decisions waiting on Veer:**
   1. Adopt the proposed leaner loop: one shaper per idea, a stored control bank, judges added one at a time, and one reshape pass for near misses. Estimated cost falls from about 4.1M to 2 to 2.5M tokens per loop.
   2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
   3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
-  4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough. Two candidates are above the bar: the LTC Medicaid caseworker (11.67, Indiana-local buyers, and a test that fits the semester) and credit disputes (11.2).
+  4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough. Two candidates are above the bar: the LTC Medicaid caseworker (11.67, Indiana-local buyers, and a test that fits the semester) and credit disputes (11.2). Loop 4 added neither a new candidate nor a change to these two.
+  5. (Proposed after loop 4, not adopted.) Seed for loop 5: keep "name what the buyer already uses". Soften "a slice where AI can do something those can't", which narrowed both loop 4 candidates to market 2. One option: require the entry slice itself to be worth hundreds of millions a year to its buyers, not only the surrounding spend.
+  6. (Proposed after loop 4, not adopted.) Give each judge its own scratch directory, or tell judges not to reuse files they didn't write. Loop 4 judges read PDF extracts other judges had left in the shared scratchpad. Also reword METHOD's batch rule for two or more candidates to "one judge per paragraph per batch", which is what loop 4 did.
 - **METHOD updated 9/25 from loop 2 (Veer's request):**
   - The shaper and judge prompts now carry the "don't read local project files" clause.
   - A seed section holds the current seed and a one-line history per round.
   - After loop 3 (Veer) the seed changed again. It keeps the labor spend and the costly, frequent failure. It adds "out of their own budget" and requires naming what the buyer already uses, service firms and startups included. It asks for a slice where AI can do something those can't, because value was loop 3's weak score and generators kept landing on claims and recovery lanes. Loop 4 is the first run of this seed.
+  - From loop 4 (Veer) the three generators differ by one clause setting where they start looking: plain, buyer complaints, or new AI capability. Generator 1 stays plain as the comparison.
   - The stages run in order (generators, then the shaper, then the judges). After loop 3, judges run in batches of at most 6.
   - Every number in a candidate paragraph is checked against its source before judging, and paragraphs are saved as judged.
   - Controls are drawn from unbanked B2B companies with a recorded random seed.
