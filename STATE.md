@@ -9,7 +9,11 @@ Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD
   - Step 4 is a funded-clone check by the orchestrator before judging (Veer).
   - The judge prompt carries the local-files clause, after a loop-2 judge read STATE.md; that score is banked as `excluded`.
   - `tools/scores.py` now drops excluded judges before averaging.
-- **Still open:** a shaper per idea (decision 1 below; Veer asked about it during loop 2). The shaper line naming budget and next workflows (decision 5, second half).
+- **Adopted later on 2026-09-25 (Veer):**
+  - Generators get a brief without Purdue. In loop 2 the Purdue framing pulled all three generators to Indiana manufacturers, and the judges then sized that wedge.
+  - One shaper per idea, replacing the single shaper over the merged file.
+  - Shapers still get the full brief, including Purdue. Watch whether the Indiana pull comes back at the shaping step.
+- **Still open:** the shaper line naming budget and next workflows (decision 5, second half). The rest of the leaner loop (decision 1).
 - **Credit disputes (11.2) still clears the raised bar** and is the only advancing candidate.
 
 ## As of 2026-09-24
@@ -22,7 +26,7 @@ Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD
   - LTC Medicaid applications: 10.0, stops.
   - AI review certification (Assay): 9.0, stops.
 - **Decisions waiting on Veer:**
-  1. Adopt the proposed leaner loop: one shaper per idea, a stored control bank, judges added one at a time, and one reshape pass for near misses. Estimated cost falls from about 4.1M to 2 to 2.5M tokens per loop.
+  1. Adopt the rest of the proposed leaner loop (the shaper-per-idea part was adopted 2026-09-25): a stored control bank, judges added one at a time, and one reshape pass for near misses. Estimated cost falls from about 4.1M to 2 to 2.5M tokens per loop.
   2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
   3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
   4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough.

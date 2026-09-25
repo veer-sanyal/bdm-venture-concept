@@ -13,15 +13,21 @@ This method removes all three and anchors the bar to companies investors actuall
 
 That same day the new judge was validated on those eight companies plus one of our own ideas. It backed one of the eight YC companies, fewer than the old prompt's two. A judge that researches with the web finds an incumbent almost every time, so its BACK/PASS line is close to always PASS. The useful signal is the rubric score relative to the YC controls. Totals ranged from 9 to 12 out of 20, and the YC mean was 10.75. Full results: `research/2026-09-24-judge-validation.md`.
 
-## Founder brief (edit freely; every generator gets it)
+## Founder brief (edit freely)
 
+**Full brief** (shapers; the team-fit prompt carries its own framing):
 > Veer and Cole are Purdue undergrads who want to build a real company and pitch it at Purdue's Burton D. Morgan Venture Concept Competition, which VCs judge on customer need, value over alternatives, market size and risk. They want scalable software, AI-native, that can start narrow and grow broad.
+
+**Generator brief** (generators only):
+> Veer and Cole want to build a real company and pitch it at a venture competition that VCs judge on customer need, value over alternatives, market size and risk. They want scalable software, AI-native, that can start narrow and grow broad.
+
+Why the generators get a copy without Purdue (Veer, 2026-09-25): in loop 2 all three generators went to Indiana manufacturers reached through Purdue's extension program. The judges then sized the Indiana wedge and scored both candidates 2 on market. Where the founders can reach customers is a team-fit question, and team fit is still judged separately (step 7).
 
 ## The loop
 
 1. **Generate.** Run three generators in parallel, each in a fresh context with the same prompt. They don't see the archive, past verdicts or each other.
 2. **Merge.** The orchestrator folds duplicates together. Then it checks the archive for repeats. An old kill is evidence, not a ban.
-3. **Shape.** The shaper builds the strongest companies it can from what the generators returned.
+3. **Shape, one shaper per idea.** Each distinct idea in the merged file gets its own shaper, running in parallel in a fresh context. An idea counts if at least one generator put it forward as its best idea or a runner-up; ideas the generators themselves dropped get no shaper. Each shaper returns one company. After shaping, the orchestrator folds any two shaped companies that converged on the same customer and job. Why (Veer, 2026-09-25): a single shaper over the whole file ranks the ideas and gives the runners-up a thin look. In loop 2 it built one lead and one backup from six ideas.
 4. **Check for funded clones.** Before anything goes to a judge, the orchestrator checks each shaped candidate against funded companies. It runs `python3 tools/yc_overlap.py <terms>` over the last four YC batches and one web search on the candidate's one-liner. A clone is a funded company selling the same job to the same customer. It is dropped and recorded with its neighbor. An adjacent company (a different customer or a different job) stays, and the neighbor is noted in the write-up, never in the paragraph. Why (Veer, 2026-09-25): the judge prompt treats a matching company as this team, so a clone would borrow that company's traction in its score. Also, the recent batches hold many near-duplicates (`research/2026-09-25-funded-patterns.md`).
 5. **Judge blind, with controls.** The orchestrator writes each candidate as a paragraph of about 130 words: problem, customer, product, how it makes money. No names, no team. It then adds three recent YC companies written the same way, drawn at random from the latest batch. Three fresh judges score each paragraph, each without knowing which ones are ours. A paragraph's score is the mean of its judges. Any paragraph whose mean lands within 0.5 of the bar gets two more judges before the decision (why: see Judge noise below).
 6. **Record and read against the controls.** Add one row per judged paragraph to `scores.csv` (the four rubric scores and the verdict; the total is computed), then run `python3 tools/scores.py`. A candidate advances if its mean total is at or above the mean of every YC control ever banked (all rounds, each averaged over its judges). Ties count (Veer, 2026-09-24). A control scored under a known flaw gets kind `excluded` and stays out of the bar; Tire Swing's validation score is excluded because its judge counted Tire Swing itself as a competitor. The script prints each round's standings and the per-parameter averages for controls and candidates across all rounds.
@@ -33,12 +39,14 @@ That same day the new judge was validated on those eight companies plus one of o
 ## Prompts (what agents actually get)
 
 **Generator**
-> [Founder brief.] [Seed, if any.] Find the best startup you can for them. Use the web as much as you want, and don't read local project files. Come back with your best idea, any runners-up worth keeping, why each could work, and what's weakest about it.
+> [Generator brief.] [Seed, if any.] Find the best startup you can for them. Use the web as much as you want, and don't read local project files. Come back with your best idea, any runners-up worth keeping, why each could work, and what's weakest about it.
 
 (The local-files clause was added 2026-09-24. In the first run, one generator followed the repo's own instructions and read STATE.md and the old concept before generating.)
 
-**Shaper**
-> [Founder brief.] Independent generators produced these ideas: [merged file]. Build the strongest one to three companies you can from them. Keep, combine, reshape or replace. Research whatever you need.
+**Shaper** (one per idea)
+> [Full founder brief.] Independent generators produced this idea: [the idea's entry from the merged file, with its archive note]. Build the strongest company you can from it. Narrow, reshape or replace it if that makes a stronger company. Use the web as much as you want, and don't read local project files.
+
+(Changed 2026-09-25 from one shaper over the whole merged file, which built "one to three companies" from it. The local-files clause matches the generator and judge prompts.)
 
 **Judge** (one fresh agent per paragraph, blind)
 > You're an experienced early-stage investor. Here is a startup concept: [paragraph]. Research it properly with the web, and don't read local project files: check its key claims against primary sources and find who else serves this customer. Then:
