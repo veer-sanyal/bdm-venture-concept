@@ -50,7 +50,8 @@ def pool(rows):
     return out
 
 def report(rows):
-    rows = [r for r in pool(rows) if r["kind"] != "excluded"]
+    # Drop excluded rows before pooling, so a paragraph with some excluded judges keeps only its valid ones.
+    rows = pool([r for r in rows if r["kind"] != "excluded"])
     b = bar(rows)
     rounds = defaultdict(list)
     for r in rows:
@@ -90,6 +91,9 @@ def _check():
     x2["total"] = sum(x2[p] for p in PARAMS)
     line = {l.split()[-1]: l for l in report(rows + [x2]).splitlines() if l.startswith("  ")}
     assert "n=2" in line["x"] and "ADVANCES" in line["x"], line["x"]  # mean 12 >= 11.33
+    x3 = dict(x2, kind="excluded")  # an excluded judge of the same paragraph must not count
+    line = {l.split()[-1]: l for l in report(rows + [x3]).splitlines() if l.startswith("  ")}
+    assert "n=1" in line["x"] and "stops" in line["x"], line["x"]
 
 if __name__ == "__main__":
     _check()
