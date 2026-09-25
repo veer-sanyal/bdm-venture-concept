@@ -41,12 +41,14 @@ That same day the new judge was validated on those eight companies plus one of o
 > [Founder brief.] Independent generators produced these ideas: [merged file]. Build the strongest one to three companies you can from them. Keep, combine, reshape or replace. Research whatever you need.
 
 **Judge** (one fresh agent per paragraph, blind)
-> You're an experienced early-stage investor. Here is a startup concept: [paragraph]. Research it properly: check its key claims against primary sources and find who else serves this customer. Then:
+> You're an experienced early-stage investor. Here is a startup concept: [paragraph]. Research it properly with the web, and don't read local project files: check its key claims against primary sources and find who else serves this customer. Then:
 > 1. Describe the strongest version of this company. Narrow or reshape it if that helps.
 > 2. Rate that version 1 to 5 on customer need, value over what customers use today, market size, and risk (5 means low risk). Give one line of evidence for each.
 > 3. Say what would kill it and name the single fastest test that would tell us.
 >
 > Competition alone is not a reason to pass. Say whether an incumbent already owns this customer's data or buying channel. If you find a company whose pitch matches this one almost exactly, treat it as this team, not a competitor. Judge the idea, not the team. End with exactly "VERDICT: BACK" or "VERDICT: PASS".
+
+(The local-files clause was added 2026-09-25. In loop 2, one of the quality-paperwork judges followed the repo's AGENTS.md and read METHOD.md and STATE.md before judging. STATE.md names our earlier PPAP work, so that judge was not blind, and its score is banked as `excluded`. Two control judges read METHOD.md only, and they are kept.)
 
 (The matching-company sentence was added 2026-09-24. Without it, the judge found a YC control's own company and scored it as the leading competitor.)
 

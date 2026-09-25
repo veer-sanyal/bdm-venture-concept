@@ -1,0 +1,22 @@
+# Judge, P1 (candidate: tax recovery), judge 1 of 3 — loop 2, 2026-09-25
+
+Saved by the orchestrator from the judge's final reply. Scores: need 3, value 2, market 2, risk 2 (total 9). VERDICT: PASS. The judge states it did not open METHOD.md, STATE.md or any historical file.
+
+**Bottom line.** The money is real, but the pitch rests on mid-size plants being skipped, which is false; its one edge (lower fee) is easy to match; the monthly product is already sold by Avalara.
+
+**Claims against primary sources.**
+- 36 months and direct filing: confirmed (IC 6-8.1-9-1; DOR: "the purchasers' tax, and the purchasers must request a refund"; INTIME or GA-110L). TaxMatrix says the deadline runs by calendar year and the state must answer within 90 days or pay interest (not confirmed in statute).
+- Exempt categories confirmed with a catch: "directly used" in direct production; utilities need a separate >50% study.
+- Evidence burden is the hard part: DOR requires a "description of how items are specifically used"; a 2024 ruling needed photos, videos and process descriptions. The plant-use map is the product and won't come from invoices alone.
+- 30–40% fee confirmed for first-time clients, lower for repeat (Cherry Bekaert).
+- "Mid-size plants get skipped": contradicted. TaxMatrix pitches small Indiana manufacturers (machine shop $118K, small plant $172K, mid-size $1.1M) and pays for utility studies; Utility Study Specialists, ICS Tax, Whitinger also work Indiana.
+
+**Who else.** TaxMatrix, Cherry Bekaert, CLA, Agile Consulting, Katz Sapper & Miller own the trusted route. Avalara AvaTax for AP flags overcharged tax (NetSuite, Dynamics, SAP, Oracle, Coupa) and Vendor Exemption Management handles certificates; CereTax; Thomson Reuters AI sales tax (2026). Saveware (~$20K raised, 4 people) now sells mainly to recovery firms under their brand; Arthiva (Forum Ventures) builds evidence-backed claims inside a wider ops system. Neither is this pitch. Data sits in ERP/AP or Avalara; channel is the CPA and contingency firms.
+
+**1. Strongest version.** Full review for 50–1,000-employee manufacturers; one-time recovery at 15–20% excluding utilities; evidence file from a short walkthrough plus 36 months of AP exports; sell via regional CPA firms with a referral share; expand quickly to other direct-claim states; after recovery, charge a share of tax prevented.
+
+**2. Ratings.** Need 3 (real refunds, but one-time found money; controllers already pitched). Value 2 (only edge is 20% vs 30–40%; TaxMatrix serves small plants; Avalara does the ongoing check). Market 2 (judge's estimate ~1,500–2,000 Indiana plants; $20–40K once per plant). Risk 2 (use explanation needs plant knowledge; flagging underpaid tax scares buyers; incumbents can adopt AI or cut fees).
+
+**3. Kill and test.** Kill: median recoverable per plant excluding utilities under ~$75K, or controllers won't hand over 36 months of payables. Test: through one Indiana CPA firm, offer 10 in-range plants a free 36-month review; measure median recoverable excluding utilities, prior recovery-firm use, signed engagements, and state approval of the first 2–3 claims. Kill if median <$75K or fewer than 3 of 10 sign.
+
+Sources: [DOR refunds](https://www.in.gov/dor/i-am-a/business-corp/sales-use-tax-refunds/) · [IC 6-8.1-9-1](https://law.justia.com/codes/indiana/title-6/article-8-1/chapter-9/section-6-8-1-9-1/) · [US Tax Disputes](https://www.ustaxdisputes.com/indiana-tax-developments-fall-2025/) · [TaxMatrix small manufacturers](https://www.taxmatrix.com/how-small-indiana-manufacturers-are-recovering-big-on-sales-tax/) · [TaxMatrix energy](https://www.taxmatrix.com/indiana-sales-tax-refunds-why-stop-at-energy/) · [TaxMatrix statute](https://www.taxmatrix.com/indiana-refunds-and-the-lost-2021-statute/) · [Cherry Bekaert](https://www.cherrybekaertsalestax.com/news/reverse-audits-what-to-know-before-setting-the-contingent-fee) · [Utility Study Specialists](https://gosmartsave.com/state/indiana-utility-sales-tax-exemption/) · [Whitinger](https://whitinger.com/services/predominant-use-studies/) · [AvaTax AP](https://www.avalara.com/us/en/products/avatax-for-accounts-payable.html) · [Vendor Exemption Mgmt](https://www.avalara.com/us/en/products/vendor-exemption-management.html) · [CereTax](https://www.ceretax.com/blog/manufacturing-sales-tax-refunds) · [Saveware](https://www.savewaretax.com/) · [Penn State](https://www.psu.edu/news/invent-penn-state/story/penn-state-student-startup-saveware-innovates-tax-refunds-ai) · [Arthiva](https://arthiva.ai/)
