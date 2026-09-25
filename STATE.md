@@ -2,7 +2,17 @@
 
 Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
 
-## As of 2026-09-24 (read first)
+## As of 2026-09-25 (read first)
+
+- **Loop 2 ran with the labor-line seed. Nothing advances** ([RESULT](research/2026-09-25-loop2/RESULT.md)). Bar: **11.01**, the mean of 13 YC controls; this round's controls were Kailash 12.0, Definite 12.0, Maritime 11.33. Quality paperwork for small auto suppliers scored 10.0 and stops. Sales and use tax recovery for manufacturers scored 9.33 and stops. Both scored market 2.0. All three generators went to Indiana manufacturers, and the judges sized the Indiana wedge. In both cases an incumbent service firm already serves the "underserved" segment (TaxMatrix; consultants plus $49/seat AI tools). Desk research only.
+- **Adopted 2026-09-25 (METHOD):**
+  - Step 4 is a funded-clone check by the orchestrator before judging (Veer).
+  - The judge prompt carries the local-files clause, after a loop-2 judge read STATE.md; that score is banked as `excluded`.
+  - `tools/scores.py` now drops excluded judges before averaging.
+- **Still open:** a shaper per idea (decision 1 below; Veer asked about it during loop 2). The shaper line naming budget and next workflows (decision 5, second half).
+- **Credit disputes (11.2) still clears the raised bar** and is the only advancing candidate.
+
+## As of 2026-09-24
 
 - **The method was replaced on 9/24.** Short prompts, blind judges scoring on the BDM rubric, a bar set by the mean of every banked YC control, and 3 to 5 judges per paragraph. Scores go in `scores.csv`; run `python3 tools/scores.py` to see them. Every agent report is archived under `research/2026-09-24-*`.
 - **Standings (desk research only, not customer validation):**
@@ -16,8 +26,8 @@ Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD
   2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
   3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
   4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough.
-  5. (Added 2026-09-25) Two proposed METHOD changes from the funded-company patterns note ([research/2026-09-25-funded-patterns.md](research/2026-09-25-funded-patterns.md)). First, check merged candidates for clones of funded companies with `tools/yc_overlap.py` before judging. Reason: the judge's matching-company rule would let a clone borrow the funded company's traction. Second, the shaper names the budget line it takes and the next two workflows for the same buyer. Reason: our candidates trail the controls only on market, 2.05 vs 2.70. Neither is applied.
-- **Funded-company patterns (2026-09-25, desk research only).** 712 YC W26–F26 companies were classified, alongside 34 non-YC VC rounds and 25 AI breakouts. Funded AI apps are paid for from labor budgets (63% of the YC app layer). Our one measurable gap to the controls is the market score, because judges price our ideas as narrow per-unit fees. Recommended seed for the next round (allowed now, no METHOD change): *"Look for work that businesses now pay people or an outside firm to do, where AI can now do most of it and the pay behind that work is large. Say whose pay or which firm's fee it replaces."* Neighbors found for the board: Zomma (disputes, as part of a financial-services BPO), Tarifflo (importer-side customs, next to C1), Pairio (technician manual lookup).
+  5. (Added 2026-09-25; the clone check was adopted the same day, the shaper line is still open) Two proposed METHOD changes from the funded-company patterns note ([research/2026-09-25-funded-patterns.md](research/2026-09-25-funded-patterns.md)). First, check merged candidates for clones of funded companies with `tools/yc_overlap.py` before judging. Reason: the judge's matching-company rule would let a clone borrow the funded company's traction. Second, the shaper names the budget line it takes and the next two workflows for the same buyer. Reason: our candidates trail the controls only on market, 2.05 vs 2.70. Neither is applied.
+- **Funded-company patterns (2026-09-25, desk research only).** 712 YC W26–F26 companies were classified, alongside 34 non-YC VC rounds and 25 AI breakouts. Funded AI apps are paid for from labor budgets (63% of the YC app layer). Our one measurable gap to the controls is the market score, because judges price our ideas as narrow per-unit fees. Seed used in loop 2 (it did not raise the market score): *"Look for work that businesses now pay people or an outside firm to do, where AI can now do most of it and the pay behind that work is large. Say whose pay or which firm's fee it replaces."* Neighbors found for the board: Zomma (disputes, as part of a financial-services BPO), Tarifflo (importer-side customs, next to C1), Pairio (technician manual lookup).
 - **Known issue:** the shaper stalled after spawning its research subagents and had to be resumed by message.
 
 ## Founder scope
