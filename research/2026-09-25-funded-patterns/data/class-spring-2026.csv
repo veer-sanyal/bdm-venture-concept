@@ -1,0 +1,194 @@
+name,batch,customer,vertical,buyer,job,budget,model,pricing,ai_role,scope,regulated,physical,sells_to_ai_builders,labor_replaced,wedge_to_platform
+jo,X26,consumer,horizontal,consumer,personal task and life follow-through,new,consumer-app,unk,core,horizontal,n,n,n,personal assistant,n
+Autostep,X26,enterprise,horizontal,coo,map work and automate bottleneck tasks,labor,ai-native-service,unk,core,horizontal,n,n,n,process consultant,n
+Humwork,X26,developer,ai-infra,vp eng,human expert escalation for AI agents,new,marketplace,unk,core,horizontal,n,n,y,none,n
+Miso Labs,X26,developer,ai-infra,vp eng,emotive voice foundation models,software,infra-api,unk,core,horizontal,n,n,y,none,n
+Foresight,X26,enterprise,cpg,head of consumer insights,simulate consumer choices for market research,labor,saas,unk,core,narrow,n,n,n,market researcher,n
+Smartbase,X26,midmarket,manufacturing,coo,manufacturing ERP,software,saas,unk,core,vertical-suite,n,n,n,none,n
+FinalDose,X26,unk,pharma,unk,programmable DNA-recognition cancer drug,unk,other,unk,none,narrow,y,y,n,none,y
+Prism,X26,unk,hr,head of talent,candidate sourcing and placement,labor,ai-native-service,unk,core,horizontal,n,n,n,recruiter,n
+TakeCareOS,X26,smb,long-term-care,care agency owner,care scheduling billing documentation compliance,labor,saas,unk,core,vertical-suite,y,n,n,care admin staff,y
+Ploy,X26,unk,marketing,cmo,website-driven growth,unk,saas,unk,unk,horizontal,n,n,n,none,n
+Advanced Metal Research,X26,midmarket,manufacturing,plant manager,robotic welding cells,labor,hardware-robotics,unk,core,narrow,n,y,n,welder,n
+Linzumi,X26,developer,software-engineering,vp eng,direct coding agents from team chat,software,saas,unk,core,horizontal,n,n,n,none,y
+Clara,X26,consumer,healthcare-provider,consumer,AI primary care and longevity practice,labor,ai-native-service,unk,core,vertical-suite,y,n,n,primary care physician,n
+Imperfect,X26,consumer,fitness,consumer,adaptive endurance training and recovery plans,labor,consumer-app,unk,unk,narrow,n,n,n,endurance coach,n
+Fuchsia,X26,midmarket,hardware,head of compliance,hardware certification and testing,labor,ai-native-service,unk,core,narrow,y,y,n,certification consultant,n
+Cignara,X26,enterprise,horizontal,vp customer support,voice and chat sales and support,labor,saas,unk,core,horizontal,n,n,n,support agent,n
+Drafted,X26,consumer,real-estate,homeowner,generate home floor plans and elevations,labor,consumer-app,unk,core,narrow,n,n,n,architect,n
+9 Mothers,X26,government,defense,dow program office,counter-drone interceptor systems,new,hardware-robotics,unk,incidental,narrow,y,y,n,none,n
+Sazabi,X26,developer,software-engineering,vp eng,observability for engineering teams,software,saas,unk,core,horizontal,n,n,n,none,n
+Netter,X26,midmarket,horizontal,coo,centralize data and automate workflows,labor,saas,unk,core,platform,n,n,n,data engineer,n
+Superset,X26,developer,software-engineering,vp eng,run hundreds of coding agents in parallel,software,saas,unk,core,horizontal,n,n,n,none,n
+Inth,X26,midmarket,security,head of privacy,privacy compliance scanning and fixes,software,saas,unk,core,horizontal,y,n,n,privacy analyst,n
+Regbase,X26,unk,legal,general counsel,corporate compliance automation,labor,saas,unk,unk,horizontal,y,n,n,corporate paralegal,n
+Bloom,X26,unk,marketing,head of brand,on-brand creative generation via API,labor,infra-api,unk,core,horizontal,n,n,n,designer,n
+Dispatch,X26,enterprise,aerospace,head of manufacturing,return in-space manufactured payloads,new,hardware-robotics,unk,none,narrow,y,y,n,none,n
+Hedge,X26,unk,insurance,insurance broker,specialty insurance underwriting,unk,fintech-balance-sheet,unk,core,narrow,y,n,n,underwriter,n
+Surtr Defense Systems,X26,government,defense,program office,counter-UAS sensor fusion and C2,software,saas,unk,core,platform,y,y,n,none,y
+Klarify,X26,smb,mental-health,therapist practice owner,therapy notes claims and practice admin,labor,saas,unk,core,vertical-suite,y,n,n,practice admin and biller,n
+Korso,X26,unk,horizontal,unk,general-purpose assistant,unk,other,unk,unk,horizontal,n,n,n,assistant,n
+primitive,X26,developer,ai-infra,vp eng,communication infrastructure for agents,new,infra-api,unk,core,horizontal,n,n,y,none,n
+Standard Signal,X26,unk,asset-management,allocator,AI-run hedge fund trading,unk,fintech-balance-sheet,unk,core,narrow,y,n,n,analyst and trader,n
+Stage,X26,developer,software-engineering,vp eng,review AI-generated pull requests,software,saas,unk,core,horizontal,n,n,n,none,n
+"PerfectBit, Inc.",X26,unk,robotics,unk,learned robot manipulation policies,unk,hardware-robotics,unk,core,horizontal,n,y,n,none,n
+Memoir,X26,enterprise,horizontal,head of product marketing,explain shipped product changes to audiences,labor,saas,unk,core,horizontal,n,n,n,product marketer,y
+Multiplier,X26,enterprise,asset-management,cio,investment research and portfolio agents,software,saas,unk,core,platform,n,n,n,analyst,n
+Totalis,X26,unk,prediction-markets,trader,derivatives on prediction markets,new,fintech-balance-sheet,unk,unk,narrow,y,n,n,none,n
+Replicas,X26,developer,software-engineering,vp eng,cloud coding agents that clear tickets,labor,saas,unk,core,horizontal,n,n,n,software engineer,n
+Rudus,X26,smb,construction,estimator,concrete takeoffs and estimates,labor,saas,unk,core,narrow,n,n,n,estimator,n
+Hexa,X26,midmarket,industrial-distribution,vp sales,quoting and procurement for distributors,labor,saas,unk,core,narrow,n,n,n,inside sales rep,n
+Scope,X26,developer,marketing,head of devrel,measure product discoverability by AI agents,new,saas,unk,core,horizontal,n,n,n,none,n
+Twolabs,X26,developer,robotics,robotics builder,modular humanoid robots and training platform,new,hardware-robotics,unk,core,platform,n,y,n,none,n
+LightSprint,X26,midmarket,software-engineering,vp product,agent-built software for product teams,labor,saas,unk,core,horizontal,n,n,n,software engineer,n
+Discovered Materials,X26,enterprise,semiconductors,vp r&d,AI discovery of semiconductor materials,labor,other,unk,core,narrow,n,n,n,materials scientist,n
+Saffron,X26,midmarket,hr,head of engineering recruiting,assess candidates' AI coding skills,software,saas,unk,incidental,narrow,n,n,n,technical interviewer,n
+Chert,X26,midmarket,horizontal,head of cx,automated iMessage business messaging,software,infra-api,unk,incidental,horizontal,n,n,n,none,n
+Nine Fives,X26,enterprise,electronics,test engineering lead,RF test equipment,unk,hardware-robotics,unk,incidental,narrow,n,y,n,none,n
+Andustry,X26,unk,finance,unk,unk,unk,other,unk,unk,narrow,n,n,n,none,n
+Zenbu,X26,developer,software-engineering,vp eng,extensible IDE for coding agents,software,saas,unk,core,horizontal,n,n,n,none,n
+InLoop Robotics,X26,midmarket,logistics,vp operations,robotic warehouse pick and pack,labor,hardware-robotics,unk,core,narrow,n,y,n,warehouse picker,n
+Dayjob,X26,midmarket,logistics,dispatch manager,short-haul truck route scheduling,labor,saas,unk,core,narrow,n,n,n,dispatcher,n
+Trellis,X26,smb,real-estate,property manager,short-term rental operations end-to-end,labor,saas,unk,core,vertical-suite,n,n,n,property operations staff,y
+Atrisa,X26,enterprise,semiconductors,vp hardware engineering,analog circuit design and debug,labor,saas,unk,core,narrow,n,n,n,analog design engineer,n
+Tenet Industries,X26,mixed,electronics,hardware engineering lead,PCB assembly contract manufacturing,unk,hardware-robotics,unk,core,narrow,n,y,n,assembly technician,n
+Hub,X26,enterprise,ai-infra,head of data at AI lab,real-world multimodal training data,new,other,unk,core,horizontal,n,y,y,none,n
+Light Anchor,X26,consumer,retail,consumer,AI-operated consumer brands,unk,other,unk,core,platform,n,n,n,brand operations staff,n
+Limrun,X26,developer,ai-infra,vp eng,mobile dev environments for cloud agents,new,infra-api,unk,incidental,horizontal,n,n,y,none,n
+Superlog,X26,developer,software-engineering,vp eng,incident investigation and auto-fix PRs,software,saas,unk,core,horizontal,n,n,n,on-call engineer,n
+GovGuard,X26,government,government,records officer,FOIA records search and redaction,labor,saas,unk,core,narrow,y,n,n,public records clerk,y
+Kinro,X26,smb,insurance,small business owner,small business insurance brokerage,labor,ai-native-service,unk,core,narrow,y,n,n,insurance broker,n
+Juno,X26,consumer,consumer-health,consumer,chronic illness health assistance,new,consumer-app,unk,core,narrow,n,n,n,none,n
+Zolvo,X26,midmarket,lending,coo,lender back-office reconciliation and collections,labor,saas,unk,core,vertical-suite,y,n,n,back-office operator,n
+Interfaze,X26,developer,ai-infra,ml lead,deterministic document and vision model,software,infra-api,unk,core,horizontal,n,n,y,none,n
+Elyra,X26,smb,restaurants,restaurant owner,reservations and call answering,software,saas,unk,core,narrow,n,n,n,host,n
+Wealor,X26,unk,wealth-management,wealth manager,wealth management platform,unk,saas,unk,core,vertical-suite,y,n,n,unk,n
+"HEVN, inc",X26,unk,payments,cfo,cross-border B2B payment settlement,unk,other,unk,none,narrow,y,n,n,none,n
+KelAI,X26,enterprise,asset-management,pm,trading signal discovery and validation,labor,saas,unk,core,narrow,n,n,n,quant researcher,n
+Deep Interactions,X26,midmarket,horizontal,head of product,build AI apps for teams,labor,saas,unk,core,horizontal,n,n,n,software engineer,n
+qomplement,X26,midmarket,logistics,vp operations,PO intake and freight invoice processing,labor,saas,unk,core,vertical-suite,n,n,n,back-office clerk,n
+Pavoot,X26,midmarket,marketing,head of field marketing,in-person event management and follow-up,labor,saas,unk,core,narrow,n,n,n,event manager,n
+Madrone,X26,enterprise,data-centers,data center operations head,dew-point cooling for data centers,unk,hardware-robotics,unk,none,narrow,n,y,n,none,n
+shotwell.ai,X26,developer,robotics,head of robotics data,robotics data annotation and QA,labor,ai-native-service,unk,core,narrow,n,n,y,data annotator,n
+Standout,X26,mixed,hr,head of talent,agent-mediated hiring introductions,new,marketplace,unk,core,horizontal,n,n,n,recruiter,n
+transload,X26,midmarket,logistics,terminal manager,freight dimensioning via security cameras,new,saas,unk,core,narrow,n,y,n,none,n
+Userlens,X26,midmarket,customer-success,head of customer success,proactive product adoption guidance,labor,saas,unk,core,horizontal,n,n,n,customer success manager,n
+Sherpa,X26,midmarket,marketing,head of growth,website conversion optimization testing,software,saas,unk,core,horizontal,n,n,n,CRO specialist,n
+Antinuous,X26,enterprise,research,head of r&d,autonomous end-to-end research,labor,saas,unk,core,horizontal,n,n,n,researcher,n
+InstaAgent,X26,midmarket,marketing,head of growth,persona-targeted paid social campaigns,labor,ai-native-service,unk,core,horizontal,n,n,n,performance marketing agency,n
+RentAHuman,X26,mixed,ai-infra,agent builder,AI agents hiring humans for tasks,new,marketplace,unk,core,horizontal,n,n,y,none,n
+Andco,X26,smb,legal,personal injury firm partner,records retrieval for personal injury cases,labor,ai-native-service,unk,core,narrow,y,n,n,paralegal,n
+Arga Labs,X26,developer,ai-infra,vp eng,sandboxed service twins for agent testing,new,infra-api,unk,core,horizontal,n,n,y,none,n
+Dreach,X26,smb,staffing,staffing firm owner,hiring-signal sales intel for staffing firms,software,saas,unk,unk,narrow,n,n,n,business development researcher,n
+Synphony,X26,midmarket,agriculture,grower,strawberry picking robots and analytics,labor,hardware-robotics,unk,core,narrow,n,y,n,farm picker,y
+Callab AI,X26,enterprise,contact-center,vp customer service,voice AI on legacy PBX,labor,saas,unk,core,horizontal,n,n,n,call center agent,n
+Pairio,X26,midmarket,manufacturing,maintenance manager,machine troubleshooting from manuals,new,saas,unk,core,narrow,n,y,n,none,n
+Taiga,X26,smb,healthcare-provider,practice owner,medical coding claims and denials,labor,ai-native-service,unk,core,narrow,y,n,n,medical biller,n
+StableBrowse,X26,developer,robotics,unk,data infrastructure for physical AI,new,infra-api,unk,core,horizontal,n,n,y,none,n
+Kimpton,X26,enterprise,asset-management,pm,investment research OS and financial eval environments,software,saas,unk,core,platform,n,n,n,analyst,y
+Lamina Labs,X26,developer,ai-infra,vp eng,real-time explainer video generation,new,infra-api,unk,core,horizontal,n,n,y,video producer,n
+BentoLabs AI,X26,developer,ai-infra,vp eng,monitor and fix failing production agents,new,saas,unk,core,horizontal,n,n,y,none,n
+Lab0,X26,enterprise,enterprise-software,vp implementation,automate SaaS implementation and integration,labor,saas,unk,core,horizontal,n,n,n,forward-deployed engineer,n
+Gojiberry AI,X26,midmarket,sales,head of sales,outbound prospecting and meeting booking,labor,saas,unk,core,horizontal,n,n,n,SDR,y
+Napkin Math,X26,consumer,consumer-health,consumer,gamified nutrition tracking and coaching,new,consumer-app,unk,core,narrow,n,n,n,nutrition coach,n
+Ontora,X26,enterprise,horizontal,coo,employee interviews to map workflows,labor,saas,unk,core,horizontal,n,n,n,management consultant,n
+Oddpool,X26,enterprise,prediction-markets,head of trading,prediction market data and trading infra,new,infra-api,unk,unk,narrow,n,n,n,none,n
+Voquill,X26,midmarket,healthcare-provider,lab director,medical lab information system and workflow,software,saas,unk,core,vertical-suite,y,n,n,lab admin staff,y
+Keyframe Labs,X26,developer,ai-infra,vp eng,real-time interactive avatar models,new,infra-api,unk,core,horizontal,n,n,y,none,n
+Savant,X26,enterprise,horizontal,cio,company knowledge capture for people and agents,software,saas,unk,core,horizontal,n,n,n,none,n
+Adialante,X26,midmarket,healthcare-provider,medical director,mobile MRI cancer screening,new,hardware-robotics,usage,incidental,narrow,y,y,n,none,y
+Lumius,X26,enterprise,healthcare-provider,hospital procurement,3D ultrasound imaging devices,unk,hardware-robotics,unk,incidental,narrow,y,y,n,none,n
+Prototyping.io,X26,mixed,manufacturing,mechanical engineer,CAD-to-part manufacturing,labor,ai-native-service,unk,core,narrow,n,y,n,machinist,n
+Result,X26,smb,horizontal,founder,incorporate bank and run a new business,software,saas,unk,core,platform,n,n,n,none,n
+Parrot,X26,smb,auto-repair,shop owner,calls negotiation and coordination for auto shops,labor,saas,unk,core,vertical-suite,n,n,n,service advisor,y
+Mount,X26,midmarket,insurance,cto,liability insurance for AI agents,new,fintech-balance-sheet,unk,core,narrow,y,n,n,none,y
+Infera,X26,enterprise,life-sciences,lab director,compile experiments into instrument runs,labor,saas,unk,core,narrow,n,y,n,lab automation engineer,n
+AICE,X26,government,defense,navy program office,autonomous underwater defense drones,new,hardware-robotics,unk,core,narrow,y,y,n,none,n
+Complir,X26,midmarket,retail,head of compliance,cross-border product regulatory compliance,labor,saas,unk,core,narrow,y,n,n,compliance specialist,n
+Harbor,X26,midmarket,pharma,vp clinical operations,clinical trial EDC and CRO execution,labor,ai-native-service,unk,core,vertical-suite,y,n,n,CRO project manager,y
+Allowance,X26,consumer,payments,consumer,scoped payment credentials for AI agents,new,other,unk,incidental,horizontal,y,n,n,none,n
+smol machines,X26,developer,software-engineering,vp eng,portable lightweight VMs,software,infra-api,unk,none,horizontal,n,n,n,none,n
+River Markets,X26,mixed,prediction-markets,trader,prime brokerage for prediction markets,new,fintech-balance-sheet,unk,none,narrow,y,n,n,none,n
+Masterpiece,X26,smb,ai-infra,founder,working capital for AI data vendors,new,fintech-balance-sheet,unk,none,narrow,y,n,n,none,n
+Minicor,X26,developer,ai-infra,vp eng,legacy Windows desktop automation via API,new,infra-api,usage,core,horizontal,n,n,y,none,n
+E1O,X26,consumer,consumer-electronics,consumer,camera-free AI glasses,new,hardware-robotics,unk,core,horizontal,n,y,n,none,n
+tday.com,X26,midmarket,marketing,head of marketing,product launch creative generation,labor,saas,unk,core,narrow,n,n,n,designer,n
+General Instinct,X26,developer,robotics,unk,inference infrastructure for physical AI,new,infra-api,unk,core,horizontal,n,n,y,none,n
+ValCtrl,X26,consumer,prediction-markets,consumer,free-form prediction market pricing,new,fintech-balance-sheet,unk,core,narrow,y,n,n,none,y
+Reason Machines,X26,developer,software-engineering,vp eng,autonomous bug-fix pull requests,labor,saas,unk,core,horizontal,n,n,n,software engineer,n
+Zibra Labs,X26,enterprise,ai-infra,head of infrastructure,distributed HPC compute clusters,software,infra-api,unk,incidental,horizontal,n,n,n,none,y
+PLAN0 AI,X26,midmarket,construction,real estate developer,construction cost estimates from plans,labor,saas,unk,core,vertical-suite,n,n,n,cost estimator,n
+Armature,X26,developer,marketing,head of devrel,get products picked by coding agents,new,ai-native-service,unk,core,narrow,n,n,n,devrel,n
+Soria,X26,enterprise,asset-management,pm,sector financial models and research,software,saas,unk,core,narrow,n,n,n,equity analyst,y
+Aseon Labs,X26,enterprise,autonomous-vehicles,fleet operations lead,robotic charging and servicing for AV fleets,labor,hardware-robotics,unk,incidental,narrow,n,y,n,depot technician,n
+Walter,X26,midmarket,manufacturing,coo,manufacturing operations admin work,labor,saas,unk,core,vertical-suite,n,n,n,operations coordinator,n
+Chronicle Labs,X26,enterprise,ai-infra,vp eng,staging and backtesting for enterprise agents,new,saas,unk,core,horizontal,n,n,y,none,n
+Tasklet,X26,mixed,horizontal,knowledge worker,agent executes tasks across SaaS tools,labor,saas,unk,core,horizontal,n,n,n,ops assistant,n
+Wato,X26,midmarket,horizontal,head of ai,shared memory and workflows for workplace agents,new,saas,unk,core,horizontal,n,n,n,none,n
+Kuli,X26,enterprise,marketing,head of influencer marketing,social video analysis and creator scouting,labor,saas,unk,core,narrow,n,n,n,influencer marketing analyst,n
+Ardent,X26,developer,software-engineering,vp eng,instant Postgres clones for agent testing,new,infra-api,unk,incidental,horizontal,n,n,n,none,n
+BioStack Platforms,X26,enterprise,healthcare-data,head of ML,clinical data training environments,new,other,unk,core,narrow,y,n,y,none,n
+Silmaril,X26,developer,security,ciso,runtime security for AI agents,new,infra-api,unk,core,horizontal,n,n,y,none,n
+Pops,X26,consumer,gaming,consumer,create and play AI mini-games,new,consumer-app,unk,core,narrow,n,n,n,none,n
+Saudara AI,X26,midmarket,sourcing,head of supply chain,overseas factory sourcing and QC,labor,ai-native-service,unk,core,narrow,n,n,n,sourcing agent,n
+Memory Store,X26,midmarket,horizontal,head of ai,shared memory for team agents,new,saas,unk,core,horizontal,n,n,n,none,n
+AbInitio Bio,X26,enterprise,pharma,head of process development,predict biomanufacturing outcomes,labor,saas,unk,core,narrow,y,n,n,process development scientist,n
+ANORIA,X26,consumer,consumer-electronics,consumer,emotion-reading wearable,new,hardware-robotics,unk,unk,narrow,n,y,n,none,n
+Ornadyne,X26,government,defense,dod program office,stealth flapping-wing recon drones,new,hardware-robotics,unk,incidental,narrow,y,y,n,none,n
+AquaShield,X26,enterprise,real-estate,head of facilities,water leak detection for buildings,new,other,unk,core,narrow,n,y,n,none,n
+Foaster,X26,enterprise,horizontal,ceo,AI transformation assessment and roadmap,labor,ai-native-service,unk,core,horizontal,n,n,n,management consultant,y
+Eden Robotics,X26,enterprise,manufacturing,vp operations,semi-humanoid robots for hire,labor,hardware-robotics,usage,core,narrow,n,y,n,factory and warehouse worker,y
+TesterArmy,X26,developer,software-engineering,vp eng,automated web and mobile app QA,labor,saas,unk,core,horizontal,n,n,n,QA engineer,n
+Plena Health,X26,midmarket,healthcare-provider,practice administrator,referrals fax scheduling and collections,labor,saas,unk,core,vertical-suite,y,n,n,front-office staff,y
+RASPIRE,X26,midmarket,security,ciso,runtime application attack blocking,software,saas,unk,core,horizontal,n,n,n,security analyst,n
+Hessian,X26,midmarket,horizontal,coo,forward-deployed agents running operations,labor,ai-native-service,unk,core,horizontal,n,n,n,operations staff,n
+Amboras,X26,smb,retail,store owner,autonomous ecommerce store build and optimization,software,saas,unk,core,vertical-suite,n,n,n,ecommerce agency,n
+Aster,X26,unk,research,unk,autonomous open-ended research,labor,other,unk,core,horizontal,n,n,n,researcher,n
+OpenProse,X26,developer,ai-infra,vp eng,declarative runtime for long-running agents,new,infra-api,unk,core,horizontal,n,n,y,none,n
+General Aviation,X26,government,aviation,airport authority,remote air traffic control towers,unk,other,unk,unk,narrow,y,y,n,none,n
+"Apollo Atomics, Inc.",X26,unk,energy,unk,compact nuclear reactors,unk,hardware-robotics,unk,unk,narrow,y,y,n,none,n
+OpenWork,X26,mixed,horizontal,knowledge worker,open-source desktop agent workspace,software,saas,unk,core,horizontal,n,n,n,none,n
+Tolmo,X26,enterprise,security,ciso,cloud security triage and remediation,labor,saas,unk,core,horizontal,n,n,n,security engineer,n
+ProjectX,X26,mixed,horizontal,unk,parallel cloud computers for humans and agents,new,infra-api,unk,incidental,horizontal,n,n,n,none,n
+Auxos,X26,enterprise,marketing,head of insights,AI customer twins for market research,labor,saas,unk,core,horizontal,n,n,n,market researcher,n
+Arzana,X26,midmarket,manufacturing,coo,quoting order entry and invoicing,labor,saas,unk,core,vertical-suite,n,n,n,office staff,y
+Pentagon,X26,mixed,horizontal,unk,workspace for AI employees to coordinate,new,saas,unk,core,horizontal,n,n,n,none,n
+CharacterQuilt,X26,enterprise,marketing,marketing ops lead,deploy campaigns in marketing tools,labor,saas,unk,core,narrow,n,n,n,marketing ops specialist,n
+Expanse,X26,enterprise,ai-infra,head of ML infrastructure,recover idle GPU capacity,software,saas,unk,core,horizontal,n,n,y,none,n
+YouArt,X26,consumer,media,creator,AI video originals and fan funding,new,marketplace,unk,core,narrow,n,n,n,none,n
+Runtime,X26,midmarket,fintech,head of financial operations,financial operations agents with audit trail,labor,saas,unk,core,vertical-suite,y,n,n,ops analyst,n
+Kinect,X26,midmarket,retail,head of ecommerce,on-site AI sales agent for D2C,software,saas,unk,core,narrow,n,n,n,sales associate,n
+Gravy,X26,consumer,consumer-finance,consumer,agents move money trade and file taxes,new,consumer-app,unk,core,vertical-suite,y,n,n,financial advisor,n
+AgentPhone,X26,developer,ai-infra,vp eng,phone numbers for AI agents,new,infra-api,unk,incidental,horizontal,n,n,y,none,n
+Arden,X26,enterprise,accounting,head of internal audit,SOX control testing and workpapers,labor,saas,unk,core,narrow,y,n,n,internal auditor,n
+Uno Wallet,X26,consumer,payments,consumer,AI mobile wallet,new,consumer-app,unk,core,narrow,y,n,n,none,n
+Revnu,X26,smb,marketing,founder,run all growth channels,labor,ai-native-service,unk,core,horizontal,n,n,n,growth marketer,n
+Asendia AI,X26,smb,staffing,staffing agency owner,candidate sourcing screening and submittals,labor,saas,unk,core,narrow,n,n,n,recruiter,n
+Mochatrade,X26,consumer,consumer-finance,consumer,perpetual futures on US stocks,new,fintech-balance-sheet,unk,none,narrow,y,n,n,none,y
+Avea Robotics,X26,developer,robotics,head of robotics operations,remote robot teleoperation and intervention,new,saas,unk,incidental,horizontal,n,y,n,none,n
+Manicule,X26,developer,marketing,head of devrel,agent-facing docs and devrel,labor,ai-native-service,unk,core,narrow,n,n,y,devrel,n
+Lattice Health,X26,enterprise,healthcare-provider,cmio,monitor deployed medical imaging AI,new,saas,unk,core,narrow,y,n,n,none,n
+Astraea,X26,midmarket,pharma,head of biometrics,clinical trial biometrics programming,labor,saas,unk,core,narrow,y,n,n,statistical programmer,y
+Arlo Industries,X26,government,defense,dod program office,passive sensor network for drone tracking,new,hardware-robotics,unk,unk,narrow,y,y,n,none,n
+Gigacatalyst,X26,midmarket,software,vp product,embedded AI analytics builder,software,saas,unk,core,horizontal,n,n,n,none,n
+flowscope,X26,midmarket,horizontal,coo,map and automate business processes,labor,ai-native-service,unk,core,horizontal,n,n,n,process consultant,n
+Klaimee,X26,midmarket,insurance,general counsel,liability insurance for AI agents,new,fintech-balance-sheet,unk,incidental,narrow,y,n,n,none,n
+KugelAudio,X26,enterprise,ai-infra,vp eng,on-prem multilingual TTS model,software,infra-api,unk,core,horizontal,n,n,y,none,n
+CentralComs,X26,smb,home-services,owner,call answering dispatch and booking,labor,saas,unk,core,vertical-suite,n,n,n,dispatcher,n
+Panacea,X26,midmarket,pharma,vp regulatory affairs,FDA regulatory filings,labor,ai-native-service,outcome,core,narrow,y,n,n,regulatory consultant,n
+Modern,X26,midmarket,it,head of it,IT help desk access and onboarding,software,saas,unk,core,platform,n,n,n,IT help desk tech,n
+ReasonBlocks,X26,developer,ai-infra,vp eng,distill agent traces into cheaper models,software,infra-api,unk,core,horizontal,n,n,y,none,n
+InsForge (InstaCloud),X26,developer,software-engineering,vp eng,agent-native serverless cloud,software,infra-api,unk,incidental,horizontal,n,n,n,devops engineer,n
+Hyper,X26,midmarket,horizontal,head of operations,company knowledge graph for AI employees,new,saas,subscription,core,horizontal,n,n,n,none,n
+Enjamb Labs,X26,enterprise,pharma,vp r&d operations,agents working inside pharma systems,labor,saas,unk,core,vertical-suite,y,n,n,clinical ops staff,n
+Arctic Health,X26,midmarket,healthcare-provider,credentialing director,provider credentialing and payer contracting,labor,ai-native-service,unk,core,narrow,y,n,n,credentialing specialist,n
+Framewise Health,X26,mixed,healthcare-provider,head of patient engagement,personalized patient education videos,new,saas,unk,core,narrow,y,n,n,none,n
+Clawvisor,X26,developer,security,ciso,authorization layer for AI agents,new,infra-api,unk,incidental,horizontal,n,n,n,none,n
+Intelligence Factory,X26,developer,robotics,robotics company,general robot intelligence models,new,hardware-robotics,unk,core,horizontal,n,y,n,none,n
+Maquoketa Research,X26,midmarket,gaming,head of liveops,automated liveops for game studios,labor,saas,unk,unk,narrow,n,n,n,liveops manager,n
+Cohesion,X26,enterprise,asset-management,head of research,AI financial research,software,saas,unk,core,narrow,n,n,n,financial analyst,n
+Thomas,X26,unk,horizontal,unk,AI founder running its own companies,unk,other,unk,core,horizontal,n,n,n,founder,n
+Huscarl,X26,enterprise,insurance,captive manager,actuarial modeling for captives,labor,saas,unk,core,narrow,y,n,n,actuary,n
+GBrain,X26,mixed,horizontal,knowledge worker,cloud assistant for overnight tasks,new,saas,unk,core,horizontal,n,n,n,assistant,n
+HeyClicky,X26,consumer,horizontal,consumer,voice cursor assistant and agent spawner,new,consumer-app,unk,core,horizontal,n,n,n,none,n
+Akkari,X26,midmarket,horizontal,vp customer success,customer commitment tracking and follow-through,labor,saas,unk,core,horizontal,n,n,n,account manager,y

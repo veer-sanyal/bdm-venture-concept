@@ -1,0 +1,91 @@
+name,batch,customer,vertical,buyer,job,budget,model,pricing,ai_role,scope,regulated,physical,sells_to_ai_builders,labor_replaced,wedge_to_platform
+Tire Swing,F26,midmarket,real-estate,head of compliance,affordable housing eligibility recertifications,labor,ai-native-service,unk,core,narrow,y,n,n,compliance consultant,n
+The Company Company,F26,unk,horizontal,ceo,run company operations with one agent,labor,saas,unk,core,platform,n,n,n,general staff,n
+GodHands,F26,enterprise,horizontal,coo,reconstruct departing employee work and knowledge,new,saas,unk,core,horizontal,n,n,n,none,n
+Degla Inc,F26,unk,drones,drone operations lead,natural-language multi-drone mission execution,labor,saas,unk,core,horizontal,n,y,n,drone pilot,n
+Collar,F26,midmarket,investor-relations,head of ir,earnings prep and investor targeting,labor,saas,unk,core,narrow,n,n,n,ir analyst,n
+Nxtcure Labs,F26,mixed,pharma,head of r&d,drug discovery CRO services,labor,ai-native-service,unk,core,platform,y,y,n,cro scientist,y
+RightNow,F26,developer,ai-infra,vp eng,optimized GPU kernels and model serving,software,infra-api,usage,core,horizontal,n,n,y,none,n
+Hickory & Company,F26,midmarket,banking,bsa officer,BSA/AML compliance operations,labor,saas,unk,core,narrow,y,n,n,compliance analyst,n
+Roma,F26,consumer,horizontal,consumer,personal task capture and execution,new,consumer-app,unk,core,horizontal,n,n,n,personal assistant,n
+Lyon,F26,enterprise,banking,chief data officer,credit fraud and churn prediction models,software,infra-api,unk,core,vertical-suite,y,n,n,data scientist,n
+Definite,F26,midmarket,accounting,cfo,back-office finance agents on unified books,software,saas,unk,core,platform,n,n,n,accounting clerk,n
+Veltha,F26,enterprise,insurance,head of claims,workers comp claims administration,labor,ai-native-service,unk,core,narrow,y,n,n,claims adjuster,y
+isoquant,F26,developer,ai-infra,vp eng,self-optimizing AI inference hosting,software,infra-api,unk,core,horizontal,n,n,y,none,n
+Grep AI,F26,mixed,horizontal,head of operations,research-intensive knowledge work agents,labor,saas,unk,core,platform,n,n,n,research analyst,n
+Lightfield,F26,enterprise,legal,general counsel,in-house legal request handling and drafting,labor,saas,unk,core,vertical-suite,n,n,n,junior in-house counsel,n
+Simantic,F26,unk,hardware-engineering,vp firmware engineering,embedded firmware hardware simulation,software,saas,unk,incidental,narrow,n,n,n,none,n
+Lambda Robotics,F26,enterprise,data-centers,vp data center operations,robotic work in AI data centers,labor,hardware-robotics,unk,core,narrow,n,y,n,data center technician,n
+herdr,F26,developer,software-engineering,developer,managing fleets of coding agent sessions,new,saas,unk,core,horizontal,n,n,n,none,n
+Sentient OS,F26,consumer,horizontal,consumer,overnight on-device personal work preparation,new,consumer-app,unk,core,horizontal,n,n,n,executive assistant,n
+Simulithic,F26,developer,software-engineering,vp eng,production user-journey simulation testing,software,saas,unk,core,narrow,n,n,n,qa engineer,n
+Veeza AI,F26,consumer,travel,consumer,tourist visa applications end to end,labor,ai-native-service,unk,core,narrow,y,n,n,visa agent,y
+Qokedas,F26,enterprise,ai-infra,head of data at ai lab,scientific training data collection,new,other,unk,incidental,narrow,n,n,y,none,n
+Kailash Labs,F26,enterprise,horizontal,cto,distilling specialized video reasoning models,software,infra-api,unk,core,horizontal,n,n,n,none,n
+Agent 37,F26,developer,ai-infra,developer,persistent sandboxes for AI agents,software,infra-api,usage,core,horizontal,n,n,y,none,n
+Sigma,F26,enterprise,private-equity,head of corp dev,M&A data lakehouse integration,software,saas,unk,none,narrow,n,n,n,none,n
+Faraday,F26,enterprise,manufacturing,vp manufacturing,coordinating humans agents and robots industrially,software,saas,unk,core,platform,n,y,n,none,y
+Viraj Aero,F26,enterprise,aerospace,cto,engines for aircraft and data centers,unk,hardware-robotics,unk,none,narrow,n,y,n,none,n
+Boat,F26,developer,ai-infra,developer,cloud VMs for AI agents,software,infra-api,unk,core,horizontal,n,n,y,none,n
+Applied Kinetics,F26,enterprise,energy,project director,supplier expediting and equipment delivery tracking,labor,ai-native-service,unk,core,narrow,n,n,n,expediter,n
+Inflection Space Systems,F26,mixed,aerospace,satellite program manager,high-volume spacecraft manufacturing,unk,hardware-robotics,unk,none,narrow,n,y,n,none,n
+Capveon,F26,government,government,unk,turning infrastructure demand into action,unk,saas,unk,none,narrow,n,n,n,unk,n
+Aviern,F26,enterprise,energy,vp pipeline integrity,PHMSA-mandated pipeline aerial patrol,labor,hardware-robotics,usage,core,narrow,y,y,n,helicopter patrol crew,y
+Forward,F26,midmarket,asset-management,debt advisory managing director,matching borrowers to private credit funds,new,marketplace,unk,core,narrow,n,n,n,none,n
+Talos,F26,enterprise,energy,head of grid asset management,transformer predictive maintenance monitoring,software,hardware-robotics,unk,core,narrow,n,y,n,none,n
+Lantern AI,F26,unk,hr,head of talent,end-to-end hiring loop execution,labor,saas,unk,core,narrow,n,n,n,recruiter,n
+Micora,F26,enterprise,energy,vp energy procurement,rapidly deployed solar microgrid installation,labor,hardware-robotics,unk,none,narrow,n,y,n,epc installer,n
+Nodus Compute,F26,developer,ai-infra,vp eng,cloud compute for AI workloads,software,infra-api,unk,core,horizontal,n,n,y,none,n
+Mirrors,F26,developer,ai-infra,vp eng,runtime fixes for AI agent failures,new,infra-api,unk,core,horizontal,n,n,y,none,n
+OnePatch,F26,developer,software-engineering,vp eng,on-call incident detection and resolution,labor,saas,unk,core,narrow,n,n,n,sre,n
+Asakana,F26,midmarket,wholesale-distribution,distributor ops manager,restaurant order entry into ERP,labor,ai-native-service,unk,core,narrow,n,n,n,order entry clerk,n
+Bryel,F26,enterprise,ai-infra,head of research,autonomous AI research engineering,labor,saas,unk,core,narrow,n,n,y,research engineer,n
+River,F26,mixed,horizontal,knowledge worker,AI desktop for knowledge work,software,saas,unk,core,horizontal,n,n,n,none,n
+Hopper,F26,developer,ai-infra,vp eng,post-training and serving speech models,software,infra-api,unk,core,horizontal,n,n,y,none,n
+TrueMile,F26,midmarket,logistics,carrier coo,freight sourcing dispatch and load planning,labor,ai-native-service,unk,core,vertical-suite,n,n,n,dispatcher,n
+ByteAsk,F26,developer,software-engineering,vp eng,writing and debugging C/C++ code,labor,saas,unk,core,narrow,n,n,n,software engineer,n
+Antropi Robotics,F26,midmarket,manufacturing,head of hardware,autonomous CNC part production,labor,hardware-robotics,unk,none,narrow,n,y,n,machinist,n
+Elimentary,F26,midmarket,asset-management,fund coo,structured credit middle/back-office operations,labor,ai-native-service,unk,core,vertical-suite,y,n,n,fund operations analyst,y
+Agent Relay,F26,developer,software-engineering,vp eng,coordinating a team's coding agents,new,saas,unk,core,horizontal,n,n,n,none,n
+Invertix,F26,enterprise,energy,vp operations,AI optimization of infrastructure operations,labor,saas,unk,core,vertical-suite,n,y,n,plant operator,n
+Pendulum Robotics,F26,midmarket,robotics,head of hardware,custom motor and actuator manufacturing,unk,hardware-robotics,unk,none,narrow,n,y,n,none,n
+Workers IO,F26,enterprise,software-engineering,vp eng,distributed system fault verification,software,saas,unk,none,narrow,n,n,n,none,n
+Oasive,F26,enterprise,asset-management,head of fixed income,bond relative-value research,labor,saas,unk,core,narrow,n,n,n,fixed income analyst,y
+Shepherd Robotics,F26,enterprise,manufacturing,vp manufacturing,skilled physical assembly and construction tasks,labor,hardware-robotics,unk,core,horizontal,n,y,n,assembly technician,y
+Deploy,F26,unk,horizontal,coo,deploying generalist robots into real work,labor,hardware-robotics,unk,core,horizontal,n,y,n,unk,n
+Streamline Systems,F26,mixed,defense,uav program manager,GPS-free UAV navigation,new,hardware-robotics,unk,none,narrow,n,y,n,none,n
+ORO AI,F26,developer,ai-infra,head of ai,benchmarking shopping agents,new,other,unk,core,narrow,n,n,y,none,n
+Hemlock,F26,enterprise,robotics,head of robotics research,force data capture for robot training,new,hardware-robotics,unk,core,narrow,n,y,y,none,n
+twentyfour26,F26,midmarket,manufacturing,head of hardware,rapid CNC prototype machining,labor,hardware-robotics,unk,none,narrow,n,y,n,machinist,n
+Orca Aerospace,F26,unk,aerospace,head of mission operations,onboard autonomous spacecraft operations,labor,saas,unk,core,narrow,n,y,n,satellite operator,n
+SuperRadiant,F26,unk,scientific-research,head of r&d,autonomous robotic lab experimentation,labor,hardware-robotics,unk,core,horizontal,n,y,n,lab scientist,n
+Vorelios,F26,enterprise,hardware-engineering,vp engineering,physics simulation via foundation models,software,saas,unk,core,horizontal,n,n,n,simulation engineer,n
+Dreamscale Labs,F26,developer,robotics,vp eng,cloud inference for robot models,software,infra-api,unk,core,narrow,n,y,y,none,n
+Halmos Labs,F26,enterprise,pharma,head of r&d,automated biotech R&D experimentation,labor,ai-native-service,unk,core,vertical-suite,y,y,n,research scientist,n
+Ignition Benefits,F26,smb,insurance,ceo,employee benefits brokerage,labor,ai-native-service,unk,core,vertical-suite,y,n,n,benefits broker,n
+Covera,F26,smb,insurance,agency principal,insurance broker servicing workflows,labor,saas,unk,core,vertical-suite,y,n,n,account manager,y
+Hesper AI,F26,enterprise,insurance,head of siu,P&C claims investigation,labor,saas,unk,core,narrow,y,n,n,claims investigator,n
+Shire Intelligence,F26,smb,restaurants,restaurant gm,real-time floor management from CCTV,labor,saas,unk,core,narrow,n,y,n,floor manager,n
+antimattr,F26,consumer,consumer-electronics,consumer,voice capture and agent control wearable,new,hardware-robotics,unk,core,horizontal,n,y,n,none,n
+Vyra,F26,consumer,media,consumer,autonomous video editing,labor,consumer-app,unk,core,narrow,n,n,n,video editor,n
+Papaya,F26,developer,ai-infra,vp eng,AI agent cost and quality optimization,new,infra-api,unk,core,horizontal,n,n,y,none,n
+Sinter,F26,midmarket,manufacturing,head of hardware,additive plastic part production,unk,hardware-robotics,unk,none,narrow,n,y,n,none,n
+Perit.AI,F26,enterprise,ai-infra,head of data at ai lab,expert data and RL environments,new,other,unk,incidental,narrow,n,n,y,none,n
+Asim,F26,unk,robotics,vp robotics,robot real-world safety assurance,new,saas,unk,none,horizontal,n,y,n,none,n
+Sona8,F26,enterprise,consulting,head of transformation,employee process discovery interviews,labor,saas,unk,core,narrow,n,n,n,consultant interviewer,n
+Quippy,F26,consumer,personal-development,consumer,social skills conversation practice,new,consumer-app,unk,core,narrow,n,n,n,none,n
+Tilion,F26,developer,ai-infra,vp eng,browser infrastructure for web agents,software,infra-api,unk,core,horizontal,n,n,y,none,n
+Volaren Inc.,F26,consumer,asset-management,consumer,investment research and portfolio construction,labor,consumer-app,unk,core,narrow,n,n,n,investment analyst,n
+The Subvocal Company,F26,consumer,consumer-electronics,consumer,silent speech computer input,new,hardware-robotics,unk,none,horizontal,n,y,n,none,n
+Frontrunner,F26,midmarket,sales,vp revops,GTM agents for prospecting and CRM,labor,saas,unk,core,platform,n,n,n,sdr,n
+Decent,F26,smb,insurance,cfo,employer health plan brokerage and optimization,labor,ai-native-service,unk,core,narrow,y,n,n,benefits broker,n
+GrayPass,F26,enterprise,security,ciso,continuous behavioral identity verification,software,saas,unk,incidental,horizontal,n,n,n,none,n
+Cyclon,F26,consumer,consumer-electronics,consumer,AI-first personal phone,unk,hardware-robotics,unk,core,horizontal,n,y,n,none,n
+Ageospatial,F26,enterprise,insurance,head of underwriting,remote commercial property risk inspection,labor,saas,unk,core,narrow,y,n,n,property inspector,n
+The Agentic Data Co.,F26,enterprise,ai-infra,head of data at ai lab,speech training dataset collection,new,other,unk,incidental,narrow,n,n,y,none,n
+Redoubt Insurance,F26,smb,insurance,small business owner,commercial insurance brokerage,labor,ai-native-service,unk,core,narrow,y,n,n,insurance agent,n
+Lark,F26,midmarket,wholesale-distribution,distributor coo,wholesale distributor workflow automation,labor,saas,unk,core,vertical-suite,n,n,n,distributor ops staff,y
+Sintropix,F26,enterprise,accounting,cfo,autonomous month-end book close,labor,ai-native-service,unk,core,narrow,n,n,n,accountant,n
+Maritime,F26,developer,ai-infra,vp eng,managed hosting for per-customer agents,software,infra-api,usage,core,horizontal,n,n,y,none,n
+DeepMark,F26,enterprise,security,head of ai,AI voice watermarking and authentication,new,infra-api,unk,core,horizontal,n,n,y,none,n
+Mantle,F26,enterprise,robotics,vp customer service,field service for deployed machines,labor,other,unk,none,horizontal,n,y,n,field service technician,n
