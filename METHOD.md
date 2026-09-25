@@ -26,6 +26,7 @@ Current seed, adopted 2026-09-25 after loop 2:
 Seed history (one line per round: seed, what it moved):
 - Loop 1 (2026-09-24): no seed. Candidates tied the controls on need, value and risk and trailed on market (2.05 vs 2.70).
 - Loop 2 (2026-09-25): "…billions of dollars a year. Enter through the narrowest slice of that work where no software company already holds the customer's data or buying channel." Market rose to 2.67. Need fell to 3.0, because the unowned slice was small plants whose typical fine was about $1,400, so the buyer had no urgency. The current seed keeps the labor-spend half and asks for a costly, frequent failure instead of the narrowest slice.
+- Loop 3 (2026-09-25): current seed. Two of three generators converged on long-term-care Medicaid applications. The caseworker version scored 11.67 (need 4, market 3) and advanced, the first seeded candidate to hold both need and market. The same seed also surfaced supplier warranty chargebacks (9.67, market 2). Keep this seed.
 
 ## The loop
 
@@ -66,11 +67,13 @@ Seed history (one line per round: seed, what it moved):
 
 ## Judge noise (measured 2026-09-24)
 
-Four paragraphs were each scored by four independent judges using the identical prompt. One judge's total varies with a standard deviation of about 0.75 points (range up to 2 points on one paragraph). Need and market barely move across judges. Value and risk move because each judge finds different competitors (for example, only one of four arc flash judges found 70Ez and AmpSketch). With one judge, averaging flipped a decision: arc flash went from 11 (advances) to a mean of 10.5 (stops). Three judges bring the standard deviation of the mean to about 0.43, enough to separate a one-point gap in most cases. Near the bar that isn't enough, which is why a close paragraph gets five. `tools/scores.py` recomputes the noise figure every run. If it rises above 1.0, raise the default count. After loop 2 (9 paragraphs with repeat judges) it was 0.86, so a 3-judge mean has a standard deviation of about 0.49.
+Four paragraphs were each scored by four independent judges using the identical prompt. One judge's total varies with a standard deviation of about 0.75 points (range up to 2 points on one paragraph). Need and market barely move across judges. Value and risk move because each judge finds different competitors (for example, only one of four arc flash judges found 70Ez and AmpSketch). With one judge, averaging flipped a decision: arc flash went from 11 (advances) to a mean of 10.5 (stops). Three judges bring the standard deviation of the mean to about 0.43, enough to separate a one-point gap in most cases. Near the bar that isn't enough, which is why a close paragraph gets five. `tools/scores.py` recomputes the noise figure every run. If it rises above 1.0, raise the default count. After loop 3 (14 paragraphs with repeat judges) it was 0.87, so a 3-judge mean has a standard deviation of about 0.50.
 
 ## Ordering (measured 2026-09-25)
 
 In loop 2, nine control judges ran alongside the three generators. Two generators reported that their web searches ran out after a few queries, so their competitor lists were thin. The candidate judges, which ran alone later, made 36 to 48 tool calls each. Web search is shared across the session's parallel agents. Run the stages in order: generators, then the shaper, then all judges (candidates and controls together). Never overlap generating or shaping with judging.
+
+In loop 3 all 15 judges ran at once, and 10 of them reported running out of web searches partway, including 5 of the 6 candidate judges. So run judges in batches of at most 6 at a time. Put the candidates' judges in the first batch, with one judge per control, so controls and candidates share the same conditions. Run the remaining judges in later batches. When a judge says its searches ran out, note it in the round's RESULT.md.
 
 ## Rules for the orchestrator
 - Add nothing to these prompts beyond the brief, the seed and the material being judged. A new constraint goes into this file first, with the reason for it.
