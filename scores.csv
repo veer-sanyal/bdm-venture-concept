@@ -59,3 +59,4 @@ date,round,paragraph,kind,need,value,market,risk,verdict
 2026-09-25,loop3,Supplier warranty chargeback defense,candidate,3,2,2,2,PASS
 2026-09-25,loop4,herdr (coding-agent fleet runtime),control,4,3,3,2,PASS
 2026-09-25,loop4,Hopper (voice models tuned on customer calls),control,4,2,3,2,PASS
+2026-09-25,loop4,ORO AI (commerce agent benchmark on Bittensor),control,3,2,3,2,PASS
