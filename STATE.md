@@ -1,6 +1,6 @@
 # STATE: current venture exploration
 
-Updated September 24, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
+Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
 
 ## As of 2026-09-24 (read first)
 
@@ -16,6 +16,8 @@ Updated September 24, 2026. This file owns current decisions; [METHOD.md](METHOD
   2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
   3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
   4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough.
+  5. (Added 2026-09-25) Two proposed METHOD changes from the funded-company patterns note ([research/2026-09-25-funded-patterns.md](research/2026-09-25-funded-patterns.md)). First, check merged candidates for clones of funded companies with `tools/yc_overlap.py` before judging. Reason: the judge's matching-company rule would let a clone borrow the funded company's traction. Second, the shaper names the budget line it takes and the next two workflows for the same buyer. Reason: our candidates trail the controls only on market, 2.05 vs 2.70. Neither is applied.
+- **Funded-company patterns (2026-09-25, desk research only).** 712 YC W26–F26 companies were classified, alongside 34 non-YC VC rounds and 25 AI breakouts. Funded AI apps are paid for from labor budgets (63% of the YC app layer). Our one measurable gap to the controls is the market score, because judges price our ideas as narrow per-unit fees. Recommended seed for the next round (allowed now, no METHOD change): *"Look for work that businesses now pay people or an outside firm to do, where AI can now do most of it and the pay behind that work is large. Say whose pay or which firm's fee it replaces."* Neighbors found for the board: Zomma (disputes, as part of a financial-services BPO), Tarifflo (importer-side customs, next to C1), Pairio (technician manual lookup).
 - **Known issue:** the shaper stalled after spawning its research subagents and had to be resumed by message.
 
 ## Founder scope
@@ -92,6 +94,7 @@ Method notes from this round: the verifiers' memos each carried at least one cla
 ## Evidence and history
 
 - [Method reset and findings](research/2026-09-18-method-reset.md)
+- [Funded-company patterns, 2026-09-25](research/2026-09-25-funded-patterns.md): 712 YC W26–F26 companies classified (rows in `research/2026-09-25-funded-patterns/data/`), 34 non-YC VC rounds, 25 breakout origin stories, and the proposed seed and METHOD changes that follow from them.
 - [Investor ask lists as a sourcing channel, 2026-09-21](research/2026-09-21-rfs-channel.md): use as filter and vocabulary, not generator; current in-scope asks from YC, a16z, Bessemer, Pear; the two-hour "already being solved" scan; differentiation moves for a team with no capital. Second pass: twenty more firms hold no list, Primary VC's March 2026 RFS added, and a customer-side sweep (HN, Capterra) found narrow named workflows; accounting-shaped AI-native services now carry three independent sources, with expat tax filing for Americans holding US investments the one buyer quote with a price. Reddit unreached. No candidate promoted; nothing here is customer validation.
 - [Archived method, state and README](archive/2026-09-18/README-ARCHIVE.md); [ladder-era STATE.md as of 2026-09-21, with the 9/20 desk run and round 17](archive/2026-09-20/README-ARCHIVE.md)
 - CASEBOOK, CANDIDATES-*.md, screens/ and predictions/ remain evidence/history. Their old rankings, stop rules, kills and imperative prompts are not current instructions.
