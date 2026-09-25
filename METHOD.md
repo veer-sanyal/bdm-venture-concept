@@ -30,7 +30,7 @@ Seed history (one line per round: seed, what it moved):
 
 ## The loop
 
-1. **Generate.** Run three generators in parallel, each in a fresh context with the same prompt. They don't see the archive, past verdicts or each other. Nothing else runs while they work (why: see Ordering below).
+1. **Generate.** Run three generators in parallel, each in a fresh context with the generator prompt below. From loop 4 the three prompts differ by one clause each (see the prompt). They don't see the archive, past verdicts or each other. Nothing else runs while they work (why: see Ordering below).
 2. **Merge.** The orchestrator folds duplicates together. Then it checks the archive for repeats. An old kill is evidence, not a ban. The merged file may carry that evidence, written as "an earlier round found…" with no file paths or scores, so the shaper weighs the finding without going to read the archive.
 3. **Shape.** The shaper builds the strongest companies it can from what the generators returned.
 4. **Judge blind, with controls.** The orchestrator writes each candidate as a paragraph of about 130 words: problem, customer, product, how it makes money. No names, no team. Before judging, check every number in a candidate paragraph against the primary source it came from, and say what it measures (loop 2 sent a permit-application fee to the judges as an annual compliance cost; a judge caught it). It then adds three recent YC companies written the same way, drawn at random from the latest batch: B2B companies not already in the control bank, drawn with a recorded random seed, noted in `agents/controls-draw.md`. Save all paragraphs exactly as judged to `research/<date>-<round>/paragraphs.md`. Three fresh judges score each paragraph, each without knowing which ones are ours. Candidate and control judges run together in this step, never during generation or shaping. A paragraph's score is the mean of its judges. Any paragraph whose mean lands within 0.5 of the bar gets two more judges before the decision (why: see Judge noise below).
@@ -46,6 +46,13 @@ Seed history (one line per round: seed, what it moved):
 > [Founder brief.] [Seed, if any.] Find the best startup you can for them. Use the web as much as you want, and don't read local project files. Come back with your best idea, any runners-up worth keeping, why each could work, and what's weakest about it.
 
 (The local-files clause was added 2026-09-24. In the first run, one generator followed the repo's own instructions and read STATE.md and the old concept before generating.)
+
+From loop 4 (2026-09-25, Veer) each generator gets that prompt with one change to the sentence "Find the best startup you can for them." The change sets where it starts looking, not what it may return:
+- **Generator 1:** unchanged.
+- **Generator 2:** "Find the best startup you can for them, starting from what buyers themselves complain about or pay outside firms to fix."
+- **Generator 3:** "Find the best startup you can for them, starting from what AI can do reliably now that it couldn't two years ago."
+
+Why: in loop 3 two of three generators with identical prompts picked the same idea, all three listed the same runner-up, and two of five picks repeated the archive. Identical prompts spent three contexts on overlapping searches. Generator 1 stays unchanged so each round keeps one run of the plain prompt to compare against.
 
 **Shaper**
 > [Founder brief.] Independent generators produced these ideas: [merged file]. Build the strongest one to three companies you can from them. Keep, combine, reshape or replace. Research whatever you need on the web, and don't read local project files.
