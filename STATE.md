@@ -1,12 +1,26 @@
 # STATE: current venture exploration
 
-Updated September 24, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
+Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
 
-## As of 2026-09-24 (read first)
+## As of 2026-09-25: loop 2 (read first)
+
+- **Loop 2 ran on the active method with the seed "AI B2B SaaS or AI-native services."** Full write-up: [research/2026-09-25-loop2/RESULT.md](research/2026-09-25-loop2/RESULT.md). All 23 agent reports are saved. Desk research only, not customer validation.
+- **New controls:** Forward 11.67, Perit.AI 11.67, Vorelios 11.0. **The bar is now 10.93** (13 controls).
+- **AI-native commissioning for liquid-cooled AI data halls: 11.6 (n=5), advances.** This is the highest-scoring candidate so far.
+  - Strongest version: an independent commissioning agent hired by the owner (not the general contractor) for neoclouds, second-tier developers and converted bitcoin miners. It sells live step-by-step grading of the integrated test, with a signed report within 24 hours. Price is per MW plus a bonus for on-schedule handover.
+  - Killers: paperwork and grading may not be what delays handover; tenants may not accept a new firm's signature.
+  - Test: day-by-day logs of 5 to 8 recent liquid-cooled integrated tests. Kill it if paperwork and grading account for under about a week.
+  - Team fit: it needs a PE and certified commissioning agent as co-founder. Recruit through 7x24 Exchange by the end of October, or fall back to selling the grader as software to existing commissioning firms.
+- **Truck dealer warranty claims: 10.0 (n=3), stops.** At 1% of $5.41B the US truck market is about $54M a year. Dealer management systems own the claim rail, and Daimler's warranty system already gives dealers free AI coding help. Loop 1's dealer-warranty idea (RV and marine) had already been dropped.
+- **Standings (all rounds):** commissioning 11.6 and credit disputes 11.2 advance. Arc flash 10.6, truck warranty 10.0, LTC Medicaid 10.0 and Assay 9.0 stop.
+- **Proposed METHOD change (not adopted):** add the generators' no-local-files clause to the shaper prompt. This round's shaper read METHOD.md and cited the bar.
+- Decision 4 below (the concept to name for the 9/27 prelim) now has two advancing candidates to choose from.
+
+## As of 2026-09-24
 
 - **The method was replaced on 9/24.** Short prompts, blind judges scoring on the BDM rubric, a bar set by the mean of every banked YC control, and 3 to 5 judges per paragraph. Scores go in `scores.csv`; run `python3 tools/scores.py` to see them. Every agent report is archived under `research/2026-09-24-*`.
 - **Standings (desk research only, not customer validation):**
-  - Bar: 10.78, the mean of 10 YC controls.
+  - Bar: 10.78, the mean of 10 YC controls (10.93 after loop 2).
   - **Credit-dispute response for collectors: 11.2, advances.** Team fit found Sonnet (Provana), which handles over 1M disputes a month. The opening is a litigation-ready file for purchased debt (*Hinkle v. Midland*). Test: 10 dispute-ops calls asking cost per dispute, share of documents held electronically, and a $2 per-dispute pilot on 1,000 closed disputes.
   - Arc flash from photos: 10.6, stops. 70Ez and AmpSketch already sell it.
   - LTC Medicaid applications: 10.0, stops.
