@@ -5,6 +5,7 @@ Updated September 25, 2026 (after loop 4). This file owns current decisions; [ME
 ## As of 2026-09-25 (read first)
 
 - **The method was replaced on 9/24.** Short prompts, blind judges scoring on the BDM rubric, a bar set by the mean of every banked YC control, and 3 to 5 judges per paragraph. Scores go in `scores.csv`; run `python3 tools/scores.py` to see them. Every agent report is archived under `research/2026-09-2*`.
+- **Next: loop 5, not yet run.** It uses the three angles and the frozen control bank (METHOD, Seed and angles).
 - **Loop 4 (9/25), loop 3's seed revised plus varied generators: nothing advances.** Full write-up: [research/2026-09-25-loop4/RESULT.md](research/2026-09-25-loop4/RESULT.md).
   - **Wage-and-hour checks before payroll for California nursing homes and home health: 10.80 over 5 judges (need 4, value 2.8, market 2), 0.12 under the bar.**
     - The need is real: a record 10,098 PAGA notices in 2025, with healthcare filing the most.
@@ -55,8 +56,11 @@ Updated September 25, 2026 (after loop 4). This file owns current decisions; [ME
   2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
   3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
   4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough. Two candidates are above the bar: the LTC Medicaid caseworker (11.67, Indiana-local buyers, and a test that fits the semester) and credit disputes (11.2). Loop 4 added neither a new candidate nor a change to these two.
-  5. (Proposed after loop 4, not adopted.) Seed for loop 5: keep "name what the buyer already uses". Soften "a slice where AI can do something those can't", which narrowed both loop 4 candidates to market 2. One option: require the entry slice itself to be worth hundreds of millions a year to its buyers, not only the surrounding spend.
-  6. (Proposed after loop 4, not adopted.) Give each judge its own scratch directory, or tell judges not to reuse files they didn't write. Loop 4 judges read PDF extracts other judges had left in the shared scratchpad. Also reword METHOD's batch rule for two or more candidates to "one judge per paragraph per batch", which is what loop 4 did.
+  5. **Adopted 9/25 for loop 5 (Veer):** the labor-spend seed is replaced by one shared seed and three angles: the agent economy, the physical world, and people (consumer). The shared seed says earlier rounds covered regulated back-office paperwork, asks for a capability that became reliable in the last twelve months, and asks for a market that can pass $1B. Evidence: [research/2026-09-25-yc-direction.md](research/2026-09-25-yc-direction.md). The Fall 2026 batch has no healthcare, legal or tax companies, and 12 of YC's 13 Fall 2026 requests fall inside the three angles.
+  6. **Adopted 9/25:**
+     - The control bank is frozen at 19 controls (bar 10.92). It re-opens only if the judge prompt or model changes, after four loops, or when a close call is judged under visibly different conditions. This saves 9 judge runs a loop.
+     - Batches hold one judge per paragraph.
+     - Judge scratch files are cleared between batches.
 - **METHOD updated 9/25 from loop 2 (Veer's request):**
   - The shaper and judge prompts now carry the "don't read local project files" clause.
   - A seed section holds the current seed and a one-line history per round.
