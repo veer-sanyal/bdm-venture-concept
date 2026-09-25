@@ -70,3 +70,13 @@ Desk research only; none of this is customer validation.
 - Loop 1's judges could not be audited, so their rows stay as they were. The clean disputes re-judge is reported alongside them.
 - **The disputes paragraph as re-judged** is the loop 1 shaper's draft (`research/2026-09-24-loop1/agents/shaper.md`), with "We" changed to "This company." Loop 1 never saved the exact paragraph its judges saw. Their reports quote this draft's claims (6.6M complaints, 37% and 45% suit growth, 30 days, a thin record, the lender's inbox), so it is the closest record available:
   > Consumers now dispute credit reports and debts in bulk, often with AI-written letters from credit repair firms and apps. CFPB complaints doubled to 6.6 million in 2025, and Fair Credit Reporting Act lawsuits rose 37% in 2025 and another 45% in the first seven months of 2026. Lenders and collectors must investigate every dispute within 30 days, and a thin investigation record is what loses those suits. This company sells to debt collectors, debt buyers and subprime lenders handling 5,000 to 50,000 disputes a month. Its software pulls each dispute from the bureaus' system and the lender's inbox, matches it to the account file, drafts the verify, correct or delete response with evidence cited, and keeps a litigation-ready investigation file. Customers pay $1 to $3 per dispute.
+
+## Outcome of the clean re-judge
+
+All 15 replacement judges passed `tools/audit_reads.py`. Clean results:
+- commissioning 11.50 (n=6), advances;
+- credit disputes 11.00 (n=5), which ties the 10.93 bar within noise;
+- truck warranty 9.00 (n=3), stops;
+- Forward 11.33 and Vorelios 11.33, so the bar stays 10.93.
+
+Against clean re-scores of the same paragraphs, reading METHOD added +0.25 to +1.5. The earlier "about a point" estimate over-corrected commissioning, which stays above the bar on clean scores. Full write-up: [../2026-09-25-rejudge/RESULT.md](../2026-09-25-rejudge/RESULT.md).

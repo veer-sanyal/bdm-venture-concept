@@ -2,7 +2,9 @@
 
 Desk research only. This is not customer validation.
 
-> **Caveat added after the round (see [contamination-audit.md](contamination-audit.md)).** 8 of 17 judges read METHOD.md before judging, including 4 of commissioning's 5. Judges who read it scored about a point higher. With clean judges only, commissioning is about 11.0 against a bar of about 10.9-11.2, so it sits **at** the bar, not clearly above it. Its advance is provisional until it is re-judged under the fixed prompts.
+> **Caveat added after the round (see [contamination-audit.md](contamination-audit.md)).** 9 of 17 judges read METHOD.md before judging, including 4 of commissioning's 5. Judges who read it scored about a point higher. With clean judges only, commissioning is about 11.0 against a bar of about 10.9-11.2, so it sits **at** the bar, not clearly above it. Its advance is provisional until it is re-judged under the fixed prompts.
+>
+> **Update, same day:** the clean re-judge gave commissioning 11.50 from 6 clean judges, so it advances ([../2026-09-25-rejudge/RESULT.md](../2026-09-25-rejudge/RESULT.md)). Truck warranty is 9.00 clean.
 
 Seed given to the generators: "AI B2B SaaS or AI-native services" (Veer, 9/25). Three generators ran in parallel with the founder brief and the seed. The shaper returned two companies. Each was judged blind by three judges, with five for any paragraph within 0.5 of the bar. The three YC controls were drawn at random from Fall 2026 B2B companies not already banked; the draw method is in `agents/controls-draw.md`. Paragraphs as judged: `controls.md`, `candidates.md`. All 23 agent reports are in `agents/`.
 

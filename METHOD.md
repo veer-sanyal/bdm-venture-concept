@@ -51,7 +51,7 @@ That same day the new judge was validated on those eight companies plus one of o
 
 (The matching-company sentence was added 2026-09-24. Without it, the judge found a YC control's own company and scored it as the leading competitor.)
 
-(The local-files sentence was added 2026-09-25. In loop 2, 8 of 17 judges read METHOD.md, which tells them YC controls are mixed with our ideas, and one also read STATE.md. On every paragraph judged by both kinds, the judges who read METHOD scored about a point higher, and 4 of commissioning's 5 judges read it against 3 of 9 control judges. Audit: `research/2026-09-25-loop2/contamination-audit.md`.)
+(The local-files sentence was added 2026-09-25. In loop 2, 9 of 17 judges read METHOD.md, which tells them YC controls are mixed with our ideas, and one also read STATE.md. On every paragraph judged by both kinds, the judges who read METHOD scored about a point higher, and 4 of commissioning's 5 judges read it against 3 of 9 control judges. Audit: `research/2026-09-25-loop2/contamination-audit.md`.)
 
 **Team fit** (advancing candidates only)
 > Two Purdue undergrads want to build this: [paragraph plus judge's strongest version]. What would they need to win it (skills, access, credentials, first customers), and how could they get it within a semester? Use the web, and don't read local project files.
