@@ -52,7 +52,7 @@ The seed moved market: 2.67 here, against a 2.05 average for every earlier candi
 - **Repo reads by agents.** The repo's AGENTS.md tells every agent to read METHOD.md and STATE.md.
   - The shaper read repo state (it cites loop 1's 10.0 score, the 10.93 bar and the archive). METHOD's shaper prompt does not forbid local files, so this is within the rules. Still, the shaper knew the bar.
   - Two judges (Perit 3 and air-permit 1) opened METHOD.md. It names no candidates, so blindness held.
-  - Proposed METHOD change, not applied: add the generator's "don't read local project files" clause to the shaper and judge prompts.
+  - METHOD change, applied 2026-09-25 at Veer's request: the shaper and judge prompts now carry the "don't read local project files" clause. The other changes from this run are listed in METHOD.md (Seed, Ordering, step 4).
 - **Control identity.** Perit judge 1 matched the pitch to Datoric (YC S26) rather than Perit, and treated Datoric as the team. No competitor penalty resulted.
 - **Paragraph accuracy.** The candidate paragraph carried the shaper's misquoted consultant-fee range. The orchestrator checked the IDEM fee but not that one.
 

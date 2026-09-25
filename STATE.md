@@ -24,11 +24,15 @@ Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD
   2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
   3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
   4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough.
-  5. (From loop 2.) Add the generator's "don't read local project files" clause to the shaper and judge prompts. The repo's AGENTS.md routes every agent to METHOD.md and STATE.md. The loop 2 shaper read the bar and loop 1 scores, and two judges opened METHOD.md. Not applied; METHOD changes are Veer's call.
-  6. (From loop 2.) Next seed: keep "large existing labor spend", and replace "narrowest slice nobody owns" with "a slice where the buyer faces a large, frequent cost for getting it wrong". Loop 2's slice had no urgency.
-- **Known issues:**
-  - The shaper stalled after spawning its research subagents and had to be resumed by message (loop 1; not repeated in loop 2).
-  - Loop 2 generators ran short of web searches while nine control judges ran in parallel. Run control judges after generation.
+- **METHOD updated 9/25 from loop 2 (Veer's request):**
+  - The shaper and judge prompts now carry the "don't read local project files" clause.
+  - A seed section holds the current seed and a one-line history per round. The new seed keeps the labor-spend half and asks for the slice where a mistake or delay costs the buyer the most, and often.
+  - The stages run in order (generators, then the shaper, then all judges together).
+  - Every number in a candidate paragraph is checked against its source before judging, and paragraphs are saved as judged.
+  - Controls are drawn from unbanked B2B companies with a recorded random seed.
+  - Archive evidence reaches the shaper written as "an earlier round found…".
+  - Agent reports are saved verbatim from transcripts.
+- **Known issue:** the shaper stalled after spawning its research subagents and had to be resumed by message (loop 1; not repeated in loop 2).
 
 ## Founder scope
 
