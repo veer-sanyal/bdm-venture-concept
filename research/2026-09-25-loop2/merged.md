@@ -45,3 +45,6 @@ Generators 1 and 3 reported running out of web searches early. Their competitor 
    - Dealer warranty: ServiceCPQ, Continuum.
    - Prevailing-wage paperwork: Dili, $21.7M.
    - CPSC eFiling certificates: customs brokers and testing labs hold the data and the customer relationship.
+
+---
+Note: the shaper received this file's content with archive and loop references rewritten as "earlier round" and file paths removed, so it would not look them up. Content was otherwise the same.
