@@ -1,13 +1,21 @@
 # STATE: current venture exploration
 
-Updated September 24, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
+Updated September 25, 2026. This file owns current decisions; [METHOD.md](METHOD.md) owns the active process.
 
-## As of 2026-09-24 (read first)
+## As of 2026-09-25 (read first)
 
-- **The method was replaced on 9/24.** Short prompts, blind judges scoring on the BDM rubric, a bar set by the mean of every banked YC control, and 3 to 5 judges per paragraph. Scores go in `scores.csv`; run `python3 tools/scores.py` to see them. Every agent report is archived under `research/2026-09-24-*`.
+- **The method was replaced on 9/24.** Short prompts, blind judges scoring on the BDM rubric, a bar set by the mean of every banked YC control, and 3 to 5 judges per paragraph. Scores go in `scores.csv`; run `python3 tools/scores.py` to see them. Every agent report is archived under `research/2026-09-2*`.
+- **Loop 2 (9/25), seeded toward market size: nothing advances.** Full write-up: [research/2026-09-25-loop2/RESULT.md](research/2026-09-25-loop2/RESULT.md).
+  - The seed aimed at large labor spend, because market was the only parameter where our candidates trailed the controls (2.05 vs 2.70).
+  - Two of three generators independently chose AI environmental compliance for small manufacturers. The shaper built it into an AI-run environmental department for small air-permitted plants, starting in Indiana.
+  - It scored **10.33** (need 3, value 2.7, market 2.7, risk 2, n=3), 0.6 under the bar, so it stops.
+  - The seed lifted market but cost need: Indiana is an enforcement outlier (28% of synthetic minors cited in five years against 7% nationally), with a median fine of about $1,400. Air alone is about $45 to $245M nationally.
+  - Fastest test if anyone revisits it: offer 30 recently cited Indiana plants all their air filings for $500 a month; fewer than 3 paid signatures kills it.
+  - New controls: Perit.AI 12.33, Vorelios 11.33, Forward 10.67.
 - **Standings (desk research only, not customer validation):**
-  - Bar: 10.78, the mean of 10 YC controls.
-  - **Credit-dispute response for collectors: 11.2, advances.** Team fit found Sonnet (Provana), which handles over 1M disputes a month. The opening is a litigation-ready file for purchased debt (*Hinkle v. Midland*). Test: 10 dispute-ops calls asking cost per dispute, share of documents held electronically, and a $2 per-dispute pilot on 1,000 closed disputes.
+  - Bar: 10.93, the mean of 13 YC controls.
+  - Environmental department for small permitted plants: 10.33, stops (loop 2).
+  - **Credit-dispute response for collectors: 11.2, advances (still the only one).** Team fit found Sonnet (Provana), which handles over 1M disputes a month. The opening is a litigation-ready file for purchased debt (*Hinkle v. Midland*). Test: 10 dispute-ops calls asking cost per dispute, share of documents held electronically, and a $2 per-dispute pilot on 1,000 closed disputes.
   - Arc flash from photos: 10.6, stops. 70Ez and AmpSketch already sell it.
   - LTC Medicaid applications: 10.0, stops.
   - AI review certification (Assay): 9.0, stops.
@@ -16,7 +24,11 @@ Updated September 24, 2026. This file owns current decisions; [METHOD.md](METHOD
   2. Refresh the control bank with scoring anchors for 1, 3 and 5 on each parameter. Risk currently varies by only 0.09 across ideas and does no ranking work. This means re-judging the 10 controls to 3 judges each.
   3. Install Agent-Reach (Panniantong/Agent-Reach), starting with the check-only mode. Reddit and X need Veer's own cookies from a throwaway account; Claude never handles them.
   4. Choose the concept to name for the prelim due **Sun 9/27, 11:59pm**. It is unscored; a name and a paragraph are enough.
-- **Known issue:** the shaper stalled after spawning its research subagents and had to be resumed by message.
+  5. (From loop 2.) Add the generator's "don't read local project files" clause to the shaper and judge prompts. The repo's AGENTS.md routes every agent to METHOD.md and STATE.md. The loop 2 shaper read the bar and loop 1 scores, and two judges opened METHOD.md. Not applied; METHOD changes are Veer's call.
+  6. (From loop 2.) Next seed: keep "large existing labor spend", and replace "narrowest slice nobody owns" with "a slice where the buyer faces a large, frequent cost for getting it wrong". Loop 2's slice had no urgency.
+- **Known issues:**
+  - The shaper stalled after spawning its research subagents and had to be resumed by message (loop 1; not repeated in loop 2).
+  - Loop 2 generators ran short of web searches while nine control judges ran in parallel. Run control judges after generation.
 
 ## Founder scope
 
