@@ -46,3 +46,6 @@ date,round,paragraph,kind,need,value,market,risk,verdict
 2026-09-25,loop3,ByteAsk (C/C++ coding agent),control,4,2,3,2,PASS
 2026-09-25,loop3,ByteAsk (C/C++ coding agent),control,4,2,4,2,PASS
 2026-09-25,loop3,Agent Relay (coding-agent team infrastructure),control,3,2,4,2,PASS
+2026-09-25,loop3,Applied Kinetics (energy equipment follow-through agents),control,4,2,2,2,PASS
+2026-09-25,loop3,Agent Relay (coding-agent team infrastructure),control,3,2,3,2,PASS
+2026-09-25,loop3,Agent Relay (coding-agent team infrastructure),control,3,2,3,1,PASS
