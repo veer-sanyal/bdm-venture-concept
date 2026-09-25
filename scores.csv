@@ -31,19 +31,19 @@ date,round,paragraph,kind,need,value,market,risk,verdict
 2026-09-24,loop1,Arc flash studies from equipment photos,candidate,4,3,2,2,PASS
 2026-09-24,loop1,Credit dispute response for collectors,candidate,4,3,3,2,BACK
 2026-09-25,loop2,Forward (private credit origination),control,3,3,3,2,BACK
-2026-09-25,loop2,Vorelios (engineering physics foundation model),control,4,2,4,2,PASS
+2026-09-25,loop2,Vorelios (engineering physics foundation model),excluded,4,2,4,2,PASS
 2026-09-25,loop2,Perit.AI (speech and robot training data),control,4,3,4,2,BACK
 2026-09-25,loop2,Vorelios (engineering physics foundation model),control,4,2,3,1,PASS
-2026-09-25,loop2,Forward (private credit origination),control,4,3,3,2,BACK
+2026-09-25,loop2,Forward (private credit origination),excluded,4,3,3,2,BACK
 2026-09-25,loop2,Perit.AI (speech and robot training data),control,4,2,3,2,PASS
 2026-09-25,loop2,Vorelios (engineering physics foundation model),control,4,2,3,2,PASS
-2026-09-25,loop2,Forward (private credit origination),control,4,3,3,2,BACK
+2026-09-25,loop2,Forward (private credit origination),excluded,4,3,3,2,BACK
 2026-09-25,loop2,Perit.AI (speech and robot training data),control,4,2,3,2,PASS
-2026-09-25,loop2,Truck dealer warranty claims,candidate,4,3,2,2,PASS
+2026-09-25,loop2,Truck dealer warranty claims,excluded,4,3,2,2,PASS
 2026-09-25,loop2,Data center commissioning service,candidate,4,2,3,2,PASS
-2026-09-25,loop2,Data center commissioning service,candidate,4,3,3,2,BACK
-2026-09-25,loop2,Data center commissioning service,candidate,3,3,3,2,PASS
+2026-09-25,loop2,Data center commissioning service,excluded,4,3,3,2,BACK
+2026-09-25,loop2,Data center commissioning service,excluded,3,3,3,2,PASS
 2026-09-25,loop2,Truck dealer warranty claims,candidate,3,2,2,2,PASS
-2026-09-25,loop2,Truck dealer warranty claims,candidate,3,3,2,2,PASS
-2026-09-25,loop2,Data center commissioning service,candidate,4,3,3,2,PASS
-2026-09-25,loop2,Data center commissioning service,candidate,4,3,3,2,PASS
+2026-09-25,loop2,Truck dealer warranty claims,excluded,3,3,2,2,PASS
+2026-09-25,loop2,Data center commissioning service,excluded,4,3,3,2,PASS
+2026-09-25,loop2,Data center commissioning service,excluded,4,3,3,2,PASS
